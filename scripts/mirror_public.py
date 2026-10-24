@@ -2,6 +2,7 @@
 from concurrent.futures import ThreadPoolExecutor
 from hashlib import sha256
 from io import BytesIO
+import gzip
 import json
 from pathlib import Path
 from urllib.parse import quote
@@ -16,9 +17,16 @@ TEXT = {".html", ".js", ".css", ".md", ".json", ".webmanifest", ".csv", ".url", 
 
 
 def download(entry):
-    url = OLD.decode() + "/" + quote(entry["path"], safe="/")
-    with urlopen(Request(url, headers={"User-Agent": "MolingAtlasPublisher/1.0"}), timeout=90) as response:
-        data = response.read()
+    original_html = ROOT / "source-html" / entry["path"]
+    compressed_html = original_html.with_suffix(original_html.suffix + ".gz")
+    if original_html.suffix == ".html" and compressed_html.is_file():
+        data = gzip.decompress(compressed_html.read_bytes())
+    elif original_html.suffix == ".html" and original_html.is_file():
+        data = original_html.read_bytes()
+    else:
+        url = OLD.decode() + "/" + quote(entry["path"], safe="/")
+        with urlopen(Request(url, headers={"User-Agent": "MolingAtlasPublisher/1.0"}), timeout=90) as response:
+            data = response.read()
     if len(data) != entry["bytes"] or sha256(data).hexdigest() != entry["sha256"]:
         raise ValueError("Published v14 asset checksum mismatch: " + entry["path"])
     path = OUTPUT / entry["path"]
