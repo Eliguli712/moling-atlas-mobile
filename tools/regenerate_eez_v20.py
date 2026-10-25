@@ -1,12 +1,12 @@
 from pathlib import Path
-import json,math
+import json,math,re
 import numpy as np
 import shapely
 from scipy.spatial import cKDTree
 from revise_atlas_v20 import decode,encode,pack,unpack,polygons
 from shapely.ops import unary_union
 from shapely.geometry import Polygon
-R=Path(__file__).resolve().parent.parent;OUT=R/'dist';PTH=OUT/'data/v20_d.js'
+R=Path(__file__).resolve().parent.parent;OUT=R/'dist';PTH=OUT/re.search(r'src="(data/v20[^\"]*_d\.js)"',(OUT/'index.html').read_text()).group(1)
 D=decode(json.loads(PTH.read_text().split('=',1)[1].rstrip(';')))
 land=unpack(D['world']);shapely.prepare(land);islands=D['v20_ext']['islands']
 # Offshore economic zones are separate from the 12-nautical-mile sea layer.
@@ -15,7 +15,7 @@ land=unpack(D['world']);shapely.prepare(land);islands=D['v20_ext']['islands']
 import matplotlib;matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 owners=[dict(n='南齐',el='Νότιον Τσί',r=pack(unary_union([unpack(D['L']['red'])]+[unpack(i['r']) for i in islands])))]
-owners.extend(dict(n=s['zh'],el=s['el'],r=s['r']) for s in D['p500'] if s.get('c'))
+owners.extend(dict(n=s['zh'],el=s['el'],r=s['r']) for s in D['p500'] if s.get('c') and s.get('maritime_v20',{}).get('coastal') is not False)
 coastband=land.boundary.buffer(.075);samples=[];sample_owners=[]
 for i,o in enumerate(owners):
     country=unpack(o['r'])

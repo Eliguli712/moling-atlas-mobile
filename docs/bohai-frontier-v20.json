@@ -1,0 +1,23 @@
+{
+  "revision": "v20-r3",
+  "wei_outline_unchanged": true,
+  "wei_outline_sha256": "79e4eab7da120f437f221108b0f5d429a2564e0680614f7464f50ef548c1ce76",
+  "removed_nomadic_water_fragments_km2": {
+    "Kumoxi": 160.6963,
+    "Khitan": 132.9463
+  },
+  "filled_frontier_components": 16,
+  "contact_area_km2": {
+    "Kumoxi": 0.0,
+    "Khitan": 18639.0681
+  },
+  "frontier_residual_gap_km2": 0.116112,
+  "Bohai_owners": {
+    "北魏": 79256.825,
+    "高句丽": 38652.314
+  },
+  "Bohai_unassigned_water_km2": 0.112362,
+  "Bohai_overlap_km2": 0.0,
+  "eez_zones": 55,
+  "interpretation": "北魏轮廓原样保留；补齐区属于相邻部族低强度活动带，海域按沿海政权的真实海岸接触段重新分配。"
+}
