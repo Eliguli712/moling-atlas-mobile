@@ -10,7 +10,7 @@ p.write_text(s)
 (O/'atlas-mobile.html').write_text('<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>南齐世界地图 v20</title><a href="./index.html">打开地图</a><script>location.replace("./index.html"+location.search+location.hash)</script></html>')
 core=['index.html','atlas-mobile.html','manifest.webmanifest','icon-192.png','icon-512.png']+[str(p.relative_to(O)) for p in sorted((O/'data').glob('v20*.js'))]
 sw="""'use strict';
-const CACHE='moling-mobile-v20-20261025',CORE=__CORE__;
+const CACHE='moling-mobile-v20-r2-20261025',CORE=__CORE__;
 self.addEventListener('install',e=>e.waitUntil(self.skipWaiting()));
 self.addEventListener('activate',e=>e.waitUntil((async()=>{for(const k of await caches.keys())if(k.startsWith('moling-mobile-')&&k!==CACHE)await caches.delete(k);await self.clients.claim()})()));
 self.addEventListener('message',e=>{if(e.data?.type!=='CACHE_MAP')return;e.waitUntil((async()=>{try{const c=await caches.open(CACHE);for(const n of CORE){const u=new URL(n,self.registration.scope),r=await fetch(u,{cache:'reload'});if(!r.ok||r.redirected)throw Error('保存未完成');await c.put(u,r)}e.ports[0]?.postMessage({ok:true,revision:'v20'})}catch(err){e.ports[0]?.postMessage({ok:false,error:String(err)})}})())});
@@ -62,12 +62,12 @@ def parts(kind,b):
 parts('html',payload)
 buf=io.BytesIO()
 with ZipFile(buf,'w',ZIP_DEFLATED,compresslevel=7) as z:
-    for n in core+['sw.js','README_v20.md','revision-v20.json','ring-layout-v20.json','extension-v20.json','connectivity-v20.json','validation-v20.json']:
+    for n in core+['sw.js','README_v20.md','revision-v20.json','ring-layout-v20.json','extension-v20.json','connectivity-v20.json','validation-v20.json','world-coordinates-v20.json']:
         if (O/n).is_file():z.write(O/n,n)
 zdata=buf.getvalue();parts('zip',zdata);(deliver/'moling-atlas-v20.zip').write_bytes(zdata)
 # Only current files are needed to rebuild the public mirror. Older exports
 # remain on the Site as labelled reference downloads.
-public=core+['sw.js','README_v20.md','revision-v20.json','ring-layout-v20.json','extension-v20.json','connectivity-v20.json','validation-v20.json','final-html.json','final-zip.json']
+public=core+['sw.js','README_v20.md','revision-v20.json','ring-layout-v20.json','extension-v20.json','connectivity-v20.json','validation-v20.json','world-coordinates-v20.json','final-html.json','final-zip.json']
 for kind in ['html','zip']:public+=json.loads((O/f'final-{kind}.json').read_text())['parts']
 public=[n for n in public if (O/n).is_file()]
 manifest={'revision':'v20','source':'https://moling-atlas-mobile.eliguli712.chatgpt.site','files':[{'path':n,'bytes':(O/n).stat().st_size,'sha256':hashlib.sha256((O/n).read_bytes()).hexdigest()} for n in public]}

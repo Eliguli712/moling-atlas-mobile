@@ -1,17 +1,17 @@
-# 南齐世界地图 v20
+# 南齐世界互动地图 v20
 
-[打开 GitHub Pages](https://eliguli712.github.io/moling-atlas-mobile/) · [对应镜像](https://moling-atlas-mobile.eliguli712.chatgpt.site)
+[打开 GitHub Pages](https://eliguli712.github.io/moling-atlas-mobile/) · [对应镜像](https://moling-atlas-mobile.eliguli712.chatgpt.site/)
 
-当前为 262 城总览。重排 65 城的 81 条环线；东北北魏恢复原界；默认希腊文；简化菜单首位支持球形。新增 20 城、60 条地铁规划、20 条交通走廊、东西琼州跨海桥、日本八道、海南与台湾分区、57 组 ΑΟΖ 和 29 座拜占庭机场。
+65 城的 81 条环线按地形、城址与道路重排；北魏东北恢复原始轮廓与营州郡县。默认希腊文名称，简化菜单提供球形入口，刷新前合成完整清晰帧。
 
-详细说明见 [版本说明](docs/README_v20.md)。[数据核查](docs/revision-v20.json) 与 [线路检查](docs/ring-layout-v20.json) 随版本保存。
+新增 20 城与 60 条地铁规划、20 条跨城和跨海走廊、29 座拜占庭机场。日本八道与畿内、海南台湾 13 个城域及部族分区、琼州海峡东西两桥、57 个沿海政权的 Αποκλειστική Οικονομική Ζώνη（ΑΟΖ）示意已整合。宏观政权名称与线路两端名称均可显示。
 
-## 构建
+后世八道作为地理参照；新增交通、城域、部族分区和经济海域属于架空规划。完整说明和资料来源见 [docs/README_v20.md](docs/README_v20.md)。
 
-```sh
-python3 scripts/mirror_public.py
-```
+## 部署
 
-构建读取 `asset-manifest.json`，下载该版本的 45 项资料，逐项检查字节数与 SHA-256，生成 `site/` 并由 GitHub Actions 发布。相对路径支持本项目的 `/moling-atlas-mobile/` 前缀。所有地图、城市数据、离线下载内容都由 GitHub Pages 独立提供给访问者。
+GitHub Actions 执行 `python scripts/mirror_public.py`，从镜像下载 `asset-manifest.json` 固定的 46 个文件，逐项核验 SHA-256；HTML 从同样通过校验的离线 ZIP 提取。旧版原始 HTML 归档保留在 `source-html/`。
 
-`tools/*v20*` 保存本次修改源码。地形重建需要用户提供的 v19 ZIP 及原有 DEM 缓存；公开网页构建只需标准 Python。`source-html/index.html.gz` 保留为原 v14 基准档案，v20 构建以版本清单为准。
+世界叠图依各城保留的局部投影逆算经纬度，检查记录见 [docs/world-coordinates-v20.json](docs/world-coordinates-v20.json)。修正数据使用 `v20r2_` 文件名及独立离线缓存版本。
+
+生成工具在 `tools/`；最终处理顺序为 `fix_global_coordinates_v20.py` → `finalize_labels_cache_v20.py` → `package_v20.py`。站内下载菜单提供完整 ZIP 和单 HTML 版。

@@ -1,0 +1,331 @@
+{
+  "cities": [
+    {
+      "city": "q0000",
+      "projection": "Albers",
+      "centre_offset_km": 4.0
+    },
+    {
+      "city": "q0001",
+      "projection": "Albers",
+      "centre_offset_km": 4.14
+    },
+    {
+      "city": "q0002",
+      "projection": "Albers",
+      "centre_offset_km": 0.58
+    },
+    {
+      "city": "q0003",
+      "projection": "Albers",
+      "centre_offset_km": 1.69
+    },
+    {
+      "city": "q0005",
+      "projection": "Albers",
+      "centre_offset_km": 21.53
+    },
+    {
+      "city": "q0008",
+      "projection": "Albers",
+      "centre_offset_km": 2.04
+    },
+    {
+      "city": "q0009",
+      "projection": "Albers",
+      "centre_offset_km": 6.0
+    },
+    {
+      "city": "q0010",
+      "projection": "Albers",
+      "centre_offset_km": 16.86
+    },
+    {
+      "city": "q0012",
+      "projection": "Albers",
+      "centre_offset_km": 1.26
+    },
+    {
+      "city": "q0013",
+      "projection": "Albers",
+      "centre_offset_km": 1.46
+    },
+    {
+      "city": "q0014",
+      "projection": "Albers",
+      "centre_offset_km": 2.45
+    },
+    {
+      "city": "q0015",
+      "projection": "Albers",
+      "centre_offset_km": 1.83
+    },
+    {
+      "city": "q0016",
+      "projection": "Albers",
+      "centre_offset_km": 0.9
+    },
+    {
+      "city": "q0017",
+      "projection": "Albers",
+      "centre_offset_km": 0.47
+    },
+    {
+      "city": "q0018",
+      "projection": "Albers",
+      "centre_offset_km": 0.51
+    },
+    {
+      "city": "q0020",
+      "projection": "Albers",
+      "centre_offset_km": 1.71
+    },
+    {
+      "city": "q0021",
+      "projection": "Albers",
+      "centre_offset_km": 3.52
+    },
+    {
+      "city": "q0031",
+      "projection": "Albers",
+      "centre_offset_km": 1.21
+    },
+    {
+      "city": "q0032",
+      "projection": "Albers",
+      "centre_offset_km": 3.15
+    },
+    {
+      "city": "q0034",
+      "projection": "Albers",
+      "centre_offset_km": 0.15
+    },
+    {
+      "city": "w027110",
+      "projection": "Albers",
+      "centre_offset_km": 0.87
+    },
+    {
+      "city": "w0549be",
+      "projection": "Albers",
+      "centre_offset_km": 1.94
+    },
+    {
+      "city": "w31fdfb",
+      "projection": "Albers",
+      "centre_offset_km": 0.43
+    },
+    {
+      "city": "w493a32",
+      "projection": "Albers",
+      "centre_offset_km": 1.79
+    },
+    {
+      "city": "w55646b",
+      "projection": "Albers",
+      "centre_offset_km": 0.63
+    },
+    {
+      "city": "w5db0df",
+      "projection": "Albers",
+      "centre_offset_km": 0.8
+    },
+    {
+      "city": "w6cdf7c",
+      "projection": "Albers",
+      "centre_offset_km": 0.72
+    },
+    {
+      "city": "w8d9dc0",
+      "projection": "Albers",
+      "centre_offset_km": 1.0
+    },
+    {
+      "city": "w939f0a",
+      "projection": "Albers",
+      "centre_offset_km": 0.8
+    },
+    {
+      "city": "w9b2228",
+      "projection": "Albers",
+      "centre_offset_km": 0.9
+    },
+    {
+      "city": "wa6dd42",
+      "projection": "Albers",
+      "centre_offset_km": 0.66
+    },
+    {
+      "city": "waa3626",
+      "projection": "Albers",
+      "centre_offset_km": 1.34
+    },
+    {
+      "city": "wbb60e3",
+      "projection": "Albers",
+      "centre_offset_km": 0.28
+    },
+    {
+      "city": "wd0d654",
+      "projection": "Albers",
+      "centre_offset_km": 1.11
+    },
+    {
+      "city": "wdf268c",
+      "projection": "Albers",
+      "centre_offset_km": 0.81
+    },
+    {
+      "city": "q9001",
+      "projection": "Albers",
+      "centre_offset_km": 1.19
+    },
+    {
+      "city": "b0001",
+      "projection": "aeqd",
+      "centre_offset_km": 6.83
+    },
+    {
+      "city": "b0002",
+      "projection": "aeqd",
+      "centre_offset_km": 1.24
+    },
+    {
+      "city": "b0003",
+      "projection": "aeqd",
+      "centre_offset_km": 3.92
+    },
+    {
+      "city": "b0004",
+      "projection": "aeqd",
+      "centre_offset_km": 2.68
+    },
+    {
+      "city": "b0005",
+      "projection": "aeqd",
+      "centre_offset_km": 2.14
+    },
+    {
+      "city": "b0006",
+      "projection": "aeqd",
+      "centre_offset_km": 0.22
+    },
+    {
+      "city": "b0007",
+      "projection": "aeqd",
+      "centre_offset_km": 1.02
+    },
+    {
+      "city": "b0008",
+      "projection": "aeqd",
+      "centre_offset_km": 1.58
+    },
+    {
+      "city": "b0009",
+      "projection": "aeqd",
+      "centre_offset_km": 4.56
+    },
+    {
+      "city": "b0010",
+      "projection": "aeqd",
+      "centre_offset_km": 0.51
+    },
+    {
+      "city": "b0011",
+      "projection": "aeqd",
+      "centre_offset_km": 0.75
+    },
+    {
+      "city": "b0012",
+      "projection": "aeqd",
+      "centre_offset_km": 2.09
+    },
+    {
+      "city": "b0013",
+      "projection": "aeqd",
+      "centre_offset_km": 0.84
+    },
+    {
+      "city": "b0015",
+      "projection": "aeqd",
+      "centre_offset_km": 1.48
+    },
+    {
+      "city": "b0016",
+      "projection": "aeqd",
+      "centre_offset_km": 2.73
+    },
+    {
+      "city": "b0017",
+      "projection": "aeqd",
+      "centre_offset_km": 0.45
+    },
+    {
+      "city": "b0021",
+      "projection": "aeqd",
+      "centre_offset_km": 5.25
+    },
+    {
+      "city": "b0022",
+      "projection": "aeqd",
+      "centre_offset_km": 0.96
+    },
+    {
+      "city": "b0023",
+      "projection": "aeqd",
+      "centre_offset_km": 12.3
+    },
+    {
+      "city": "j0002",
+      "projection": "aeqd",
+      "centre_offset_km": 1.44
+    },
+    {
+      "city": "j0004",
+      "projection": "aeqd",
+      "centre_offset_km": 1.63
+    },
+    {
+      "city": "j0005",
+      "projection": "aeqd",
+      "centre_offset_km": 1.87
+    },
+    {
+      "city": "j0006",
+      "projection": "aeqd",
+      "centre_offset_km": 0.25
+    },
+    {
+      "city": "j0007",
+      "projection": "aeqd",
+      "centre_offset_km": 0.58
+    },
+    {
+      "city": "k0001",
+      "projection": "aeqd",
+      "centre_offset_km": 4.06
+    },
+    {
+      "city": "k0003",
+      "projection": "aeqd",
+      "centre_offset_km": 0.17
+    },
+    {
+      "city": "k0004",
+      "projection": "aeqd",
+      "centre_offset_km": 1.49
+    },
+    {
+      "city": "k0005",
+      "projection": "aeqd",
+      "centre_offset_km": 3.04
+    },
+    {
+      "city": "k0006",
+      "projection": "aeqd",
+      "centre_offset_km": 2.32
+    }
+  ],
+  "Roman_airports": 29,
+  "projection_checks": "pass"
+}
