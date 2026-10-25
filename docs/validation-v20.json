@@ -1,21 +1,1324 @@
 {
-  "city_payloads": 263,
-  "revised_cities": 65,
-  "revised_ring_lines": 81,
-  "new_cities": 20,
-  "new_metro_lines": 60,
-  "new_corridors": 20,
-  "Roman_airports": 29,
-  "EEZ_regions": 57,
-  "checks": [
-    "JavaScript syntax",
-    "city payload decoding",
-    "station index bounds",
-    "station-to-line attachment",
-    "ring closure",
-    "unique station coordinates",
-    "mobile compact menu",
-    "Greek default labels",
-    "restored NE Wei envelope"
-  ]
+  "cities": 263,
+  "city_models": {
+    "c/b0006.json": {
+      "stations": 167,
+      "lines": 23,
+      "ring_revised": 1
+    },
+    "c/b0007.json": {
+      "stations": 201,
+      "lines": 25,
+      "ring_revised": 1
+    },
+    "c/b0008.json": {
+      "stations": 190,
+      "lines": 20,
+      "ring_revised": 2
+    },
+    "c/b0009.json": {
+      "stations": 230,
+      "lines": 27,
+      "ring_revised": 1
+    },
+    "c/b0010.json": {
+      "stations": 222,
+      "lines": 24,
+      "ring_revised": 2
+    },
+    "c/b0011.json": {
+      "stations": 196,
+      "lines": 25,
+      "ring_revised": 1
+    },
+    "c/b0012.json": {
+      "stations": 194,
+      "lines": 24,
+      "ring_revised": 1
+    },
+    "c/b0013.json": {
+      "stations": 154,
+      "lines": 19,
+      "ring_revised": 1
+    },
+    "c/b0014.json": {
+      "stations": 124,
+      "lines": 17,
+      "ring_revised": 0
+    },
+    "c/b0015.json": {
+      "stations": 155,
+      "lines": 20,
+      "ring_revised": 1
+    },
+    "c/b0016.json": {
+      "stations": 135,
+      "lines": 27,
+      "ring_revised": 1
+    },
+    "c/b0017.json": {
+      "stations": 118,
+      "lines": 19,
+      "ring_revised": 1
+    },
+    "c/b0018.json": {
+      "stations": 89,
+      "lines": 18,
+      "ring_revised": 0
+    },
+    "c/b0019.json": {
+      "stations": 83,
+      "lines": 19,
+      "ring_revised": 0
+    },
+    "c/b0020.json": {
+      "stations": 86,
+      "lines": 15,
+      "ring_revised": 0
+    },
+    "c/b0021.json": {
+      "stations": 160,
+      "lines": 22,
+      "ring_revised": 1
+    },
+    "c/b0022.json": {
+      "stations": 96,
+      "lines": 22,
+      "ring_revised": 1
+    },
+    "c/b0023.json": {
+      "stations": 106,
+      "lines": 17,
+      "ring_revised": 1
+    },
+    "c/j0001.json": {
+      "stations": 137,
+      "lines": 21,
+      "ring_revised": 0
+    },
+    "c/j0002.json": {
+      "stations": 100,
+      "lines": 18,
+      "ring_revised": 1
+    },
+    "c/j0003.json": {
+      "stations": 70,
+      "lines": 13,
+      "ring_revised": 0
+    },
+    "c/j0004.json": {
+      "stations": 256,
+      "lines": 31,
+      "ring_revised": 2
+    },
+    "c/j0005.json": {
+      "stations": 145,
+      "lines": 25,
+      "ring_revised": 1
+    },
+    "c/j0006.json": {
+      "stations": 129,
+      "lines": 21,
+      "ring_revised": 1
+    },
+    "c/j0007.json": {
+      "stations": 109,
+      "lines": 19,
+      "ring_revised": 1
+    },
+    "c/j0008.json": {
+      "stations": 26,
+      "lines": 7,
+      "ring_revised": 0
+    },
+    "c/k0001.json": {
+      "stations": 177,
+      "lines": 22,
+      "ring_revised": 1
+    },
+    "c/k0002.json": {
+      "stations": 96,
+      "lines": 19,
+      "ring_revised": 0
+    },
+    "c/k0003.json": {
+      "stations": 103,
+      "lines": 15,
+      "ring_revised": 1
+    },
+    "c/k0004.json": {
+      "stations": 98,
+      "lines": 18,
+      "ring_revised": 1
+    },
+    "c/k0005.json": {
+      "stations": 80,
+      "lines": 12,
+      "ring_revised": 1
+    },
+    "c/k0006.json": {
+      "stations": 117,
+      "lines": 18,
+      "ring_revised": 1
+    },
+    "c/k0007.json": {
+      "stations": 42,
+      "lines": 7,
+      "ring_revised": 0
+    },
+    "c/k0008.json": {
+      "stations": 22,
+      "lines": 3,
+      "ring_revised": 0
+    },
+    "c/k0009.json": {
+      "stations": 27,
+      "lines": 7,
+      "ring_revised": 0
+    },
+    "c/q0119.json": {
+      "stations": 13,
+      "lines": 1,
+      "ring_revised": 0
+    },
+    "c/q9001.json": {
+      "stations": 87,
+      "lines": 13,
+      "ring_revised": 1
+    },
+    "c/q9002.json": {
+      "stations": 36,
+      "lines": 7,
+      "ring_revised": 0
+    },
+    "c/b0001.json": {
+      "stations": 1015,
+      "lines": 80,
+      "ring_revised": 3
+    },
+    "c/b0002.json": {
+      "stations": 508,
+      "lines": 36,
+      "ring_revised": 2
+    },
+    "c/b0003.json": {
+      "stations": 558,
+      "lines": 37,
+      "ring_revised": 3
+    },
+    "c/b0004.json": {
+      "stations": 293,
+      "lines": 33,
+      "ring_revised": 1
+    },
+    "c/b0005.json": {
+      "stations": 265,
+      "lines": 34,
+      "ring_revised": 2
+    },
+    "c/q0031.json": {
+      "stations": 67,
+      "lines": 12,
+      "ring_revised": 1
+    },
+    "c/q0032.json": {
+      "stations": 183,
+      "lines": 24,
+      "ring_revised": 1
+    },
+    "c/q0033.json": {
+      "stations": 57,
+      "lines": 13,
+      "ring_revised": 0
+    },
+    "c/q0034.json": {
+      "stations": 62,
+      "lines": 12,
+      "ring_revised": 1
+    },
+    "c/q0035.json": {
+      "stations": 51,
+      "lines": 11,
+      "ring_revised": 0
+    },
+    "c/q0036.json": {
+      "stations": 54,
+      "lines": 12,
+      "ring_revised": 0
+    },
+    "c/q0037.json": {
+      "stations": 63,
+      "lines": 12,
+      "ring_revised": 0
+    },
+    "c/q0038.json": {
+      "stations": 52,
+      "lines": 11,
+      "ring_revised": 0
+    },
+    "c/q0039.json": {
+      "stations": 30,
+      "lines": 5,
+      "ring_revised": 0
+    },
+    "c/q0040.json": {
+      "stations": 44,
+      "lines": 9,
+      "ring_revised": 0
+    },
+    "c/q0041.json": {
+      "stations": 48,
+      "lines": 10,
+      "ring_revised": 0
+    },
+    "c/q0042.json": {
+      "stations": 26,
+      "lines": 4,
+      "ring_revised": 0
+    },
+    "c/q0043.json": {
+      "stations": 63,
+      "lines": 12,
+      "ring_revised": 0
+    },
+    "c/q0044.json": {
+      "stations": 32,
+      "lines": 6,
+      "ring_revised": 0
+    },
+    "c/q0045.json": {
+      "stations": 27,
+      "lines": 6,
+      "ring_revised": 0
+    },
+    "c/q0046.json": {
+      "stations": 31,
+      "lines": 6,
+      "ring_revised": 0
+    },
+    "c/q0047.json": {
+      "stations": 21,
+      "lines": 4,
+      "ring_revised": 0
+    },
+    "c/q0048.json": {
+      "stations": 32,
+      "lines": 8,
+      "ring_revised": 0
+    },
+    "c/q0049.json": {
+      "stations": 38,
+      "lines": 7,
+      "ring_revised": 0
+    },
+    "c/q0050.json": {
+      "stations": 31,
+      "lines": 7,
+      "ring_revised": 0
+    },
+    "c/q0051.json": {
+      "stations": 27,
+      "lines": 6,
+      "ring_revised": 0
+    },
+    "c/q0052.json": {
+      "stations": 23,
+      "lines": 6,
+      "ring_revised": 0
+    },
+    "c/q0053.json": {
+      "stations": 36,
+      "lines": 8,
+      "ring_revised": 0
+    },
+    "c/q0054.json": {
+      "stations": 27,
+      "lines": 6,
+      "ring_revised": 0
+    },
+    "c/q0055.json": {
+      "stations": 27,
+      "lines": 6,
+      "ring_revised": 0
+    },
+    "c/q0056.json": {
+      "stations": 19,
+      "lines": 4,
+      "ring_revised": 0
+    },
+    "c/q0057.json": {
+      "stations": 22,
+      "lines": 5,
+      "ring_revised": 0
+    },
+    "c/q0058.json": {
+      "stations": 27,
+      "lines": 4,
+      "ring_revised": 0
+    },
+    "c/q0059.json": {
+      "stations": 36,
+      "lines": 10,
+      "ring_revised": 0
+    },
+    "c/q0060.json": {
+      "stations": 32,
+      "lines": 7,
+      "ring_revised": 0
+    },
+    "c/q0061.json": {
+      "stations": 19,
+      "lines": 5,
+      "ring_revised": 0
+    },
+    "c/q0062.json": {
+      "stations": 29,
+      "lines": 7,
+      "ring_revised": 0
+    },
+    "c/q0063.json": {
+      "stations": 34,
+      "lines": 10,
+      "ring_revised": 0
+    },
+    "c/q0064.json": {
+      "stations": 27,
+      "lines": 4,
+      "ring_revised": 0
+    },
+    "c/q0065.json": {
+      "stations": 54,
+      "lines": 8,
+      "ring_revised": 0
+    },
+    "c/q0066.json": {
+      "stations": 30,
+      "lines": 5,
+      "ring_revised": 0
+    },
+    "c/q0067.json": {
+      "stations": 40,
+      "lines": 7,
+      "ring_revised": 0
+    },
+    "c/q0068.json": {
+      "stations": 34,
+      "lines": 9,
+      "ring_revised": 0
+    },
+    "c/q0069.json": {
+      "stations": 22,
+      "lines": 4,
+      "ring_revised": 0
+    },
+    "c/q0070.json": {
+      "stations": 26,
+      "lines": 5,
+      "ring_revised": 0
+    },
+    "c/q0071.json": {
+      "stations": 29,
+      "lines": 6,
+      "ring_revised": 0
+    },
+    "c/q0072.json": {
+      "stations": 22,
+      "lines": 6,
+      "ring_revised": 0
+    },
+    "c/q0073.json": {
+      "stations": 36,
+      "lines": 7,
+      "ring_revised": 0
+    },
+    "c/q0074.json": {
+      "stations": 35,
+      "lines": 8,
+      "ring_revised": 0
+    },
+    "c/q0075.json": {
+      "stations": 27,
+      "lines": 7,
+      "ring_revised": 0
+    },
+    "c/q0076.json": {
+      "stations": 26,
+      "lines": 6,
+      "ring_revised": 0
+    },
+    "c/q0077.json": {
+      "stations": 30,
+      "lines": 6,
+      "ring_revised": 0
+    },
+    "c/q0078.json": {
+      "stations": 24,
+      "lines": 4,
+      "ring_revised": 0
+    },
+    "c/q0079.json": {
+      "stations": 31,
+      "lines": 7,
+      "ring_revised": 0
+    },
+    "c/q0080.json": {
+      "stations": 32,
+      "lines": 7,
+      "ring_revised": 0
+    },
+    "c/q0081.json": {
+      "stations": 11,
+      "lines": 2,
+      "ring_revised": 0
+    },
+    "c/q0082.json": {
+      "stations": 28,
+      "lines": 6,
+      "ring_revised": 0
+    },
+    "c/q0083.json": {
+      "stations": 30,
+      "lines": 6,
+      "ring_revised": 0
+    },
+    "c/q0084.json": {
+      "stations": 26,
+      "lines": 5,
+      "ring_revised": 0
+    },
+    "c/q0085.json": {
+      "stations": 23,
+      "lines": 6,
+      "ring_revised": 0
+    },
+    "c/q0086.json": {
+      "stations": 27,
+      "lines": 6,
+      "ring_revised": 0
+    },
+    "c/q0087.json": {
+      "stations": 29,
+      "lines": 7,
+      "ring_revised": 0
+    },
+    "c/q0088.json": {
+      "stations": 28,
+      "lines": 7,
+      "ring_revised": 0
+    },
+    "c/q0089.json": {
+      "stations": 19,
+      "lines": 4,
+      "ring_revised": 0
+    },
+    "c/q0090.json": {
+      "stations": 22,
+      "lines": 5,
+      "ring_revised": 0
+    },
+    "c/q0091.json": {
+      "stations": 30,
+      "lines": 7,
+      "ring_revised": 0
+    },
+    "c/q0092.json": {
+      "stations": 25,
+      "lines": 6,
+      "ring_revised": 0
+    },
+    "c/q0093.json": {
+      "stations": 32,
+      "lines": 8,
+      "ring_revised": 0
+    },
+    "c/q0094.json": {
+      "stations": 20,
+      "lines": 4,
+      "ring_revised": 0
+    },
+    "c/q0095.json": {
+      "stations": 29,
+      "lines": 7,
+      "ring_revised": 0
+    },
+    "c/q0096.json": {
+      "stations": 23,
+      "lines": 4,
+      "ring_revised": 0
+    },
+    "c/q0097.json": {
+      "stations": 26,
+      "lines": 6,
+      "ring_revised": 0
+    },
+    "c/q0098.json": {
+      "stations": 21,
+      "lines": 6,
+      "ring_revised": 0
+    },
+    "c/q0099.json": {
+      "stations": 27,
+      "lines": 6,
+      "ring_revised": 0
+    },
+    "c/q0100.json": {
+      "stations": 27,
+      "lines": 7,
+      "ring_revised": 0
+    },
+    "c/q0101.json": {
+      "stations": 29,
+      "lines": 8,
+      "ring_revised": 0
+    },
+    "c/q0102.json": {
+      "stations": 31,
+      "lines": 9,
+      "ring_revised": 0
+    },
+    "c/q0103.json": {
+      "stations": 25,
+      "lines": 6,
+      "ring_revised": 0
+    },
+    "c/q0104.json": {
+      "stations": 27,
+      "lines": 8,
+      "ring_revised": 0
+    },
+    "c/q0105.json": {
+      "stations": 17,
+      "lines": 3,
+      "ring_revised": 0
+    },
+    "c/q0106.json": {
+      "stations": 23,
+      "lines": 5,
+      "ring_revised": 0
+    },
+    "c/q0107.json": {
+      "stations": 21,
+      "lines": 5,
+      "ring_revised": 0
+    },
+    "c/q0108.json": {
+      "stations": 34,
+      "lines": 8,
+      "ring_revised": 0
+    },
+    "c/q0109.json": {
+      "stations": 19,
+      "lines": 3,
+      "ring_revised": 0
+    },
+    "c/q0110.json": {
+      "stations": 27,
+      "lines": 8,
+      "ring_revised": 0
+    },
+    "c/q0111.json": {
+      "stations": 16,
+      "lines": 3,
+      "ring_revised": 0
+    },
+    "c/q0112.json": {
+      "stations": 25,
+      "lines": 6,
+      "ring_revised": 0
+    },
+    "c/q0113.json": {
+      "stations": 25,
+      "lines": 6,
+      "ring_revised": 0
+    },
+    "c/q0114.json": {
+      "stations": 21,
+      "lines": 6,
+      "ring_revised": 0
+    },
+    "c/q0115.json": {
+      "stations": 21,
+      "lines": 6,
+      "ring_revised": 0
+    },
+    "c/q0116.json": {
+      "stations": 11,
+      "lines": 2,
+      "ring_revised": 0
+    },
+    "c/q0117.json": {
+      "stations": 18,
+      "lines": 5,
+      "ring_revised": 0
+    },
+    "c/q0118.json": {
+      "stations": 13,
+      "lines": 4,
+      "ring_revised": 0
+    },
+    "c/w027110.json": {
+      "stations": 90,
+      "lines": 13,
+      "ring_revised": 1
+    },
+    "c/w0549be.json": {
+      "stations": 308,
+      "lines": 30,
+      "ring_revised": 1
+    },
+    "c/w0c654b.json": {
+      "stations": 36,
+      "lines": 8,
+      "ring_revised": 0
+    },
+    "c/w0f7bdf.json": {
+      "stations": 22,
+      "lines": 6,
+      "ring_revised": 0
+    },
+    "c/w10a118.json": {
+      "stations": 16,
+      "lines": 4,
+      "ring_revised": 0
+    },
+    "c/w168ffb.json": {
+      "stations": 30,
+      "lines": 7,
+      "ring_revised": 0
+    },
+    "c/w1b47b5.json": {
+      "stations": 29,
+      "lines": 9,
+      "ring_revised": 0
+    },
+    "c/w1b699e.json": {
+      "stations": 29,
+      "lines": 7,
+      "ring_revised": 0
+    },
+    "c/w1d781c.json": {
+      "stations": 26,
+      "lines": 7,
+      "ring_revised": 0
+    },
+    "c/w22be16.json": {
+      "stations": 23,
+      "lines": 7,
+      "ring_revised": 0
+    },
+    "c/w2955e4.json": {
+      "stations": 47,
+      "lines": 11,
+      "ring_revised": 0
+    },
+    "c/w2beb0e.json": {
+      "stations": 37,
+      "lines": 9,
+      "ring_revised": 0
+    },
+    "c/w31fdfb.json": {
+      "stations": 60,
+      "lines": 11,
+      "ring_revised": 1
+    },
+    "c/w363c4f.json": {
+      "stations": 33,
+      "lines": 8,
+      "ring_revised": 0
+    },
+    "c/w3aba26.json": {
+      "stations": 41,
+      "lines": 9,
+      "ring_revised": 0
+    },
+    "c/w3ac14a.json": {
+      "stations": 61,
+      "lines": 10,
+      "ring_revised": 0
+    },
+    "c/w3ba445.json": {
+      "stations": 30,
+      "lines": 7,
+      "ring_revised": 0
+    },
+    "c/w3caaf4.json": {
+      "stations": 33,
+      "lines": 8,
+      "ring_revised": 0
+    },
+    "c/w3dc41b.json": {
+      "stations": 109,
+      "lines": 19,
+      "ring_revised": 0
+    },
+    "c/w43c855.json": {
+      "stations": 22,
+      "lines": 6,
+      "ring_revised": 0
+    },
+    "c/w45a6ca.json": {
+      "stations": 42,
+      "lines": 8,
+      "ring_revised": 0
+    },
+    "c/w47e5ea.json": {
+      "stations": 27,
+      "lines": 7,
+      "ring_revised": 0
+    },
+    "c/w48a6cb.json": {
+      "stations": 25,
+      "lines": 5,
+      "ring_revised": 0
+    },
+    "c/w493a32.json": {
+      "stations": 70,
+      "lines": 12,
+      "ring_revised": 1
+    },
+    "c/w4aa2ad.json": {
+      "stations": 23,
+      "lines": 6,
+      "ring_revised": 0
+    },
+    "c/w4ac4c4.json": {
+      "stations": 41,
+      "lines": 9,
+      "ring_revised": 0
+    },
+    "c/w50de1b.json": {
+      "stations": 26,
+      "lines": 6,
+      "ring_revised": 0
+    },
+    "c/w52e118.json": {
+      "stations": 21,
+      "lines": 6,
+      "ring_revised": 0
+    },
+    "c/w55646b.json": {
+      "stations": 73,
+      "lines": 12,
+      "ring_revised": 1
+    },
+    "c/w5618f8.json": {
+      "stations": 29,
+      "lines": 7,
+      "ring_revised": 0
+    },
+    "c/w582016.json": {
+      "stations": 22,
+      "lines": 5,
+      "ring_revised": 0
+    },
+    "c/w595f3a.json": {
+      "stations": 80,
+      "lines": 16,
+      "ring_revised": 0
+    },
+    "c/w5aba18.json": {
+      "stations": 33,
+      "lines": 7,
+      "ring_revised": 0
+    },
+    "c/w5db0df.json": {
+      "stations": 160,
+      "lines": 24,
+      "ring_revised": 1
+    },
+    "c/w631f55.json": {
+      "stations": 36,
+      "lines": 7,
+      "ring_revised": 0
+    },
+    "c/w658c0c.json": {
+      "stations": 26,
+      "lines": 5,
+      "ring_revised": 0
+    },
+    "c/w68fa35.json": {
+      "stations": 74,
+      "lines": 9,
+      "ring_revised": 0
+    },
+    "c/w6cdf7c.json": {
+      "stations": 80,
+      "lines": 16,
+      "ring_revised": 1
+    },
+    "c/w6ef551.json": {
+      "stations": 35,
+      "lines": 8,
+      "ring_revised": 0
+    },
+    "c/w73e233.json": {
+      "stations": 100,
+      "lines": 17,
+      "ring_revised": 0
+    },
+    "c/w7727dd.json": {
+      "stations": 46,
+      "lines": 11,
+      "ring_revised": 0
+    },
+    "c/w7a2afa.json": {
+      "stations": 28,
+      "lines": 7,
+      "ring_revised": 0
+    },
+    "c/w7ad385.json": {
+      "stations": 31,
+      "lines": 6,
+      "ring_revised": 0
+    },
+    "c/w7f58e4.json": {
+      "stations": 27,
+      "lines": 6,
+      "ring_revised": 0
+    },
+    "c/w83bd4e.json": {
+      "stations": 35,
+      "lines": 8,
+      "ring_revised": 0
+    },
+    "c/w84f59c.json": {
+      "stations": 29,
+      "lines": 5,
+      "ring_revised": 0
+    },
+    "c/w89c881.json": {
+      "stations": 37,
+      "lines": 8,
+      "ring_revised": 0
+    },
+    "c/w8d9dc0.json": {
+      "stations": 85,
+      "lines": 15,
+      "ring_revised": 1
+    },
+    "c/w939f0a.json": {
+      "stations": 63,
+      "lines": 12,
+      "ring_revised": 1
+    },
+    "c/w98c634.json": {
+      "stations": 52,
+      "lines": 11,
+      "ring_revised": 0
+    },
+    "c/w9b2228.json": {
+      "stations": 73,
+      "lines": 12,
+      "ring_revised": 1
+    },
+    "c/w9d2de9.json": {
+      "stations": 24,
+      "lines": 6,
+      "ring_revised": 0
+    },
+    "c/w9de171.json": {
+      "stations": 33,
+      "lines": 8,
+      "ring_revised": 0
+    },
+    "c/wa3d880.json": {
+      "stations": 23,
+      "lines": 5,
+      "ring_revised": 0
+    },
+    "c/wa56182.json": {
+      "stations": 36,
+      "lines": 8,
+      "ring_revised": 0
+    },
+    "c/wa56b9d.json": {
+      "stations": 43,
+      "lines": 10,
+      "ring_revised": 0
+    },
+    "c/wa6dd42.json": {
+      "stations": 80,
+      "lines": 14,
+      "ring_revised": 1
+    },
+    "c/waa3626.json": {
+      "stations": 97,
+      "lines": 17,
+      "ring_revised": 1
+    },
+    "c/waa70de.json": {
+      "stations": 31,
+      "lines": 7,
+      "ring_revised": 0
+    },
+    "c/wadeb21.json": {
+      "stations": 28,
+      "lines": 7,
+      "ring_revised": 0
+    },
+    "c/wb07979.json": {
+      "stations": 23,
+      "lines": 4,
+      "ring_revised": 0
+    },
+    "c/wb3a953.json": {
+      "stations": 45,
+      "lines": 9,
+      "ring_revised": 0
+    },
+    "c/wbb60e3.json": {
+      "stations": 111,
+      "lines": 19,
+      "ring_revised": 1
+    },
+    "c/wc35047.json": {
+      "stations": 35,
+      "lines": 9,
+      "ring_revised": 0
+    },
+    "c/wc7dd4a.json": {
+      "stations": 38,
+      "lines": 10,
+      "ring_revised": 0
+    },
+    "c/wc85b5d.json": {
+      "stations": 29,
+      "lines": 6,
+      "ring_revised": 0
+    },
+    "c/wd0bbd1.json": {
+      "stations": 31,
+      "lines": 6,
+      "ring_revised": 0
+    },
+    "c/wd0d654.json": {
+      "stations": 86,
+      "lines": 15,
+      "ring_revised": 1
+    },
+    "c/wd1b3fc.json": {
+      "stations": 50,
+      "lines": 11,
+      "ring_revised": 0
+    },
+    "c/wd93b59.json": {
+      "stations": 39,
+      "lines": 7,
+      "ring_revised": 0
+    },
+    "c/wd990b4.json": {
+      "stations": 27,
+      "lines": 6,
+      "ring_revised": 0
+    },
+    "c/wddf3e3.json": {
+      "stations": 28,
+      "lines": 7,
+      "ring_revised": 0
+    },
+    "c/wdf268c.json": {
+      "stations": 124,
+      "lines": 20,
+      "ring_revised": 1
+    },
+    "c/we27015.json": {
+      "stations": 32,
+      "lines": 6,
+      "ring_revised": 0
+    },
+    "c/wea61b4.json": {
+      "stations": 29,
+      "lines": 6,
+      "ring_revised": 0
+    },
+    "c/web2636.json": {
+      "stations": 114,
+      "lines": 21,
+      "ring_revised": 0
+    },
+    "c/wef20f4.json": {
+      "stations": 20,
+      "lines": 4,
+      "ring_revised": 0
+    },
+    "c/wf13342.json": {
+      "stations": 104,
+      "lines": 20,
+      "ring_revised": 0
+    },
+    "c/wf2d2e6.json": {
+      "stations": 38,
+      "lines": 7,
+      "ring_revised": 0
+    },
+    "c/wf466e6.json": {
+      "stations": 61,
+      "lines": 13,
+      "ring_revised": 0
+    },
+    "c/wfaccf7.json": {
+      "stations": 126,
+      "lines": 22,
+      "ring_revised": 0
+    },
+    "c/qv20_hepu.json": {
+      "stations": 31,
+      "lines": 3,
+      "ring_revised": 0
+    },
+    "c/qv20_xuwen.json": {
+      "stations": 31,
+      "lines": 3,
+      "ring_revised": 0
+    },
+    "c/qv20_guangxin.json": {
+      "stations": 31,
+      "lines": 3,
+      "ring_revised": 0
+    },
+    "c/qv20_linhe.json": {
+      "stations": 31,
+      "lines": 3,
+      "ring_revised": 0
+    },
+    "c/qv20_fengyang.json": {
+      "stations": 31,
+      "lines": 3,
+      "ring_revised": 0
+    },
+    "c/qv20_gaoyao.json": {
+      "stations": 31,
+      "lines": 3,
+      "ring_revised": 0
+    },
+    "c/qv20_jiaozhi.json": {
+      "stations": 31,
+      "lines": 3,
+      "ring_revised": 0
+    },
+    "c/qv20_zhuyuan.json": {
+      "stations": 31,
+      "lines": 3,
+      "ring_revised": 0
+    },
+    "c/qv20_xiyu.json": {
+      "stations": 31,
+      "lines": 3,
+      "ring_revised": 0
+    },
+    "c/qv20_quyi.json": {
+      "stations": 31,
+      "lines": 3,
+      "ring_revised": 0
+    },
+    "c/qv20_zhuyai.json": {
+      "stations": 31,
+      "lines": 3,
+      "ring_revised": 0
+    },
+    "c/qv20_daner.json": {
+      "stations": 31,
+      "lines": 3,
+      "ring_revised": 0
+    },
+    "c/qv20_qiongdong.json": {
+      "stations": 31,
+      "lines": 3,
+      "ring_revised": 0
+    },
+    "c/qv20_lingshui.json": {
+      "stations": 31,
+      "lines": 3,
+      "ring_revised": 0
+    },
+    "c/qv20_danshui.json": {
+      "stations": 31,
+      "lines": 3,
+      "ring_revised": 0
+    },
+    "c/qv20_dadu.json": {
+      "stations": 31,
+      "lines": 3,
+      "ring_revised": 0
+    },
+    "c/qv20_taijiang.json": {
+      "stations": 31,
+      "lines": 3,
+      "ring_revised": 0
+    },
+    "c/qv20_lanyang.json": {
+      "stations": 31,
+      "lines": 3,
+      "ring_revised": 0
+    },
+    "c/qv20_hualien.json": {
+      "stations": 31,
+      "lines": 3,
+      "ring_revised": 0
+    },
+    "c/qv20_beinan.json": {
+      "stations": 31,
+      "lines": 3,
+      "ring_revised": 0
+    },
+    "c/q0000.json": {
+      "stations": 1841,
+      "lines": 155,
+      "ring_revised": 7
+    },
+    "c/q0001.json": {
+      "stations": 221,
+      "lines": 31,
+      "ring_revised": 1
+    },
+    "c/q0002.json": {
+      "stations": 258,
+      "lines": 24,
+      "ring_revised": 2
+    },
+    "c/q0003.json": {
+      "stations": 218,
+      "lines": 23,
+      "ring_revised": 1
+    },
+    "c/q0004.json": {
+      "stations": 123,
+      "lines": 21,
+      "ring_revised": 0
+    },
+    "c/q0005.json": {
+      "stations": 101,
+      "lines": 19,
+      "ring_revised": 1
+    },
+    "c/q0006.json": {
+      "stations": 96,
+      "lines": 19,
+      "ring_revised": 0
+    },
+    "c/q0007.json": {
+      "stations": 141,
+      "lines": 15,
+      "ring_revised": 0
+    },
+    "c/q0008.json": {
+      "stations": 181,
+      "lines": 20,
+      "ring_revised": 1
+    },
+    "c/q0009.json": {
+      "stations": 101,
+      "lines": 16,
+      "ring_revised": 1
+    },
+    "c/q0010.json": {
+      "stations": 100,
+      "lines": 20,
+      "ring_revised": 1
+    },
+    "c/q0011.json": {
+      "stations": 123,
+      "lines": 16,
+      "ring_revised": 0
+    },
+    "c/q0012.json": {
+      "stations": 76,
+      "lines": 10,
+      "ring_revised": 1
+    },
+    "c/q0013.json": {
+      "stations": 95,
+      "lines": 15,
+      "ring_revised": 1
+    },
+    "c/q0014.json": {
+      "stations": 84,
+      "lines": 15,
+      "ring_revised": 1
+    },
+    "c/q0015.json": {
+      "stations": 95,
+      "lines": 14,
+      "ring_revised": 1
+    },
+    "c/q0016.json": {
+      "stations": 116,
+      "lines": 23,
+      "ring_revised": 1
+    },
+    "c/q0017.json": {
+      "stations": 106,
+      "lines": 15,
+      "ring_revised": 1
+    },
+    "c/q0018.json": {
+      "stations": 118,
+      "lines": 16,
+      "ring_revised": 1
+    },
+    "c/q0019.json": {
+      "stations": 77,
+      "lines": 11,
+      "ring_revised": 0
+    },
+    "c/q0020.json": {
+      "stations": 105,
+      "lines": 16,
+      "ring_revised": 1
+    },
+    "c/q0021.json": {
+      "stations": 78,
+      "lines": 15,
+      "ring_revised": 1
+    },
+    "c/q0022.json": {
+      "stations": 84,
+      "lines": 16,
+      "ring_revised": 0
+    },
+    "c/q0023.json": {
+      "stations": 134,
+      "lines": 14,
+      "ring_revised": 0
+    },
+    "c/q0024.json": {
+      "stations": 55,
+      "lines": 10,
+      "ring_revised": 0
+    },
+    "c/q0025.json": {
+      "stations": 70,
+      "lines": 13,
+      "ring_revised": 0
+    },
+    "c/q0026.json": {
+      "stations": 51,
+      "lines": 12,
+      "ring_revised": 0
+    },
+    "c/q0027.json": {
+      "stations": 48,
+      "lines": 11,
+      "ring_revised": 0
+    },
+    "c/q0028.json": {
+      "stations": 55,
+      "lines": 11,
+      "ring_revised": 0
+    },
+    "c/q0029.json": {
+      "stations": 40,
+      "lines": 8,
+      "ring_revised": 0
+    },
+    "c/q0030.json": {
+      "stations": 42,
+      "lines": 10,
+      "ring_revised": 0
+    }
+  },
+  "station_indices": "pass",
+  "station_attachment": "pass",
+  "ring_closure": "pass",
+  "distinct_stations": "pass"
 }
