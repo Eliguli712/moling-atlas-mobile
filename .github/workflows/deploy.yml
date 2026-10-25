@@ -29,7 +29,7 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
-      - name: Build verified atlas v14 distribution
+      - name: Build verified atlas v20 distribution
         run: python3 scripts/mirror_public.py
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

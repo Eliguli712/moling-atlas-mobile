@@ -1,0 +1,21 @@
+{
+  "city_payloads": 263,
+  "revised_cities": 65,
+  "revised_ring_lines": 81,
+  "new_cities": 20,
+  "new_metro_lines": 60,
+  "new_corridors": 20,
+  "Roman_airports": 29,
+  "EEZ_regions": 57,
+  "checks": [
+    "JavaScript syntax",
+    "city payload decoding",
+    "station index bounds",
+    "station-to-line attachment",
+    "ring closure",
+    "unique station coordinates",
+    "mobile compact menu",
+    "Greek default labels",
+    "restored NE Wei envelope"
+  ]
+}

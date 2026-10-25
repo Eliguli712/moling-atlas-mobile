@@ -1,0 +1,942 @@
+{
+  "q0000": [
+    {
+      "name": "内环",
+      "old_km": 37.2,
+      "km": 44.0,
+      "stops": 24,
+      "max_station_gap_km": 0.0,
+      "crossings": 18,
+      "closed": true,
+      "closure_gap_km": 0.0
+    },
+    {
+      "name": "中环",
+      "old_km": 82.6,
+      "km": 87.4,
+      "stops": 54,
+      "max_station_gap_km": 0.0,
+      "crossings": 4,
+      "closed": true,
+      "closure_gap_km": 0.0
+    },
+    {
+      "name": "外半环",
+      "old_km": 131.7,
+      "km": 149.6,
+      "stops": 79,
+      "max_station_gap_km": 0.0,
+      "crossings": 4,
+      "closed": false,
+      "closure_gap_km": null
+    },
+    {
+      "name": "都市外环",
+      "old_km": 146.2,
+      "km": 155.3,
+      "stops": 86,
+      "max_station_gap_km": 0.0,
+      "crossings": 5,
+      "closed": true,
+      "closure_gap_km": 0.0
+    },
+    {
+      "name": "江北片区环线",
+      "old_km": 53.4,
+      "km": 56.9,
+      "stops": 29,
+      "max_station_gap_km": 0.0,
+      "crossings": 2,
+      "closed": true,
+      "closure_gap_km": 0.0
+    },
+    {
+      "name": "江北郊野全环",
+      "old_km": 84.7,
+      "km": 92.5,
+      "stops": 41,
+      "max_station_gap_km": 0.0,
+      "crossings": 2,
+      "closed": true,
+      "closure_gap_km": 0.0
+    },
+    {
+      "name": "秦淮南郊全环",
+      "old_km": 110.6,
+      "km": 120.4,
+      "stops": 52,
+      "max_station_gap_km": 0.0,
+      "crossings": 2,
+      "closed": true,
+      "closure_gap_km": 0.0
+    }
+  ],
+  "q0001": [
+    {
+      "name": "环线",
+      "old_km": 58.1,
+      "km": 71.9,
+      "stops": 33,
+      "max_station_gap_km": 0.0,
+      "crossings": 2,
+      "closed": true,
+      "closure_gap_km": 0.0
+    }
+  ],
+  "q0002": [
+    {
+      "name": "内环",
+      "old_km": 48.7,
+      "km": 66.9,
+      "stops": 33,
+      "max_station_gap_km": 0.0,
+      "crossings": 0,
+      "closed": true,
+      "closure_gap_km": 0.0
+    },
+    {
+      "name": "外半环",
+      "old_km": 47.0,
+      "km": 49.7,
+      "stops": 27,
+      "max_station_gap_km": 0.0,
+      "crossings": 0,
+      "closed": false,
+      "closure_gap_km": null
+    }
+  ],
+  "q0003": [
+    {
+      "name": "广陵北西南三季环线（四分之三环）",
+      "old_km": 93.0,
+      "km": 95.9,
+      "stops": 42,
+      "max_station_gap_km": 0.0,
+      "crossings": 2,
+      "closed": false,
+      "closure_gap_km": null
+    }
+  ],
+  "q0005": [
+    {
+      "name": "环线",
+      "old_km": 38.0,
+      "km": 51.0,
+      "stops": 16,
+      "max_station_gap_km": 0.0,
+      "crossings": 0,
+      "closed": true,
+      "closure_gap_km": 0.0
+    }
+  ],
+  "q0008": [
+    {
+      "name": "环线",
+      "old_km": 32.8,
+      "km": 40.4,
+      "stops": 26,
+      "max_station_gap_km": 0.0,
+      "crossings": 0,
+      "closed": true,
+      "closure_gap_km": 0.0
+    }
+  ],
+  "q0009": [
+    {
+      "name": "半环线",
+      "old_km": 25.2,
+      "km": 46.8,
+      "stops": 17,
+      "max_station_gap_km": 0.0,
+      "crossings": 0,
+      "closed": false,
+      "closure_gap_km": null
+    }
+  ],
+  "q0010": [
+    {
+      "name": "环线",
+      "old_km": 30.2,
+      "km": 39.8,
+      "stops": 10,
+      "max_station_gap_km": 0.0,
+      "crossings": 10,
+      "closed": true,
+      "closure_gap_km": 0.0
+    }
+  ],
+  "q0012": [
+    {
+      "name": "半环线",
+      "old_km": 20.3,
+      "km": 16.8,
+      "stops": 15,
+      "max_station_gap_km": 0.0,
+      "crossings": 0,
+      "closed": false,
+      "closure_gap_km": null
+    }
+  ],
+  "q0013": [
+    {
+      "name": "半环线",
+      "old_km": 19.7,
+      "km": 18.1,
+      "stops": 15,
+      "max_station_gap_km": 0.0,
+      "crossings": 0,
+      "closed": false,
+      "closure_gap_km": null
+    }
+  ],
+  "q0014": [
+    {
+      "name": "半环线",
+      "old_km": 21.1,
+      "km": 23.4,
+      "stops": 14,
+      "max_station_gap_km": 0.0,
+      "crossings": 0,
+      "closed": false,
+      "closure_gap_km": null
+    }
+  ],
+  "q0015": [
+    {
+      "name": "环线",
+      "old_km": 29.3,
+      "km": 31.8,
+      "stops": 20,
+      "max_station_gap_km": 0.0,
+      "crossings": 0,
+      "closed": true,
+      "closure_gap_km": 0.0
+    }
+  ],
+  "q0016": [
+    {
+      "name": "半环线",
+      "old_km": 20.7,
+      "km": 23.6,
+      "stops": 15,
+      "max_station_gap_km": 0.0,
+      "crossings": 3,
+      "closed": false,
+      "closure_gap_km": null
+    }
+  ],
+  "q0017": [
+    {
+      "name": "环线",
+      "old_km": 30.1,
+      "km": 37.3,
+      "stops": 23,
+      "max_station_gap_km": 0.0,
+      "crossings": 0,
+      "closed": true,
+      "closure_gap_km": 0.0
+    }
+  ],
+  "q0018": [
+    {
+      "name": "半环线",
+      "old_km": 19.6,
+      "km": 22.2,
+      "stops": 15,
+      "max_station_gap_km": 0.0,
+      "crossings": 0,
+      "closed": false,
+      "closure_gap_km": null
+    }
+  ],
+  "q0020": [
+    {
+      "name": "环线",
+      "old_km": 29.2,
+      "km": 37.9,
+      "stops": 24,
+      "max_station_gap_km": 0.0,
+      "crossings": 0,
+      "closed": true,
+      "closure_gap_km": 0.0
+    }
+  ],
+  "q0021": [
+    {
+      "name": "半环线",
+      "old_km": 24.4,
+      "km": 56.5,
+      "stops": 18,
+      "max_station_gap_km": 0.0,
+      "crossings": 0,
+      "closed": false,
+      "closure_gap_km": null
+    }
+  ],
+  "q0031": [
+    {
+      "name": "半环线",
+      "old_km": 19.6,
+      "km": 17.7,
+      "stops": 13,
+      "max_station_gap_km": 0.0,
+      "crossings": 0,
+      "closed": false,
+      "closure_gap_km": null
+    }
+  ],
+  "q0032": [
+    {
+      "name": "半环线",
+      "old_km": 20.4,
+      "km": 16.5,
+      "stops": 12,
+      "max_station_gap_km": 0.0,
+      "crossings": 2,
+      "closed": false,
+      "closure_gap_km": null
+    }
+  ],
+  "q0034": [
+    {
+      "name": "半环线",
+      "old_km": 22.9,
+      "km": 20.5,
+      "stops": 13,
+      "max_station_gap_km": 0.0,
+      "crossings": 0,
+      "closed": false,
+      "closure_gap_km": null
+    }
+  ],
+  "w027110": [
+    {
+      "name": "宗室环线",
+      "old_km": 31.9,
+      "km": 37.5,
+      "stops": 21,
+      "max_station_gap_km": 0.0,
+      "crossings": 0,
+      "closed": true,
+      "closure_gap_km": 0.0
+    }
+  ],
+  "w0549be": [
+    {
+      "name": "宫苑环线",
+      "old_km": 71.6,
+      "km": 92.7,
+      "stops": 42,
+      "max_station_gap_km": 0.0,
+      "crossings": 2,
+      "closed": true,
+      "closure_gap_km": 0.0
+    }
+  ],
+  "w31fdfb": [
+    {
+      "name": "4号线",
+      "old_km": 24.8,
+      "km": 30.0,
+      "stops": 14,
+      "max_station_gap_km": 0.0,
+      "crossings": 2,
+      "closed": false,
+      "closure_gap_km": null
+    }
+  ],
+  "w493a32": [
+    {
+      "name": "5号线",
+      "old_km": 22.0,
+      "km": 32.1,
+      "stops": 15,
+      "max_station_gap_km": 0.0,
+      "crossings": 0,
+      "closed": false,
+      "closure_gap_km": null
+    }
+  ],
+  "w55646b": [
+    {
+      "name": "宗室环线",
+      "old_km": 29.6,
+      "km": 23.0,
+      "stops": 20,
+      "max_station_gap_km": 0.0,
+      "crossings": 0,
+      "closed": true,
+      "closure_gap_km": 0.0
+    }
+  ],
+  "w5db0df": [
+    {
+      "name": "9号线",
+      "old_km": 29.5,
+      "km": 33.1,
+      "stops": 22,
+      "max_station_gap_km": 0.0,
+      "crossings": 0,
+      "closed": false,
+      "closure_gap_km": null
+    }
+  ],
+  "w6cdf7c": [
+    {
+      "name": "宗室环线",
+      "old_km": 32.2,
+      "km": 38.0,
+      "stops": 18,
+      "max_station_gap_km": 0.0,
+      "crossings": 1,
+      "closed": true,
+      "closure_gap_km": 0.0
+    }
+  ],
+  "w8d9dc0": [
+    {
+      "name": "宗室环线",
+      "old_km": 31.7,
+      "km": 38.4,
+      "stops": 23,
+      "max_station_gap_km": 0.0,
+      "crossings": 0,
+      "closed": true,
+      "closure_gap_km": 0.0
+    }
+  ],
+  "w939f0a": [
+    {
+      "name": "6号线",
+      "old_km": 19.2,
+      "km": 32.7,
+      "stops": 13,
+      "max_station_gap_km": 0.0,
+      "crossings": 3,
+      "closed": false,
+      "closure_gap_km": null
+    }
+  ],
+  "w9b2228": [
+    {
+      "name": "宗室环线",
+      "old_km": 31.6,
+      "km": 34.9,
+      "stops": 20,
+      "max_station_gap_km": 0.0,
+      "crossings": 0,
+      "closed": true,
+      "closure_gap_km": 0.0
+    }
+  ],
+  "wa6dd42": [
+    {
+      "name": "7号线",
+      "old_km": 21.4,
+      "km": 23.2,
+      "stops": 16,
+      "max_station_gap_km": 0.0,
+      "crossings": 0,
+      "closed": false,
+      "closure_gap_km": null
+    }
+  ],
+  "waa3626": [
+    {
+      "name": "6号线",
+      "old_km": 23.3,
+      "km": 30.6,
+      "stops": 16,
+      "max_station_gap_km": 0.0,
+      "crossings": 0,
+      "closed": false,
+      "closure_gap_km": null
+    }
+  ],
+  "wbb60e3": [
+    {
+      "name": "宗室环线",
+      "old_km": 34.2,
+      "km": 40.2,
+      "stops": 24,
+      "max_station_gap_km": 0.0,
+      "crossings": 0,
+      "closed": true,
+      "closure_gap_km": 0.0
+    }
+  ],
+  "wd0d654": [
+    {
+      "name": "3号线",
+      "old_km": 20.6,
+      "km": 20.9,
+      "stops": 16,
+      "max_station_gap_km": 0.0,
+      "crossings": 1,
+      "closed": false,
+      "closure_gap_km": null
+    }
+  ],
+  "wdf268c": [
+    {
+      "name": "8号线",
+      "old_km": 26.1,
+      "km": 30.5,
+      "stops": 18,
+      "max_station_gap_km": 0.0,
+      "crossings": 0,
+      "closed": false,
+      "closure_gap_km": null
+    }
+  ],
+  "q9001": [
+    {
+      "name": "环线",
+      "old_km": 28.9,
+      "km": 39.9,
+      "stops": 21,
+      "max_station_gap_km": 0.0,
+      "crossings": 0,
+      "closed": true,
+      "closure_gap_km": 0.0
+    }
+  ],
+  "b0001": [
+    {
+      "name": "κύκλος ἐντός",
+      "old_km": 110.0,
+      "km": 129.5,
+      "stops": 88,
+      "max_station_gap_km": 0.0,
+      "crossings": 2,
+      "closed": true,
+      "closure_gap_km": 0.0
+    },
+    {
+      "name": "κύκλος μέσος",
+      "old_km": 174.6,
+      "km": 235.7,
+      "stops": 126,
+      "max_station_gap_km": 0.0,
+      "crossings": 44,
+      "closed": true,
+      "closure_gap_km": 0.0
+    },
+    {
+      "name": "ἡμικύκλιον ἐκτός",
+      "old_km": 142.1,
+      "km": 154.1,
+      "stops": 84,
+      "max_station_gap_km": 0.0,
+      "crossings": 1,
+      "closed": false,
+      "closure_gap_km": null
+    }
+  ],
+  "b0002": [
+    {
+      "name": "κύκλος ἐντός",
+      "old_km": 78.2,
+      "km": 88.3,
+      "stops": 53,
+      "max_station_gap_km": 0.0,
+      "crossings": 0,
+      "closed": true,
+      "closure_gap_km": 0.0
+    },
+    {
+      "name": "κύκλος ἐκτός",
+      "old_km": 107.9,
+      "km": 124.0,
+      "stops": 52,
+      "max_station_gap_km": 0.0,
+      "crossings": 0,
+      "closed": true,
+      "closure_gap_km": 0.0
+    }
+  ],
+  "b0003": [
+    {
+      "name": "κύκλος ἐντός",
+      "old_km": 83.4,
+      "km": 107.5,
+      "stops": 59,
+      "max_station_gap_km": 0.0,
+      "crossings": 2,
+      "closed": true,
+      "closure_gap_km": 0.0
+    },
+    {
+      "name": "κύκλος μέσος",
+      "old_km": 120.0,
+      "km": 139.3,
+      "stops": 74,
+      "max_station_gap_km": 0.0,
+      "crossings": 4,
+      "closed": true,
+      "closure_gap_km": 0.0
+    },
+    {
+      "name": "ἡμικύκλιον ἐκτός",
+      "old_km": 109.6,
+      "km": 133.1,
+      "stops": 68,
+      "max_station_gap_km": 0.0,
+      "crossings": 3,
+      "closed": false,
+      "closure_gap_km": null
+    }
+  ],
+  "b0004": [
+    {
+      "name": "κύκλος",
+      "old_km": 85.1,
+      "km": 88.4,
+      "stops": 52,
+      "max_station_gap_km": 0.0,
+      "crossings": 0,
+      "closed": true,
+      "closure_gap_km": 0.0
+    }
+  ],
+  "b0005": [
+    {
+      "name": "κύκλος ἐντός",
+      "old_km": 53.7,
+      "km": 69.8,
+      "stops": 35,
+      "max_station_gap_km": 0.0,
+      "crossings": 0,
+      "closed": true,
+      "closure_gap_km": 0.0
+    },
+    {
+      "name": "ἡμικύκλιον ἐκτός",
+      "old_km": 59.5,
+      "km": 73.4,
+      "stops": 32,
+      "max_station_gap_km": 0.0,
+      "crossings": 0,
+      "closed": false,
+      "closure_gap_km": null
+    }
+  ],
+  "b0006": [
+    {
+      "name": "κύκλος",
+      "old_km": 50.8,
+      "km": 55.1,
+      "stops": 32,
+      "max_station_gap_km": 0.0,
+      "crossings": 0,
+      "closed": true,
+      "closure_gap_km": 0.0
+    }
+  ],
+  "b0007": [
+    {
+      "name": "κύκλος",
+      "old_km": 48.0,
+      "km": 49.9,
+      "stops": 31,
+      "max_station_gap_km": 0.0,
+      "crossings": 0,
+      "closed": true,
+      "closure_gap_km": 0.0
+    }
+  ],
+  "b0008": [
+    {
+      "name": "κύκλος ἐντός",
+      "old_km": 47.8,
+      "km": 57.7,
+      "stops": 32,
+      "max_station_gap_km": 0.0,
+      "crossings": 0,
+      "closed": true,
+      "closure_gap_km": 0.0
+    },
+    {
+      "name": "ἡμικύκλιον ἐκτός",
+      "old_km": 46.7,
+      "km": 61.0,
+      "stops": 22,
+      "max_station_gap_km": 0.0,
+      "crossings": 0,
+      "closed": false,
+      "closure_gap_km": null
+    }
+  ],
+  "b0009": [
+    {
+      "name": "κύκλος",
+      "old_km": 51.4,
+      "km": 57.9,
+      "stops": 31,
+      "max_station_gap_km": 0.0,
+      "crossings": 0,
+      "closed": true,
+      "closure_gap_km": 0.0
+    }
+  ],
+  "b0010": [
+    {
+      "name": "κύκλος ἐντός",
+      "old_km": 49.7,
+      "km": 49.7,
+      "stops": 32,
+      "max_station_gap_km": 0.0,
+      "crossings": 0,
+      "closed": true,
+      "closure_gap_km": 0.0
+    },
+    {
+      "name": "ἡμικύκλιον ἐκτός",
+      "old_km": 47.2,
+      "km": 60.5,
+      "stops": 26,
+      "max_station_gap_km": 0.0,
+      "crossings": 0,
+      "closed": false,
+      "closure_gap_km": null
+    }
+  ],
+  "b0011": [
+    {
+      "name": "κύκλος",
+      "old_km": 47.7,
+      "km": 58.0,
+      "stops": 35,
+      "max_station_gap_km": 0.0,
+      "crossings": 0,
+      "closed": true,
+      "closure_gap_km": 0.0
+    }
+  ],
+  "b0012": [
+    {
+      "name": "ἡμικύκλιον",
+      "old_km": 30.1,
+      "km": 32.1,
+      "stops": 20,
+      "max_station_gap_km": 0.0,
+      "crossings": 1,
+      "closed": false,
+      "closure_gap_km": null
+    }
+  ],
+  "b0013": [
+    {
+      "name": "κύκλος",
+      "old_km": 45.3,
+      "km": 53.9,
+      "stops": 33,
+      "max_station_gap_km": 0.0,
+      "crossings": 0,
+      "closed": true,
+      "closure_gap_km": 0.0
+    }
+  ],
+  "b0015": [
+    {
+      "name": "ἡμικύκλιον",
+      "old_km": 32.9,
+      "km": 35.0,
+      "stops": 24,
+      "max_station_gap_km": 0.0,
+      "crossings": 0,
+      "closed": false,
+      "closure_gap_km": null
+    }
+  ],
+  "b0016": [
+    {
+      "name": "ἡμικύκλιον",
+      "old_km": 25.8,
+      "km": 33.0,
+      "stops": 18,
+      "max_station_gap_km": 0.0,
+      "crossings": 0,
+      "closed": false,
+      "closure_gap_km": null
+    }
+  ],
+  "b0017": [
+    {
+      "name": "ἡμικύκλιον",
+      "old_km": 25.7,
+      "km": 28.6,
+      "stops": 19,
+      "max_station_gap_km": 0.0,
+      "crossings": 0,
+      "closed": false,
+      "closure_gap_km": null
+    }
+  ],
+  "b0021": [
+    {
+      "name": "κύκλος",
+      "old_km": 79.1,
+      "km": 86.2,
+      "stops": 36,
+      "max_station_gap_km": 0.0,
+      "crossings": 0,
+      "closed": true,
+      "closure_gap_km": 0.0
+    }
+  ],
+  "b0022": [
+    {
+      "name": "ἡμικύκλιον",
+      "old_km": 25.4,
+      "km": 20.8,
+      "stops": 11,
+      "max_station_gap_km": 0.0,
+      "crossings": 0,
+      "closed": false,
+      "closure_gap_km": null
+    }
+  ],
+  "b0023": [
+    {
+      "name": "κύκλος",
+      "old_km": 91.5,
+      "km": 93.9,
+      "stops": 28,
+      "max_station_gap_km": 0.0,
+      "crossings": 2,
+      "closed": true,
+      "closure_gap_km": 0.0
+    }
+  ],
+  "j0002": [
+    {
+      "name": "半环线",
+      "old_km": 20.2,
+      "km": 23.6,
+      "stops": 15,
+      "max_station_gap_km": 0.0,
+      "crossings": 0,
+      "closed": false,
+      "closure_gap_km": null
+    }
+  ],
+  "j0004": [
+    {
+      "name": "内环",
+      "old_km": 51.0,
+      "km": 67.1,
+      "stops": 36,
+      "max_station_gap_km": 0.0,
+      "crossings": 0,
+      "closed": true,
+      "closure_gap_km": 0.0
+    },
+    {
+      "name": "外半环",
+      "old_km": 48.7,
+      "km": 57.5,
+      "stops": 31,
+      "max_station_gap_km": 0.0,
+      "crossings": 1,
+      "closed": false,
+      "closure_gap_km": null
+    }
+  ],
+  "j0005": [
+    {
+      "name": "半环线",
+      "old_km": 28.3,
+      "km": 30.8,
+      "stops": 18,
+      "max_station_gap_km": 0.0,
+      "crossings": 0,
+      "closed": false,
+      "closure_gap_km": null
+    }
+  ],
+  "j0006": [
+    {
+      "name": "半环线",
+      "old_km": 25.1,
+      "km": 29.6,
+      "stops": 19,
+      "max_station_gap_km": 0.0,
+      "crossings": 0,
+      "closed": false,
+      "closure_gap_km": null
+    }
+  ],
+  "j0007": [
+    {
+      "name": "环线",
+      "old_km": 34.6,
+      "km": 39.1,
+      "stops": 21,
+      "max_station_gap_km": 0.0,
+      "crossings": 0,
+      "closed": true,
+      "closure_gap_km": 0.0
+    }
+  ],
+  "k0001": [
+    {
+      "name": "半环线",
+      "old_km": 28.4,
+      "km": 37.8,
+      "stops": 22,
+      "max_station_gap_km": 0.0,
+      "crossings": 0,
+      "closed": false,
+      "closure_gap_km": null
+    }
+  ],
+  "k0003": [
+    {
+      "name": "环线",
+      "old_km": 31.9,
+      "km": 29.2,
+      "stops": 24,
+      "max_station_gap_km": 0.0,
+      "crossings": 4,
+      "closed": true,
+      "closure_gap_km": 0.0
+    }
+  ],
+  "k0004": [
+    {
+      "name": "半环线",
+      "old_km": 22.8,
+      "km": 32.2,
+      "stops": 19,
+      "max_station_gap_km": 0.0,
+      "crossings": 0,
+      "closed": false,
+      "closure_gap_km": null
+    }
+  ],
+  "k0005": [
+    {
+      "name": "半环线",
+      "old_km": 22.3,
+      "km": 24.0,
+      "stops": 14,
+      "max_station_gap_km": 0.0,
+      "crossings": 1,
+      "closed": false,
+      "closure_gap_km": null
+    }
+  ],
+  "k0006": [
+    {
+      "name": "环线",
+      "old_km": 34.5,
+      "km": 35.1,
+      "stops": 25,
+      "max_station_gap_km": 0.0,
+      "crossings": 0,
+      "closed": true,
+      "closure_gap_km": 0.0
+    }
+  ]
+}
