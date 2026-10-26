@@ -1,16 +1,16 @@
 {
-  "revision": "v20-r3",
+  "revision": "v21-r1",
   "source": "https://moling-atlas-mobile.eliguli712.chatgpt.site",
   "files": [
     {
       "path": "index.html",
-      "bytes": 6024632,
-      "sha256": "9cc06b1968a037969c6eabfcce1fe67552b0824f45e1bc9930cd1c38ea46e01a"
+      "bytes": 8795782,
+      "sha256": "fc3be33f2a1473da9a7e3c757b7319c0f67d450cb7babd1ef0766032ebff9de1"
     },
     {
       "path": "atlas-mobile.html",
       "bytes": 285,
-      "sha256": "cffdf3f3eb7a5997805deba919313aa4143021e1ca306522162914a33f5672a1"
+      "sha256": "181b6244df90c35aeb0c66fe88eb00b3f1db5dad79eb415cf26c67614cb54546"
     },
     {
       "path": "manifest.webmanifest",
@@ -28,69 +28,109 @@
       "sha256": "43a21d9730a45a7e64b182677437a33cf22ddb26f1a479804cf41060767fde97"
     },
     {
-      "path": "data/v20r2_a4_0.js",
-      "bytes": 6995036,
-      "sha256": "340e20ab8bac2407328e7ba282696783d540fbc1f7a460db4395ec22bb01ad1c"
+      "path": "static.html",
+      "bytes": 3794264,
+      "sha256": "0a19c4746973575674491d9e51224f609923c2b286cff4810c0360dc94b20e61"
     },
     {
-      "path": "data/v20r2_a4_1.js",
+      "path": "static-hainan-v21.svg",
+      "bytes": 34774,
+      "sha256": "1cf67643db366cd53b971736d8ea466bffcca3e43468adc7df68dfd5f129e0ba"
+    },
+    {
+      "path": "static-liaodong-v21.svg",
+      "bytes": 36171,
+      "sha256": "61ab33fb87ac6b0f30f557afe83713267a55af1058bc24453d6474458c373003"
+    },
+    {
+      "path": "static-overview-v21.svg",
+      "bytes": 3666956,
+      "sha256": "cd1fc51d3ec2ff25f5c6043d09bbd65de73e08c33dcd1e5eb6502f2539796350"
+    },
+    {
+      "path": "static-taiwan-v21.svg",
+      "bytes": 34234,
+      "sha256": "0cff690be9c9ac53daef85e1fa3cee0f04266743adba2750e440213cb636e0fe"
+    },
+    {
+      "path": "static-xuanwu-v21.svg",
+      "bytes": 1500,
+      "sha256": "6b007a76d48d8f3e679538ecb9009b973a60461c9998127d3ecee2d5f7f20897"
+    },
+    {
+      "path": "data/v21_a4_0.js",
+      "bytes": 6995768,
+      "sha256": "ac249d7b927304ac6e0593249caa4d4a1adb38d39fcbd714a07c5cab1693e437"
+    },
+    {
+      "path": "data/v21_a4_1.js",
       "bytes": 6976454,
       "sha256": "96c6a3ad2fd5c5bba2912685bb60269193e2b094103b52d09c6ea16b4bf95782"
     },
     {
-      "path": "data/v20r2_a4_2.js",
+      "path": "data/v21_a4_2.js",
       "bytes": 5326591,
       "sha256": "84fb56f034824b4b4843a6c47615e632c223b7d5204a5fd6912fafce1dd9f35b"
     },
     {
-      "path": "data/v20r2_a4_3.js",
-      "bytes": 8111513,
-      "sha256": "1e8520b2c1388fcdc7060454980d3451fe34568d8a689fc5debe2d9d80f4e58b"
+      "path": "data/v21_a4_3.js",
+      "bytes": 8106009,
+      "sha256": "986362999b700a459bc89ce3ff6b0fc865e81810f471a6e515b5a7a868a1d19e"
     },
     {
-      "path": "data/v20r2_a4_4.js",
+      "path": "data/v21_a4_4.js",
       "bytes": 2420172,
       "sha256": "473433c51bd158894f0014dba1747e92fe1f9e7bbac2534a8c9b94a10463f292"
     },
     {
-      "path": "data/v20r2_a5_0.js",
+      "path": "data/v21_a5_0.js",
       "bytes": 30401,
       "sha256": "57d89144a6214cb0aa13f55f44402be23de67f81e79a929de5cb5967c60269f4"
     },
     {
-      "path": "data/v20r2_a5_1.js",
+      "path": "data/v21_a5_1.js",
       "bytes": 7241674,
       "sha256": "ac360f4f24de17550109d8341baf29cc1f73a137db241f395f555c92d09604a8"
     },
     {
-      "path": "data/v20r2_a5_2.js",
+      "path": "data/v21_a5_2.js",
       "bytes": 6948927,
       "sha256": "684887791913bd6f0014f2a7c09d106db34bbecd6537b0e6b9e0397c39fa2551"
     },
     {
-      "path": "data/v20r2_a5_3.js",
+      "path": "data/v21_a5_3.js",
       "bytes": 413176,
       "sha256": "bfc54588e3a1eb5a4c18f70597fb82cbb04fe9f8f7fae3a8102abfaf4c7e85c4"
     },
     {
-      "path": "data/v20r2_extra.js",
-      "bytes": 57494,
-      "sha256": "88757894fd66d68e9f75ad36739836711039cd752f42126f2f4e36482d8cfa4c"
+      "path": "data/v21_d.js",
+      "bytes": 5481227,
+      "sha256": "9ed26015996ee78a01c551a67829930cb0d8fd4151de96d442691be3bcc41a2c"
     },
     {
-      "path": "data/v20r3_d.js",
-      "bytes": 5466999,
-      "sha256": "f11010f14ad9a89caa47da925f3e927e1aa2c35157b9b535160a6ac5d496b3ce"
+      "path": "data/v21_extra.js",
+      "bytes": 53114,
+      "sha256": "07e9178b2299a8e110171a1438c297f14fa6cedb889f04a48a57e9530e5e3704"
     },
     {
       "path": "sw.js",
-      "bytes": 1998,
-      "sha256": "846b71b37e08edb8885d5ee7886788d088a78227fe0cd52d5a9c7eda24916c4d"
+      "bytes": 2120,
+      "sha256": "7282d0ce99305c44e09ae818118bc3ad3e266270aa3967a371559b291fd580bc"
     },
     {
-      "path": "README_v20.md",
-      "bytes": 2501,
-      "sha256": "96d98c96221a53c5a9f37161e3640900d54e6b1f356c8c0a3c521662a8521c09"
+      "path": "README_v21.md",
+      "bytes": 2846,
+      "sha256": "478663f1e18e71d80a0eb8e9d8d6262353ac86f8477610dc47456a89d6f36c10"
+    },
+    {
+      "path": "validation-v21.json",
+      "bytes": 3235,
+      "sha256": "5cb2347fff089649cf8de41511c02c717ffcc0e80899c2647b0181c8a1d967e5"
+    },
+    {
+      "path": "render-validation-v21.json",
+      "bytes": 1269,
+      "sha256": "02976fb987e101b7d9cdf88c385016df583af37bbb577777e7bde4b73109334d"
     },
     {
       "path": "revision-v20.json",
@@ -129,113 +169,168 @@
     },
     {
       "path": "final-html.json",
-      "bytes": 320,
-      "sha256": "3510e0af803a3643ec757d767c0ebc02bc1cf40b1b237764b3a8b36e67b8ef0c"
+      "bytes": 339,
+      "sha256": "d8654122e034384f1140320424eb1a57e82eacdd93481f62eceef471387f7e54"
     },
     {
       "path": "final-zip.json",
-      "bytes": 310,
-      "sha256": "6d3b8dc24eaea9a3150c45aae13e590fc34ea8d77324f974c6f26c4b5061ebb8"
+      "bytes": 328,
+      "sha256": "70973e526b44175a7b4bcc5fea158b81208e8b8304422bbdece629ffb9b83cc0"
     },
     {
-      "path": "v20-html-01.bin",
+      "path": "v21-html-01.bin",
       "bytes": 4194304,
-      "sha256": "e4485d2c02e9610cf6e98b63f033bca938170aaff26ca9824939d1165b5bc257"
+      "sha256": "f43bf32f2337ea216780aaeb1cdd037d3455cbe5990a9b88cc4ed68215331721"
     },
     {
-      "path": "v20-html-02.bin",
+      "path": "v21-html-02.bin",
       "bytes": 4194304,
-      "sha256": "e726eae8d018b901c12748856fbb1a3e8e9901da2ff81bf54f13b07ad3f4ff6c"
+      "sha256": "91232032ff8febbdde236d0434ababc4fa8d8c7dccf38c876aeae129b9c808ec"
     },
     {
-      "path": "v20-html-03.bin",
+      "path": "v21-html-03.bin",
       "bytes": 4194304,
-      "sha256": "8570853fb00f0a7036683a64c77229b45e092957bdc8fb1b13f6cd40cc9beb4a"
+      "sha256": "5d1539e50e49200764b4b02025ebcbd8a43aadf6b0597321c64f259d99bf2602"
     },
     {
-      "path": "v20-html-04.bin",
+      "path": "v21-html-04.bin",
       "bytes": 4194304,
-      "sha256": "1c82b92bcca11339136143b49e839637fcdbde6e9eab21f49420b83009d0817d"
+      "sha256": "4de2aea829160321cf8fad9d5a88b79f768b4f97be2784ab0277e763998c3bf2"
     },
     {
-      "path": "v20-html-05.bin",
+      "path": "v21-html-05.bin",
       "bytes": 4194304,
-      "sha256": "cce8c1b9e0fd7c7dff928357d53011d2610b85ee74435f2508cb37c29f15455c"
+      "sha256": "bab600fde41db6ae2ef785613dce06dfb889a69c784f7c8dd58138df22bc080e"
     },
     {
-      "path": "v20-html-06.bin",
+      "path": "v21-html-06.bin",
       "bytes": 4194304,
-      "sha256": "9a730203c4d3b45bf755441a22ddd6fdbf74e4366e5ec86e2c0c3a45a064ca3f"
+      "sha256": "55ab73b3009901feea2e7c7bd59dd995f484193cd8fe4d9b906d5271c65373ff"
     },
     {
-      "path": "v20-html-07.bin",
+      "path": "v21-html-07.bin",
       "bytes": 4194304,
-      "sha256": "a4eb18afc631c8ab7c4213d560e09e454d85ba398162bc2f20233f2ad7ac957e"
+      "sha256": "716534206470570b679b9ae26f6111d107695e6bda4cf2b8f7d548d323a452e6"
     },
     {
-      "path": "v20-html-08.bin",
+      "path": "v21-html-08.bin",
       "bytes": 4194304,
-      "sha256": "39fc408834c9ba2fd007c101ed464d5a3ad095255e8ac17eda62eeff75341e15"
+      "sha256": "b7cb62c4ee5d9295a5e7d4540fa9f0f2d76f0259463ae88d4aead4ae727e0692"
     },
     {
-      "path": "v20-html-09.bin",
+      "path": "v21-html-09.bin",
       "bytes": 4194304,
-      "sha256": "6b4347eb40cb3a3200de0a80e35715b01c1c5c3f93df351490eefb0bc9d98a7f"
+      "sha256": "43e033309aaa84369bbab96b36193580339b82cf224f8e5ffcdb7d4da3f71810"
     },
     {
-      "path": "v20-html-10.bin",
-      "bytes": 3944474,
-      "sha256": "ee465a893bc5232c1f136db1afe8d22b8696fdc437b18e37c91dd71fa0859fe1"
-    },
-    {
-      "path": "v20-zip-01.bin",
+      "path": "v21-html-10.bin",
       "bytes": 4194304,
-      "sha256": "7ca5e1bd6d31fdf3235c21b6db2433ab07e0cd8ca298422c66d3419d4bfc58b3"
+      "sha256": "e28ec71862f9a3ee6d57759b5ff53779ab54df25ef78b64b0cf58765de1e415c"
     },
     {
-      "path": "v20-zip-02.bin",
+      "path": "v21-html-11.bin",
+      "bytes": 324181,
+      "sha256": "666fc70eba10357695003355668d91ea238fd8ed04c9ec8626621237a35d8743"
+    },
+    {
+      "path": "v21-zip-01.bin",
       "bytes": 4194304,
-      "sha256": "4316bdb748ae811423e5571f5eac4a9ae1a00e0f44b164b9843dfa9a4be8051f"
+      "sha256": "067bb42d5d5de19c0be7431ecd8462dc02ba7e0fb65385c2ca33ba31f6cbebb8"
     },
     {
-      "path": "v20-zip-03.bin",
+      "path": "v21-zip-02.bin",
       "bytes": 4194304,
-      "sha256": "397cfba86bd63ea50e261cba8ab8800716b202d0ab8d218986c7264d3439114f"
+      "sha256": "c891a981271d0a3f3a34fdf65900ceae37b75007e14cf4b5013093bc74cec126"
     },
     {
-      "path": "v20-zip-04.bin",
+      "path": "v21-zip-03.bin",
       "bytes": 4194304,
-      "sha256": "a8053b87636cc43a1973f84e3a0f7398d3bfc17e85a898fcfd56ad96a97f1d2d"
+      "sha256": "2b6eb765069ee9952bd791e6399c7ae1ac5303093a5e6db81b24210b3a440dd8"
     },
     {
-      "path": "v20-zip-05.bin",
+      "path": "v21-zip-04.bin",
       "bytes": 4194304,
-      "sha256": "2c49b9032cf21b93d94b36897d2905e72fbdc0c1318311781fcd1fdf3f2faefc"
+      "sha256": "64e86875d2ece61a9d1e560f6c81b2d469f76f0550ee840220548a2d304d9831"
     },
     {
-      "path": "v20-zip-06.bin",
+      "path": "v21-zip-05.bin",
       "bytes": 4194304,
-      "sha256": "8fd36d1789ef4d25ec8b7f3280bdabcf684953a4d2b6f73f1a6847686da785b1"
+      "sha256": "31e0f560d40fcc9dd08108da1e6c37289cfe303c01ee4ed02f57d2418365465b"
     },
     {
-      "path": "v20-zip-07.bin",
+      "path": "v21-zip-06.bin",
       "bytes": 4194304,
-      "sha256": "186ea123f21cd5f718500e7e78c15ae856d7e0a1ba77a963aaca681ed58cd0a8"
+      "sha256": "7aac5fc38fffe1a7149f9a6bbe7471dbec5d7d821b1534ce75296f8e41581de4"
     },
     {
-      "path": "v20-zip-08.bin",
+      "path": "v21-zip-07.bin",
       "bytes": 4194304,
-      "sha256": "494c7b1be8983386940a16c3fd17716ebbb78c31cde8b45cabe2c334ccb8d83d"
+      "sha256": "0fd47dc4685b93c6d1de8684b6fbb18e585e72be93ea11fe41c582ba545aed52"
     },
     {
-      "path": "v20-zip-09.bin",
+      "path": "v21-zip-08.bin",
       "bytes": 4194304,
-      "sha256": "0352201913722cf081d013b177174593cade9539661892ed2b695d4ea5428530"
+      "sha256": "8668b11ebd0d63ea3659ad0ef37c21f0bc525364a5e192eaf792849840bf54de"
     },
     {
-      "path": "v20-zip-10.bin",
-      "bytes": 4001154,
-      "sha256": "75313e7bc6af5b3a63ffa72b3a119b453a2abc46ad66d6720b358ef7843a169b"
+      "path": "v21-zip-09.bin",
+      "bytes": 4194304,
+      "sha256": "b135d011b274d9a5b2748ad37aa2ef4bd32b70ad1f1ec562e4065a562bd5ee7e"
+    },
+    {
+      "path": "v21-zip-10.bin",
+      "bytes": 4194304,
+      "sha256": "76fac2546136ddb09d9de561f1aca00f6c22c802ba7a653bba27ff85d2eb87b8"
+    },
+    {
+      "path": "v21-zip-11.bin",
+      "bytes": 2846432,
+      "sha256": "e52a78bd11e91a015cf2a588a4991f02ff9f219d8abdd13e5b17b880c8637b94"
+    },
+    {
+      "path": "广义建康-秣陵_更新前_24K.png",
+      "bytes": 11023215,
+      "sha256": "55015c443a2a51e09af478e5921a339002e8a53d62690b45c7fc3939844d9571"
+    },
+    {
+      "path": "广义建康-秣陵_更新前_轨道水系.svg",
+      "bytes": 6929520,
+      "sha256": "0f50c161eff3c0f8f069e0b1834dee16a2137f547270061030b42928c5c8f01b"
+    },
+    {
+      "path": "广义建康-秣陵_更新前后对照.svg",
+      "bytes": 9408211,
+      "sha256": "3e033d136b2a76ba753acf7847a96ba4ff2129de74ecfb168a7a3955c39589a4"
+    },
+    {
+      "path": "广义建康-秣陵_更新后_24K.png",
+      "bytes": 11893324,
+      "sha256": "8549a1d491e73d63e831d7c82848443eadd0cc9935eb2191b36024389f89bae4"
+    },
+    {
+      "path": "广义建康-秣陵_更新后_轨道水系.svg",
+      "bytes": 8098960,
+      "sha256": "5294041be987880ec9f69074bd54eeff8991d78ef60d4eba4b8624c22b513826"
+    },
+    {
+      "path": "建康-丹阳_更新前_24K.png",
+      "bytes": 13303384,
+      "sha256": "3e2a566d034dd45a7501f07c81650d1fd27ca84eedb9df8874e5500b8c86fde3"
+    },
+    {
+      "path": "建康-丹阳_更新前_地理规划.svg",
+      "bytes": 10315323,
+      "sha256": "dc9b3d5d440307d5aa9476b3dd20c787cd1b41faa1da944ed3f387ac4caf278b"
+    },
+    {
+      "path": "建康-丹阳_更新后_24K.png",
+      "bytes": 15955624,
+      "sha256": "9950affdbed2da0fad6743b9ded7b8917bea37b223ec92c6be21a0b6d58f6be4"
+    },
+    {
+      "path": "建康-丹阳_更新后_地理规划.svg",
+      "bytes": 12725361,
+      "sha256": "8b93f3271b9f9c6d6160730b649beb7781216c6e04db0b4a4e541e693fdc6d35"
     }
   ]
 }
