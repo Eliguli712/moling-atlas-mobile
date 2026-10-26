@@ -1,23 +1,23 @@
-# 南齐世界互动地图 v21
+# 南齐世界互动地图 v22
 
 [互动地图](https://eliguli712.github.io/moling-atlas-mobile/) · [静态矢量图册](https://eliguli712.github.io/moling-atlas-mobile/static.html) · [镜像](https://moling-atlas-mobile.eliguli712.chatgpt.site/)
 
-本版修复静态页面，提供五幅同步矢量地图与全部 262 城交通表；静态版无需脚本。平面与城市视图按设备像素和完整视窗覆盖复用底图，文字、站点和轨道实时绘制，放大时重新生成足够清晰的底图。支持 WebGL2 的设备使用 GPU 采样地形，其他设备使用 Canvas 回退。
+本版重建 22 条陆上交通廊道，替换新增干线中的长距离城际直连，沿连续铁路、公路参考资料保留河谷、山麓、沿岸与桥隧走向。线路属于 497 架空交通规划，现代参考资料不表示工程在当时存在。
 
-- 辽东西岸纵贯主线约 436 km，东麓纵贯辅线约 478 km；和龙—辽东货运联络约 262 km，卑沙—鸭绿江—平壤货运约 472 km。按保留等高线的高程、坡度及陆地通行约束布线，共享换乘与接轨点。
-- 台湾保留两条地铁、四条地面电车走廊，共 41 站，站距约 1.05–1.2 km；环岛常规铁路和环岛公路闭合，东岸公路采用保守的普通公路标准。
-- 海南、台湾海岸分别采用 671／406 个参考轮廓点；内部 6／7 个诸峒、诸社活动区按山脉与河谷通行代价划分，共享边界、完整覆盖陆地。
-- 建康加入玄武湖／后湖，采用六朝水域概化轮廓。拜占庭机场在区域放大后显示，名称进一步放大后出现，宏观视图保持清楚。
-- 保留 65 城、81 条地形环线、交州交通、海南跨海桥、日本八道与畿内、29 座拜占庭机场及 Αποκλειστική Οικονομική Ζώνη（ΑΟΖ）图层。北魏原始东北边界及渤海湾海域修订保持原样，默认希腊文标签。
+- 辽东西岸主线约 461 km、东麓辅线约 640 km；辅线经太子河、凤凰谷地、鸭绿江口接入沿海铁路。和龙—辽东货运联络约 408 km，卑沙—鸭绿江—平壤货运约 528 km，岫岩—庄河山地支线约 81 km。普通铁路使用深灰轨道与枕木，9 处共同站点的坐标已核对。
+- 海南沿海规划铁路约 707 km，河谷公路约 297 km，采用详细通行廊道参考。台湾环岛常规铁路约 878 km，环岛公路约 926 km；公路采用官方道路中线，保留约 4 m 几何误差范围内的转折。
+- 台湾清除横向扫描条带，保留七个诸社活动区、原海岸线及完整覆盖；原有两条地铁、四条地面电车走廊的保守方案延续。
+- 静态版同步提供五幅无脚本矢量地图及全部 262 城交通表，单 HTML 与完整 ZIP 同步更新。
+- 北魏原始东北边界、渤海湾归属、东北部族衔接、希腊文默认名称、紧凑球形按钮、玄武湖及机场分级显示继续保留。沿用 v21 实时清晰底图和分级缓存；文字、站点、线路实时绘制。
 
-直接定位：[#liaodong](https://eliguli712.github.io/moling-atlas-mobile/#liaodong)、[#taiwan](https://eliguli712.github.io/moling-atlas-mobile/#taiwan)、[#xuanwu](https://eliguli712.github.io/moling-atlas-mobile/#xuanwu)。交通和内部活动区属于架空规划；海岸与地形为概化参考，古湖岸线未作精确测绘复原。
+直接定位：[#liaodong](https://eliguli712.github.io/moling-atlas-mobile/#liaodong)、[#taiwan](https://eliguli712.github.io/moling-atlas-mobile/#taiwan)、[#xuanwu](https://eliguli712.github.io/moling-atlas-mobile/#xuanwu)。
 
-## 校验与部署
+## 校验与资料
 
-GitHub Actions 执行 `python scripts/mirror_public.py`，从镜像下载 `asset-manifest.json` 固定的 66 个文件，核验 SHA-256。HTML 从已校验的离线 ZIP 提取，确保两站使用同一版本；历史 24K PNG／SVG 下载保留。
+GitHub Actions 从镜像下载 asset-manifest.json 固定的 69 个文件，核验 SHA-256。HTML 从已校验的离线 ZIP 提取，两站使用同一版本。城市共用资料仍使用不可变 v21 文件，新主资料与离线缓存升级为 v22。站内下载菜单提供完整 ZIP 与单 HTML。
 
-[更新说明与资料来源](docs/README_v21.md) · [地形与边界检查](docs/validation-v21.json) · [渲染采样记录](docs/render-validation-v21.json)
+[更新说明](docs/README_v22.md) · [线路参考与检查](docs/corridors-v22.json) · [地理保护检查](docs/validation-v22.json) · [台湾条带修复](docs/island-bands-v22.json) · [渲染检查记录](docs/render-validation-v22.json)
 
-生成工具在 `tools/`。处理顺序为 `update_v21.py` → `regional_v21.py` → `patch_runtime_v21.py` → `static_v21.py` → `package_v21.py`，以保留的 v20 修订包为输入。新数据采用不可变的 `v21_` 文件名和独立离线缓存。站内下载菜单提供完整 ZIP 与单 HTML。旧版 HTML 归档保留在 `source-html/`。
+选定线路几何、来源和许可保留在 tools/corridors-v22.geojson。OpenStreetMap 数据依据 ODbL 1.0；Natural Earth 为公共领域参考。台湾公路来源为[內政部國土測繪中心道路中线](https://data.gov.tw/dataset/73232)，依据政府資料開放授權條款第1版使用。[OSM 署名](https://www.openstreetmap.org/copyright)。
 
-镜像源版本：`917e1373050c84b52f6754d9999dc68dc09e2003`。
+镜像源提交：`c377eebcdac17b11c36ef2cf1fd094d92e8dee70`。

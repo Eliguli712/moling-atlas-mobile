@@ -1,0 +1,78 @@
+{
+  "revision": "v22",
+  "environment": "同一云端 Chromium，Canvas 2D 回退，设备像素比 1；每次移动同一视图后同步绘制 10 帧",
+  "metric": "单次 drawNow CPU 耗时（毫秒），不等同终端设备的固定帧率",
+  "baseline_plane_ms": [
+    617,
+    524,
+    461,
+    425,
+    474,
+    446,
+    559,
+    301,
+    334,
+    367
+  ],
+  "v21_plane_ms": [
+    18,
+    25,
+    19,
+    16,
+    15,
+    10,
+    12,
+    10,
+    17,
+    11
+  ],
+  "baseline_globe_ms": [
+    490,
+    315,
+    315,
+    272,
+    240,
+    290,
+    294,
+    344,
+    305,
+    2933
+  ],
+  "v21_globe_ms": [
+    506,
+    361,
+    294,
+    167,
+    157,
+    367,
+    334,
+    317,
+    329,
+    1453
+  ],
+  "native_density_cache": "缓存只允许等倍或缩小复用，覆盖完整视图；城市文字与轨道不复用整帧截图",
+  "gpu_shader_validation": "顶点和片元着色器在 EGL / Mesa 编译、链接通过；当前浏览器没有 WebGL2，已验证 Canvas 回退",
+  "plane_median_before_ms": 453.5,
+  "plane_median_after_ms": 15.5,
+  "pan_zoom_clarity_checks": {
+    "samples": 8,
+    "minimum_cache_density": 1.0,
+    "maximum_cache_upscale": 1.0,
+    "maximum_resident_cache_pixels": 3879960,
+    "all_frames_live": true,
+    "result": "pass"
+  },
+  "v22_browser_qa": {
+    "runtime_syntax": "9 inline scripts parsed by Node VM",
+    "desktop_regions": [
+      "辽东",
+      "海南",
+      "台湾"
+    ],
+    "mobile_width_css_px": 430,
+    "taiwan_horizontal_scan_bands": "removed",
+    "ordinary_railway": "dark track and sleepers verified",
+    "static_atlas": "five vector maps and full city catalogue; script-free",
+    "prior_renderer": "v21 retained; no new device FPS claim"
+  }
+}

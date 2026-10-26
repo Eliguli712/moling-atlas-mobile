@@ -1,0 +1,173 @@
+{
+  "revision": "v22",
+  "taiwan": [
+    {
+      "city": "qv20_danshui",
+      "mode": "metro",
+      "stations": 8,
+      "interval_km": 1.2,
+      "detour_ratio": 1.0,
+      "hub": [
+        121.45476469055794,
+        25.14414181697112
+      ]
+    },
+    {
+      "city": "qv20_dadu",
+      "mode": "tram",
+      "stations": 6,
+      "interval_km": 1.12,
+      "detour_ratio": 1.0,
+      "hub": [
+        120.55128164776241,
+        24.164884966431146
+      ]
+    },
+    {
+      "city": "qv20_taijiang",
+      "mode": "metro",
+      "stations": 9,
+      "interval_km": 1.05,
+      "detour_ratio": 1.0,
+      "hub": [
+        120.2,
+        23.010000000000012
+      ]
+    },
+    {
+      "city": "qv20_lanyang",
+      "mode": "tram",
+      "stations": 6,
+      "interval_km": 1.12,
+      "detour_ratio": 1.0,
+      "hub": [
+        121.77241809155888,
+        24.684521527882055
+      ]
+    },
+    {
+      "city": "qv20_hualien",
+      "mode": "tram",
+      "stations": 6,
+      "interval_km": 1.12,
+      "detour_ratio": 1.0,
+      "hub": [
+        121.58983498589593,
+        23.995019363212872
+      ]
+    },
+    {
+      "city": "qv20_beinan",
+      "mode": "tram",
+      "stations": 6,
+      "interval_km": 1.12,
+      "detour_ratio": 1.0,
+      "hub": [
+        121.12261598710967,
+        22.78441987885714
+      ]
+    }
+  ],
+  "ring_end_gap": 0.0,
+  "xuanwu_lake_km2": 15.12,
+  "protected_frontiers_sha256": {
+    "p500": "7fa9f7d06d31566478f60ef6f4b8899f9a6be9332d9d3380ab220c444009747d",
+    "wei17": "87e6b03e90e0479afac22d66a8f649c620cbdc5e8cb602f61111012594f9f04f",
+    "wei_nominal_v15": "ba29232a9cc106c8a7ac1a58ef4e55bd90d7437664a40350a6ea611d56a48bb4",
+    "nomad_area_v16": "d15234787ff9f459ca02b078937c4c8ab72148163ec768249b0924665f3840b8"
+  },
+  "frontier_and_maritime_ownership_unchanged": true,
+  "source_urls": [
+    "https://www.xuanwuhu.net/mhls/mhls1.aspx",
+    "https://www.xuanwuhu.net/mhls/detail.aspx?id=242",
+    "https://www.igsnrr.cas.cn/cbkx/kpyd/zgdl/cnh/202009/t20200910_5692432.html",
+    "https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_admin_0_countries.geojson",
+    "https://www.neac.gov.cn/seac/ztzl/lz/gk.shtml"
+  ],
+  "liaodong_routes": [
+    {
+      "name": "辽东西岸纵贯主线",
+      "role": "main",
+      "km": 435.9,
+      "vertices": 114,
+      "land_only": true
+    },
+    {
+      "name": "辽东东麓纵贯辅线",
+      "role": "aux",
+      "km": 477.7,
+      "vertices": 74,
+      "land_only": true
+    },
+    {
+      "name": "北魏—高句丽辽河货运联络线",
+      "role": "freight",
+      "km": 262.1,
+      "vertices": 38,
+      "land_only": true
+    },
+    {
+      "name": "卑沙—鸭绿江—平壤货运干线",
+      "role": "freight",
+      "km": 472.0,
+      "vertices": 90,
+      "land_only": true
+    }
+  ],
+  "island_partitions": [
+    {
+      "island": "海南",
+      "coast_vertices": 671,
+      "partitions": 6,
+      "coverage_gap_km2": 0,
+      "overlap_km2": 0
+    },
+    {
+      "island": "台湾",
+      "coast_vertices": 406,
+      "partitions": 7,
+      "coverage_gap_km2": 0,
+      "overlap_km2": 0
+    }
+  ],
+  "northern_wei_unchanged_sha256": "f6feca41580d26be8210b0041bb8b6c0bf46c35df22fa3868ac3b07469237475",
+  "corridor_validation": {
+    "protected_data_unchanged": true,
+    "protected_geography_sha256": {
+      "p500": "7fa9f7d06d31566478f60ef6f4b8899f9a6be9332d9d3380ab220c444009747d",
+      "wei17": "87e6b03e90e0479afac22d66a8f649c620cbdc5e8cb602f61111012594f9f04f",
+      "world": "bfcffede81750974ee243c100557e50dfab8e8b3b612ba4ca237a73dd252362d",
+      "v20_border": "e4907af14a7e0b0b39675f20a64f6fd45d19de4a3a0b386f2ea9f3d421030991",
+      "nomad_area_v16": "d15234787ff9f459ca02b078937c4c8ab72148163ec768249b0924665f3840b8",
+      "extension_eez": "f9a6d5a9a5029077ca12122a041cb5ce96656e2af2dc36ff0168d9dc2e5853de",
+      "extension_japan": "c31ad5d2ffa6cc98a62eb5e39c4f2ebca62a7f95d59971c04410b256362d1df0",
+      "extension_airports": "b2036b9639e2d34727694f17be894f7b5b0811121a741a7ef73383e4c78464ab",
+      "extension_bohai_frontier_repair": "1ff6a7a79a4111356cb16c4ad836e014f07b25f5f6de5360b571552d7c92df6d",
+      "coast_0": "4782de9b00a32197ce7a77d3f55513822062ffb27aca7d2e8bbd1a9fc2e34186",
+      "coast_1": "aa462f2c0fec456c4a2d9497b652f752f14ed63c0a9302e955f65cbe7d9c75ed"
+    },
+    "routes_retraced": 22,
+    "liaodong_shared_station_checks": 9,
+    "endpoints_match": true,
+    "island_rings_closed": true,
+    "ordinary_railway_symbols": "dark centerline and cross sleepers",
+    "taiwan_scan_band_repair": {
+      "revision": "v22",
+      "island": "台湾",
+      "activity_areas": 7,
+      "scan_fragments_before": [
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1
+      ],
+      "coverage_gap_deg2": 0.0,
+      "overlap_deg2": -2.0872192862952943e-14,
+      "coastline_unchanged": true,
+      "method": "保留各区连续主区、清除孤立扫描行碎片，共享边界统一概化；不改海岸"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "revision": "v22",
+  "island": "台湾",
+  "activity_areas": 7,
+  "scan_fragments_before": [
+    1,
+    1,
+    1,
+    2,
+    1,
+    1,
+    1
+  ],
+  "coverage_gap_deg2": 0.0,
+  "overlap_deg2": -2.0872192862952943e-14,
+  "coastline_unchanged": true,
+  "method": "保留各区连续主区、清除孤立扫描行碎片，共享边界统一概化；不改海岸"
+}
