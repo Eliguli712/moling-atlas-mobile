@@ -1,11 +1,11 @@
 {
-  "revision": "v23-r1",
+  "revision": "v23-r2",
   "source": "https://moling-atlas-mobile.eliguli712.chatgpt.site",
   "files": [
     {
       "path": "index.html",
-      "bytes": 10329904,
-      "sha256": "de9e7b67812faeb0e65b5658773587d879f9e699a52b4d8cbb9a3e03989018cc"
+      "bytes": 10331105,
+      "sha256": "0151d60c2560fb97c57d3b8ab7ce20944a3fa178e5d3b49cb0e64356a9c8f9d9"
     },
     {
       "path": "atlas-mobile.html",
@@ -115,7 +115,7 @@
     {
       "path": "sw.js",
       "bytes": 2148,
-      "sha256": "d75e09449bb82273ef1f829b14a15dc2acf71a9efc3e30c15d7073e6275b0ce9"
+      "sha256": "431941dd1c7644b3b14db595fb662d51fdd47ee9b589142c667af098a4a23a04"
     },
     {
       "path": "README_v21.md",
@@ -129,8 +129,8 @@
     },
     {
       "path": "README_v23.md",
-      "bytes": 2462,
-      "sha256": "1ce9991f8cdd3b30a67eb1b8b8a7249ac6d3825e5659bfc7082e1effafab4c12"
+      "bytes": 2727,
+      "sha256": "ea052a9684be3a6a3dca731e39135801f6234d2f4c758ba63371efa9bdf34f7e"
     },
     {
       "path": "corridors-v22.json",
@@ -199,8 +199,8 @@
     },
     {
       "path": "render-validation-v23.json",
-      "bytes": 1670,
-      "sha256": "db356f3d5e0164057646d25613781375b2e36991f02369eeffd7ed9fb49d0a24"
+      "bytes": 2736,
+      "sha256": "02dc545bcbf7b99362b2f20d7e303fd111adc9b59bc54640b316255ef6f1ca1a"
     },
     {
       "path": "landmarks-research-v23.json",
@@ -210,12 +210,12 @@
     {
       "path": "final-html.json",
       "bytes": 339,
-      "sha256": "7d68bf037469eb4e6e67131c4f1258f5306061b186dbe3f930f0118fff01025e"
+      "sha256": "34c87128e3ec25d5b1cf46c41cce3f07d099415ade90dafc29be551b6cfd6df1"
     },
     {
       "path": "final-zip.json",
       "bytes": 346,
-      "sha256": "8fe9f8b7997186fd26782140ea767b0c849b575c0075eb8ab80132b8a8460493"
+      "sha256": "fc6beab39fbe0dacdf8d34243c2b5390204917a8d3ca211260a7ae010f8eee03"
     },
     {
       "path": "v23-html-01.bin",
@@ -269,68 +269,68 @@
     },
     {
       "path": "v23-html-11.bin",
-      "bytes": 2638848,
-      "sha256": "9c1778e57dbc5545f85e42d5529b3750867ee53a5d9f716330bffd8ce599200b"
+      "bytes": 2639313,
+      "sha256": "6e76a0f818bc0facd93c38050b10a0f47907b7ce02ba7a3d107be7334fdf289b"
     },
     {
       "path": "v23-zip-01.bin",
       "bytes": 4194304,
-      "sha256": "8eae30a7c62a30203fb018c3a2d2f8effe695c7ef091d3e74bbb4f21d01c126e"
+      "sha256": "556de050cad59a0e7fb6b410e6775de32a474c571ddbaff2d31c5a40233b7cb4"
     },
     {
       "path": "v23-zip-02.bin",
       "bytes": 4194304,
-      "sha256": "34917886db3c5633e7890b91f03a0b4a74fd5397511342251dbf5434615f7717"
+      "sha256": "d60c74987c6987f1510d85ae3d97ae33f21ccef52f464de56cc0f72e33820bd5"
     },
     {
       "path": "v23-zip-03.bin",
       "bytes": 4194304,
-      "sha256": "af51179704f0d29432e106081f28a2050bb88c762d423a6f624cb7b2a6ac3b76"
+      "sha256": "b40c1a92d9b02e269c5ef2197255b44d0ba8929d17f4dfa1abd6a8a96ba46d3d"
     },
     {
       "path": "v23-zip-04.bin",
       "bytes": 4194304,
-      "sha256": "9bbd8e3526650b0c3d665714d7cbe28407ecfda73bdbd7393e57c8e76686a0af"
+      "sha256": "66f8a6ab3a183e2e4f2203cd83c326c7910ef442995fbfb9d3a3873ffd4c8502"
     },
     {
       "path": "v23-zip-05.bin",
       "bytes": 4194304,
-      "sha256": "1d1229bb3a612447ea13ea1b64da3219fd73b967d223846ee3aece3ee8101dec"
+      "sha256": "252e2827bb54d83470cd09a9c5373937ea4b56caaf6babe59a3cbe6146911da7"
     },
     {
       "path": "v23-zip-06.bin",
       "bytes": 4194304,
-      "sha256": "0d2d6971834cdb29a4094cbd9d2e88c14dfb91069244efd6968b465e2fb769e3"
+      "sha256": "aa3b79585e8fe27e2d6bde96170e5f4de656398c21973e328b405bd22a218f29"
     },
     {
       "path": "v23-zip-07.bin",
       "bytes": 4194304,
-      "sha256": "bcdb4f478997773c97b4b023b816ce1b486c233c306c701b817d61453153d001"
+      "sha256": "77ff1dae71f5259a3e34ec32298dc39a5c9618fded152522118ce7202033f35b"
     },
     {
       "path": "v23-zip-08.bin",
       "bytes": 4194304,
-      "sha256": "daffa8a66e840ccbb2d903667353835ea7d164592fc43bbde7cef7bf7abfacd5"
+      "sha256": "1dff0a0a763bb6b75b2a14f75b47c011fa63b7feca1b1df8d42d8aa26cb87e63"
     },
     {
       "path": "v23-zip-09.bin",
       "bytes": 4194304,
-      "sha256": "371391d16559fca3da0e8a22e540b242a889f34dd2491bf467524bbb5af9cd59"
+      "sha256": "47876146d0d38044c9f1d88cccf58d31a23234d84769e381b3d98b5556426712"
     },
     {
       "path": "v23-zip-10.bin",
       "bytes": 4194304,
-      "sha256": "6401f13e87ea7e996f5d36331d22ac59028d7149271b5058be530839754f1ce9"
+      "sha256": "0094fb5861a598c526abc7282b5f19566d4af6428a16fe0743e590bd70e98688"
     },
     {
       "path": "v23-zip-11.bin",
       "bytes": 4194304,
-      "sha256": "fb163073c60af0246d38453582c532145dbb12225a52382ba990f7ac6f73482e"
+      "sha256": "41edbc78640db6e3054d14c4a25bb9774688c4fc242c0a0e3230754ef83fad3c"
     },
     {
       "path": "v23-zip-12.bin",
-      "bytes": 1781660,
-      "sha256": "761ee72f9d194be973245ab21846db48561433f6c4f524d76ca391fbc9fe7682"
+      "bytes": 1782654,
+      "sha256": "c13b68560914b366cc70edcdcc2ae21b7d8b4e37093b4d675759495336049588"
     },
     {
       "path": "广义建康-秣陵_更新前_24K.png",

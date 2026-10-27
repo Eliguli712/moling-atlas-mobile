@@ -7,6 +7,7 @@ on:
       - '.github/workflows/deploy.yml'
       - 'scripts/mirror_public.py'
       - 'asset-manifest.json'
+      - 'asset-manifest-v23.json'
       - 'index.html'
       - 'atlas-mobile.html'
       - 'source-html/**'
@@ -29,7 +30,7 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
-      - name: Build verified atlas v23 distribution
+      - name: Build verified atlas distribution
         run: python3 scripts/mirror_public.py
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
