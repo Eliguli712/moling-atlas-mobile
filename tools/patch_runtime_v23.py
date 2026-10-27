@@ -2,7 +2,7 @@ from pathlib import Path
 import json,re,sys
 R=Path(__file__).resolve().parents[1];p=R/'dist/index.html';s=p.read_text()
 if '/* v23: land-constrained' in s:raise SystemExit('already v23')
-s=s.replace('data/v22_d.js','data/v23_d.js').replace('data/v21_','data/v23_').replace('v=22-r1','v=23-r1').replace('南齐世界地图 v22','南齐世界地图 v23').replace(' · v22',' · v23')
+s=s.replace('data/v22_d.js','data/v23_d.js').replace('data/v21_','data/v23_').replace('v=22-r1','v=23-r2').replace('南齐世界地图 v22','南齐世界地图 v23').replace(' · v22',' · v23')
 sys.path.insert(0,str(R/'tools'));import revise_atlas_v23 as m
 intro='<details id="worldview23" open><summary>Weltentwurf · Κοσμοπλασία · 架空世界观</summary><div class="worldview-columns"><p lang="de">Ein alternativer Horizont des Jahres 497: Historische Städte verbinden sich durch erfundene moderne Verkehrsnetze. Küsten, Flüsse und Berge leiten die Planung.</p><p lang="el">Ένας εναλλακτικός κόσμος του 497: ιστορικές πόλεις συνδέονται με φανταστικά σύγχρονα δίκτυα. Ακτές, ποταμοί και βουνά καθοδηγούν τον σχεδιασμό.</p></div><details class="worldview-full"><summary>Ausführliche Weltbeschreibung · Πλήρης περιγραφή</summary><div class="worldview-columns"><p lang="de">'+m.DE+'</p><p lang="el">'+m.EL+'</p></div></details></details>'
 i=s.index('</header>',s.index('<div class="app"'))+len('</header>');s=s[:i]+intro+s[i:]

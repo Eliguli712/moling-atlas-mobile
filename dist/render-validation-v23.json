@@ -1,0 +1,108 @@
+{
+  "revision": "v23-r2",
+  "date": "2026-10-27",
+  "mobile_viewport": [
+    430,
+    915
+  ],
+  "checks": {
+    "german_greek_setting": true,
+    "greek_default_labels": true,
+    "expanded_first_visit_legend": true,
+    "xuanwu_lake_metro_avoids_water": true,
+    "jinan_10_metro_lines": true,
+    "istanbul_no_offshore_ring": true,
+    "historic_and_modern_places_separated": true,
+    "shopping_makerspace_cinema_printing_parks": true,
+    "static_atlas_valid_svg": true,
+    "single_idempotent_fallback": true,
+    "projection_shortcut_state_synced": true,
+    "projection_preserves_local_scale": true,
+    "projection_transition_avoids_fullsize_snapshot": true
+  },
+  "sphere": {
+    "mobile_geometry_budget_bytes": 25165824,
+    "active_lod_per_geometry": 1,
+    "viewport_margin_css_px": 40,
+    "live_symbols": true,
+    "longitude_normalization": "constant-time modulo",
+    "validation_limit": "Cloud Chrome; physical iOS Safari crash behavior not directly tested.",
+    "compact_float32_units": true,
+    "per_ring_view_rejection": true,
+    "observed_geometry_cache_bytes": 18897760,
+    "desktop_canvas_fallback_test": {
+      "viewport": "desktop map, native DPR 1",
+      "view": {
+        "lon": 99,
+        "lat": 31,
+        "k": 18
+      },
+      "frames": 12,
+      "frame_ms": [
+        2045,
+        158,
+        233,
+        424,
+        312,
+        326,
+        270,
+        277,
+        163,
+        143,
+        157,
+        132
+      ],
+      "before_per_ring_culling_frame_ms": [
+        8997,
+        717,
+        1192,
+        518,
+        680,
+        530,
+        179,
+        4424,
+        385,
+        412,
+        614,
+        729
+      ],
+      "note": "云端Chrome的Canvas回退测试；纹理预热、调度与系统负载会影响耗时，不作为iPhone帧率保证。"
+    },
+    "cull_before_vector_allocation": true,
+    "r2_comparison": {
+      "environment": "Cloud Chrome, desktop viewport, native DPR 1, Canvas2D fallback",
+      "view": {
+        "lon": 99,
+        "lat": 31,
+        "k": 18
+      },
+      "pan_step_degrees": 2,
+      "frames": 8,
+      "before_frame_ms": [
+        798,
+        68,
+        69,
+        78,
+        80,
+        113,
+        77,
+        71
+      ],
+      "after_frame_ms": [
+        359,
+        77,
+        66,
+        67,
+        75,
+        75,
+        66,
+        67
+      ],
+      "before_geometry_cache_bytes": 13637620,
+      "after_geometry_cache_bytes": 3848100,
+      "before_mean_ms": 169.25,
+      "after_mean_ms": 106.5,
+      "note": "同一份数据与视图的两个本地对照页面。首次帧包含坐标缓存生成；后续帧受纹理预热和系统调度影响。该结果不是iPhone Safari实机帧率保证。"
+    }
+  }
+}

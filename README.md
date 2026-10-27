@@ -1,11 +1,14 @@
-# 秣陵世界互动地图 · v23
+# 南齐世界互动地图 v23-r2
 
-[互动地图](https://eliguli712.github.io/moling-atlas-mobile/) · [静态图册](https://eliguli712.github.io/moling-atlas-mobile/static.html)
+互动地图、静态矢量图册与离线包共享 `asset-manifest-v23.json` 的 SHA-256 校验清单。GitHub Pages 与镜像站发布同一份资源。
 
-德国与希腊语世界观、地形约束交通、东北架空疆界、晋安地铁、逐城生活设施和可追溯的历史地标。
+- 德文、希腊文架空世界观及初次展开的图例；希腊语为默认名称语言。
+- 地形约束城市交通，地铁避开湖面，环路保留在陆地；晋安新增子城线及闽江北岸线。
+- 辽东主辅铁路、跨境货运使用内地铁路样式；东北归属和缓冲区遵循指定的架空设定。
+- 海南、台湾内部共享平滑边界；琼州西桥为琥珀色，东桥为蓝色。
+- 每城补充现代生活设施；独立核实的历史遗址附来源，现代设施标为架空规划。
+- 球面按视口排除不可见轮廓，再生成有预算的坐标缓存；切换视图保持中心和比例，球形按钮状态同步。投影切换直接显示实时绘制，减少大尺寸过渡截图占用。
 
-262 城；58,797 条道路；2,970 条现行地铁线；2,365 个城市生活与历史参照点。道路海湖相交与地铁湖面相交检查为零。现代设施与交通为架空规划，历史遗址另附年代、来源和近似位置。
+`npm run build` 恢复生成资源并按清单校验到干净的 `out` 目录；`node tools/restore-generated.cjs` 可单独恢复。GitHub Pages 的 `tools/mirror_public_v23.py` 从镜像站下载校验后的资源。
 
-发布由 `scripts/mirror_public.py` 按 `asset-manifest.json` 下载并验证完整 SHA-256 数据，HTML 从经验证的离线 ZIP 提取，随后部署至 GitHub Pages。互动页中的离线下载包含完整页面和地图数据。
-
-[版本说明](docs/v23/README_v23.md) · [几何验证](docs/v23/validation-v23.json) · [渲染检查](docs/v23/render-validation-v23.json) · [地标来源](docs/v23/landmarks-research-v23.json)。规划源文件在 tools/；生成器使用 v22 基线数据，公开构建使用已验证的 v23 发行文件，无需重新生成规划。
+静态版入口 `static.html`。更新、验证范围及资料见 `dist/README_v23.md`、`dist/validation-v23.json`、`dist/render-validation-v23.json`。云端 Chrome 验证不等同于 iPhone Safari 实机验证。现代交通、设施及疆界属于497架空世界规划。
