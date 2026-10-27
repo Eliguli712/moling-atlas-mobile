@@ -1,0 +1,140 @@
+{
+  "revision": "v23",
+  "researched_on": "2026-10-27",
+  "coordinate_note": "WGS84，城市尺度近似定位；不推定古建筑轮廓",
+  "landmarks": [
+    {
+      "city_key": "q0000",
+      "n": "台城宫城遗址",
+      "el": "Ανακτορικός χώρος της Τζιανκάνγκ",
+      "c": [
+        118.794,
+        32.057
+      ],
+      "status": "史载宫城／考古遗址参照",
+      "period": "东晋、南朝宫城；约497年历史参照",
+      "basis": "南京地方志区分六朝宫城与后世玄武湖南岸同名城墙；位置为城市尺度近似点，保留考古范围的不确定性。",
+      "accuracy_m": 1300,
+      "sources": [
+        {
+          "title": "南京市地方志办公室：千年沧桑话台城",
+          "url": "https://dfz.nanjing.gov.cn/gzdt/202502/t20250207_5069953.html"
+        }
+      ]
+    },
+    {
+      "city_key": "q0065",
+      "n": "晋安郡子城历史城址区",
+      "el": "Ιστορικός πυρήνας της Τζινάν",
+      "c": [
+        119.298,
+        26.09
+      ],
+      "status": "史载城址范围／现代城市叠压",
+      "period": "西晋282年严高营建子城",
+      "basis": "福州地方志材料记载严高在冶城之南修筑子城，并开凿东西湖。",
+      "accuracy_m": 1200,
+      "sources": [
+        {
+          "title": "福州市政府：晋安郡首任太守——严高",
+          "url": "https://www.fuzhou.gov.cn/zgfzzt/zjrc/mdfc/mdrj/201811/t20181112_2674287.htm"
+        }
+      ]
+    },
+    {
+      "city_key": "b0001",
+      "n": "狄奥多西陆墙历史地标",
+      "el": "Θεοδοσιανά τείχη",
+      "c": [
+        28.923,
+        41.002
+      ],
+      "status": "早期建筑遗存／历代修复",
+      "period": "5世纪；447年形成第二道防御线",
+      "basis": "UNESCO记录狄奥多西二世陆墙及447年的第二道防线；现存遗构含后世维护与修复。",
+      "accuracy_m": 500,
+      "sources": [
+        {
+          "title": "UNESCO：Historic Areas of Istanbul",
+          "url": "https://whc.unesco.org/en/list/356/"
+        }
+      ]
+    },
+    {
+      "city_key": "wfaccf7",
+      "n": "云冈石窟 · 昙曜五窟历史地标",
+      "el": "Σπήλαια Γιουνγκάνγκ",
+      "c": [
+        113.133,
+        40.11
+      ],
+      "status": "北魏石窟遗存",
+      "period": "460—525年营造；早期五窟460—465年",
+      "basis": "UNESCO将云冈石窟营造期定为460—525年，标点表示近似遗产地点。",
+      "accuracy_m": 500,
+      "sources": [
+        {
+          "title": "UNESCO：Yungang Grottoes",
+          "url": "https://whc.unesco.org/en/list/1039/"
+        }
+      ]
+    },
+    {
+      "city_key": "w0549be",
+      "n": "龙门石窟 · 早期造像区",
+      "el": "Σπήλαια Λονγκμέν · πρώιμη φάση",
+      "c": [
+        112.478,
+        34.559
+      ],
+      "status": "北魏起建的石窟遗址／后续历代扩建",
+      "period": "493年起营造；497年仅作早期阶段参照",
+      "basis": "UNESCO申报材料记载493年开凿。后世大窟与大像不作为497年原貌。",
+      "accuracy_m": 1000,
+      "sources": [
+        {
+          "title": "UNESCO：Longmen Grottoes nomination",
+          "url": "https://whc.unesco.org/uploads/nominations/1003.pdf"
+        }
+      ]
+    },
+    {
+      "city_key": "wf466e6",
+      "n": "汉长安未央宫遗址",
+      "el": "Ανάκτορο Ουεϊγιάνγκ · αρχαιολογικός χώρος",
+      "c": [
+        108.861,
+        34.304
+      ],
+      "status": "汉代宫城考古遗址",
+      "period": "西汉宫城遗址；497年作为历史遗迹参照",
+      "basis": "UNESCO丝路遗产点包含西汉长安未央宫遗址；不推定497年完整宫殿仍然存续。",
+      "accuracy_m": 1200,
+      "sources": [
+        {
+          "title": "UNESCO：Silk Roads property component maps",
+          "url": "https://whc.unesco.org/en/list/1442/maps/"
+        }
+      ]
+    },
+    {
+      "city_key": "k0008",
+      "n": "月城宫城遗址",
+      "el": "Ανακτορικός χώρος Ουόλσονγκ",
+      "c": [
+        129.221,
+        35.83
+      ],
+      "status": "新罗宫城考古遗址",
+      "period": "新罗历史城址；遗存与考古材料跨多个时期",
+      "basis": "UNESCO庆州历史区月城片区包含宫城遗址。图点作城市尺度历史参照，不补绘后世天文台或宫殿轮廓。",
+      "accuracy_m": 700,
+      "sources": [
+        {
+          "title": "UNESCO：Gyeongju Historic Areas",
+          "url": "https://whc.unesco.org/en/list/976/"
+        }
+      ]
+    }
+  ]
+}

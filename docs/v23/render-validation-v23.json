@@ -1,0 +1,69 @@
+{
+  "revision": "v23",
+  "date": "2026-10-27",
+  "mobile_viewport": [
+    430,
+    915
+  ],
+  "checks": {
+    "german_greek_setting": true,
+    "greek_default_labels": true,
+    "expanded_first_visit_legend": true,
+    "xuanwu_lake_metro_avoids_water": true,
+    "jinan_10_metro_lines": true,
+    "istanbul_no_offshore_ring": true,
+    "historic_and_modern_places_separated": true,
+    "shopping_makerspace_cinema_printing_parks": true,
+    "static_atlas_valid_svg": true,
+    "single_idempotent_fallback": true
+  },
+  "sphere": {
+    "mobile_geometry_budget_bytes": 25165824,
+    "active_lod_per_geometry": 1,
+    "viewport_margin_css_px": 40,
+    "live_symbols": true,
+    "longitude_normalization": "constant-time modulo",
+    "validation_limit": "Cloud Chrome; physical iOS Safari crash behavior not directly tested.",
+    "compact_float32_units": true,
+    "per_ring_view_rejection": true,
+    "observed_geometry_cache_bytes": 18897760,
+    "desktop_canvas_fallback_test": {
+      "viewport": "desktop map, native DPR 1",
+      "view": {
+        "lon": 99,
+        "lat": 31,
+        "k": 18
+      },
+      "frames": 12,
+      "frame_ms": [
+        2045,
+        158,
+        233,
+        424,
+        312,
+        326,
+        270,
+        277,
+        163,
+        143,
+        157,
+        132
+      ],
+      "before_per_ring_culling_frame_ms": [
+        8997,
+        717,
+        1192,
+        518,
+        680,
+        530,
+        179,
+        4424,
+        385,
+        412,
+        614,
+        729
+      ],
+      "note": "云端Chrome的Canvas回退测试；纹理预热、调度与系统负载会影响耗时，不作为iPhone帧率保证。"
+    }
+  }
+}

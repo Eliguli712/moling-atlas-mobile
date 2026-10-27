@@ -1,0 +1,16 @@
+{
+  "revision": "v23",
+  "checks": {
+    "cities": 262,
+    "facilities": 2365,
+    "roads": 58797,
+    "metro_lines": 2970,
+    "offshore_road_km": 0.0,
+    "lake_crossing_km": 0.0
+  },
+  "unique_city_seeds": 262,
+  "wei_koguryo_shared_border_degrees": 2.8198165060456537,
+  "wei_koguryo_overlap_degrees2": 9.21626802429286e-12,
+  "errors": [],
+  "independently_sourced_landmarks": 7
+}
