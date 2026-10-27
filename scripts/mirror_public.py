@@ -1,4 +1,4 @@
-"""Build GitHub Pages from the exact SHA-256-pinned v23 distribution."""
+"""Build GitHub Pages from the exact SHA-256-pinned v24 distribution."""
 from concurrent.futures import ThreadPoolExecutor
 from hashlib import sha256
 from io import BytesIO
@@ -26,7 +26,7 @@ def main():
                 if len(data)==entry['bytes'] and sha256(data).hexdigest()==entry['sha256']:save(entry,data);return
         for attempt in range(3):
             try:
-                req=Request(source+'/'+quote(name,safe='/'),headers={'User-Agent':'MolingAtlasPublisher/v23'})
+                req=Request(source+'/'+quote(name,safe='/'),headers={'User-Agent':'MolingAtlasPublisher/v24'})
                 with urlopen(req,timeout=120) as response:data=response.read()
                 save(entry,data);return
             except Exception:
@@ -44,5 +44,5 @@ def main():
         for entry in manifest['files']:
             if entry['path'].endswith('.html'):save(entry,archive.read(entry['path']))
     (OUT/'.nojekyll').write_text('')
-    print('Built',len(manifest['files']),'verified v23 assets')
+    print('Built',len(manifest['files']),'verified v24 assets')
 if __name__=='__main__':main()

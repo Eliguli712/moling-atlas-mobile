@@ -8,6 +8,7 @@ on:
       - 'scripts/mirror_public.py'
       - 'asset-manifest.json'
       - 'asset-manifest-v23.json'
+      - 'asset-manifest-v24.json'
       - 'index.html'
       - 'atlas-mobile.html'
       - 'source-html/**'

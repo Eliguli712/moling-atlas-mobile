@@ -1,13 +1,15 @@
-# 南齐世界互动地图 v23-r2
+# 南齐世界互动地图 v24-r1
 
-GitHub Pages 与镜像站通过 `asset-manifest.json` 的 SHA-256 校验清单发布同一份互动地图、静态矢量图册及离线包。`asset-manifest-v23.json` 保存本版对应的清单。
+[打开地图](https://eliguli712.github.io/moling-atlas-mobile/) · [镜像](https://moling-atlas-mobile.eliguli712.chatgpt.site/)
 
-本轮修复球形按钮状态和投影切换：保留视图中心与比例，直接绘制当前画面；先剔除视口外轮廓，再分配球面坐标缓存。云端 Chrome 八帧对照的缓存由13.6 MB降至3.8 MB；iPhone Safari 实机性能尚未验证。
+- 北魏东北外界与州郡县恢复保留的 v22 轮廓，和龙恢复北魏归属。
+- 德文、希腊语世界观可折叠，首次默认收起。希腊语仍为默认名称语言。
+- 海南四城、台湾六城分别按实际高程、海岸、河流与道路重做保守轨道规划；小城市优先轻轨与公交，取消模板式环线。
+- 晋安新增东山—鼓山山麓线和北站接驳支线。
+- 视口控制影像层级、解码并发和缓存；关闭城市或切入后台释放画布及 GPU 资源；快速切换时忽略旧请求。
 
-地图前提供德文与希腊文架空世界观，名称语言默认希腊语。辽东主辅铁路及跨境货运使用统一铁路符号；城市交通按海陆、河湖与地形约束，玄武湖附近地铁绕开湖面。晋安增加子城线与闽江北岸线。海南、台湾内部共享平滑边界，琼州西桥为琥珀色、东桥为蓝色。262城补充购物、餐饮、影院、创作工坊、三维打印及公园规划，独立核实的历史遗址另附来源。
+`asset-manifest.json` 指定当前发布版本，`asset-manifest-v24.json` 保留本次完整 SHA-256 清单。GitHub Actions 运行 `python3 scripts/mirror_public.py`，校验全部 78 个公共文件，并从校验后的离线 ZIP 恢复原始 HTML。互动页面、静态版与离线包和镜像使用相同资源。
 
-## 构建与发布
+更新说明和逐项检查见 `dist/README_v24.md`、`dist/planning-v24.json`、`dist/validation-v24.json`、`dist/render-validation-v24.json`。修订脚本在 `tools/`，其中历史重建辅助脚本引用完整源仓库保留的提交；此镜像仓库的公开构建使用上述校验下载脚本。
 
-运行 `python3 scripts/mirror_public.py`，按清单从镜像获取资源，验证文件长度、SHA-256、离线ZIP的CRC并恢复原始HTML，输出到 `site/`。GitHub Actions `.github/workflows/deploy.yml` 在清单或构建脚本更新后自动构建和部署。
-
-生成及修订代码保存在 `tools/`；当前发布的完整页面与资源包含在已校验的离线包中。现代交通、设施和东北边界属于497架空世界设定。静态入口 `static.html`；更新和验证范围见 `dist/README_v23.md`、`dist/render-validation-v23.json`。
+云端 Chrome 与模拟手机尺寸检查已完成；iPhone Safari 实机和硬件 WebGL 尚未验证。现代设施、交通和边界属于 497 架空世界规划，未作施工可行性论证。

@@ -1,0 +1,47 @@
+{
+  "revision": "v24-r1",
+  "environment": "Cloud Chrome, Canvas2D fallback; desktop and 430x820 CSS px iframe with synthetic DPR3/coarse pointer",
+  "physical_iphone_safari_tested": false,
+  "webgl_hardware_tested": false,
+  "observations": {
+    "default_worldview_closed": true,
+    "default_language": "el",
+    "desktop_initial_decoded_raster_pixels": 6881792,
+    "mobile_initial_decoded_raster_pixels": 21874989,
+    "mobile_raster_budget_pixels": 24000000,
+    "mobile_globe_decoded_raster_pixels": 20355480,
+    "mobile_decode_peak": 1,
+    "desktop_decode_peak": 2,
+    "mobile_globe_geometry_bytes": 2299020,
+    "mobile_globe_geometry_budget_bytes": 25165824,
+    "city_open_world_raster_pixels": 0,
+    "closed_city_canvas": [
+      1,
+      1
+    ],
+    "rapid_switch_final_city": "淡水津",
+    "jinan_metro_lines": 12,
+    "jinan_metro_stations": 97,
+    "daner_mode": "轻轨",
+    "danshui_metro_lines": 1,
+    "danshui_light_rail_km": 4.096
+  },
+  "frame_time_samples_ms": {
+    "desktop_initial": 363.7,
+    "mobile_initial": 831.2,
+    "mobile_globe_zoom": 91.4
+  },
+  "limits": "Single observed frames, not FPS benchmarks. Physical Safari and hardware GPU behavior remain unverified. No promise of zero crashes.",
+  "checks": [
+    "desktop boot",
+    "collapsed introduction",
+    "Greek default selector",
+    "mobile city load",
+    "rapid city switches",
+    "refresh using current datasets",
+    "close releases city canvas",
+    "Liaodong plane/globe switch and zoom",
+    "latest Jinan city with two added lines"
+  ],
+  "application_console_errors_observed": []
+}

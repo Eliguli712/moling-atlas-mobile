@@ -1,0 +1,365 @@
+{
+  "revision": "v24-r1",
+  "cities": [
+    {
+      "city": "qv20_zhuyai",
+      "name": "珠崖",
+      "metro": {
+        "nl": 1,
+        "km": 0,
+        "kmp": 11.464,
+        "total_km": 11.464,
+        "nst": 12,
+        "ring": 0,
+        "lrtkm": 0,
+        "xpkm": 0,
+        "ninter": 0
+      },
+      "lines": [
+        {
+          "name": "珠崖城府线",
+          "mode": "metro",
+          "km": 11.464,
+          "stations": 12,
+          "vertices": 53,
+          "max_elevation_m": 49.7,
+          "max_station_offset_m": 0.007346961002165182,
+          "land_only": true,
+          "geometry_sha256": "aa3a4eb7941234d3ad64608e79d262e09273a24141d346e321207ea1669cbc78"
+        }
+      ],
+      "reference_roads": 488,
+      "reference_rivers": 9
+    },
+    {
+      "city": "qv20_daner",
+      "name": "儋耳",
+      "metro": {
+        "nl": 0,
+        "km": 0,
+        "kmp": 0,
+        "total_km": 0,
+        "nst": 0,
+        "ring": 0,
+        "lrtkm": 9.561,
+        "xpkm": 0,
+        "ninter": 0
+      },
+      "lines": [
+        {
+          "name": "儋耳田园轻轨",
+          "mode": "lrt",
+          "km": 9.561,
+          "stations": 11,
+          "vertices": 37,
+          "max_elevation_m": 163.3,
+          "max_station_offset_m": 0.010553563221677893,
+          "land_only": true,
+          "geometry_sha256": "51f4212f56608da578735fc1b33fa67b7b2dd5fb263b865b4bba201f8373a96e"
+        }
+      ],
+      "reference_roads": 18,
+      "reference_rivers": 4
+    },
+    {
+      "city": "qv20_qiongdong",
+      "name": "琼东",
+      "metro": {
+        "nl": 0,
+        "km": 0,
+        "kmp": 0,
+        "total_km": 0,
+        "nst": 0,
+        "ring": 0,
+        "lrtkm": 9.342,
+        "xpkm": 0,
+        "ninter": 0
+      },
+      "lines": [
+        {
+          "name": "琼东万泉轻轨",
+          "mode": "lrt",
+          "km": 9.342,
+          "stations": 9,
+          "vertices": 41,
+          "max_elevation_m": 25.3,
+          "max_station_offset_m": 0.02547301246849155,
+          "land_only": true,
+          "geometry_sha256": "a5d1553a56afdde6facceda5d2d29097e75eb0ff3e48031232f5efff00a64e3b"
+        }
+      ],
+      "reference_roads": 156,
+      "reference_rivers": 16
+    },
+    {
+      "city": "qv20_lingshui",
+      "name": "陵水",
+      "metro": {
+        "nl": 0,
+        "km": 0,
+        "kmp": 0,
+        "total_km": 0,
+        "nst": 0,
+        "ring": 0,
+        "lrtkm": 9.696,
+        "xpkm": 0,
+        "ninter": 0
+      },
+      "lines": [
+        {
+          "name": "陵水滨河轻轨",
+          "mode": "lrt",
+          "km": 9.696,
+          "stations": 11,
+          "vertices": 41,
+          "max_elevation_m": 23.7,
+          "max_station_offset_m": 0.020138136607924365,
+          "land_only": true,
+          "geometry_sha256": "1cc8b5171c532a577caac37183d11de0ca599ebe605af10fd3fbfc9c5fbe9c4f"
+        }
+      ],
+      "reference_roads": 154,
+      "reference_rivers": 9
+    },
+    {
+      "city": "qv20_danshui",
+      "name": "淡水津",
+      "metro": {
+        "nl": 1,
+        "km": 0,
+        "kmp": 8.562,
+        "total_km": 8.562,
+        "nst": 8,
+        "ring": 0,
+        "lrtkm": 4.096,
+        "xpkm": 0,
+        "ninter": 0
+      },
+      "lines": [
+        {
+          "name": "淡水山麓线",
+          "mode": "metro",
+          "km": 8.562,
+          "stations": 8,
+          "vertices": 41,
+          "max_elevation_m": 28.4,
+          "max_station_offset_m": 0.024241242038828652,
+          "land_only": true,
+          "geometry_sha256": "d4ed2f3200ef4690ecaca97d1b3fcc8b3a2eadf8885e0597facfaf01726bc170"
+        },
+        {
+          "name": "淡海聚落轻轨",
+          "mode": "lrt",
+          "km": 4.096,
+          "stations": 5,
+          "vertices": 21,
+          "max_elevation_m": 59.8,
+          "max_station_offset_m": 1.7763568394002505e-12,
+          "land_only": true,
+          "geometry_sha256": "aa7830ebaa8d1547df773d955e8528bcf81a86d4841efa786fd78236cce45ee3"
+        }
+      ],
+      "reference_roads": 537,
+      "reference_rivers": 90
+    },
+    {
+      "city": "qv20_dadu",
+      "name": "大肚津",
+      "metro": {
+        "nl": 0,
+        "km": 0,
+        "kmp": 0,
+        "total_km": 0,
+        "nst": 0,
+        "ring": 0,
+        "lrtkm": 5.641,
+        "xpkm": 0,
+        "ninter": 0
+      },
+      "lines": [
+        {
+          "name": "大肚平原轻轨",
+          "mode": "lrt",
+          "km": 5.641,
+          "stations": 7,
+          "vertices": 33,
+          "max_elevation_m": 9.7,
+          "max_station_offset_m": 0.009359015433799947,
+          "land_only": true,
+          "geometry_sha256": "4d8995ffd17ddb118fc105e1a24d30e369bffab96780dc6f7db7827590bf1c0c"
+        }
+      ],
+      "reference_roads": 616,
+      "reference_rivers": 42
+    },
+    {
+      "city": "qv20_taijiang",
+      "name": "台江港",
+      "metro": {
+        "nl": 1,
+        "km": 0,
+        "kmp": 8.407,
+        "total_km": 8.407,
+        "nst": 8,
+        "ring": 0,
+        "lrtkm": 0,
+        "xpkm": 0,
+        "ninter": 0
+      },
+      "lines": [
+        {
+          "name": "台江城港线",
+          "mode": "metro",
+          "km": 8.407,
+          "stations": 8,
+          "vertices": 41,
+          "max_elevation_m": 11.0,
+          "max_station_offset_m": 0.014116427221488858,
+          "land_only": true,
+          "geometry_sha256": "6ace9834cd2e57b6287fb065f462dae0ea9d2b71628cbd7419d495fc99883e0e"
+        }
+      ],
+      "reference_roads": 547,
+      "reference_rivers": 19
+    },
+    {
+      "city": "qv20_lanyang",
+      "name": "兰阳津",
+      "metro": {
+        "nl": 0,
+        "km": 0,
+        "kmp": 0,
+        "total_km": 0,
+        "nst": 0,
+        "ring": 0,
+        "lrtkm": 8.315,
+        "xpkm": 0,
+        "ninter": 0
+      },
+      "lines": [
+        {
+          "name": "兰阳平原轻轨",
+          "mode": "lrt",
+          "km": 8.315,
+          "stations": 7,
+          "vertices": 37,
+          "max_elevation_m": 33.0,
+          "max_station_offset_m": 0.004950941165999873,
+          "land_only": true,
+          "geometry_sha256": "d66286eccad18668d6842a5298b4e9da454e653db8cea6a222b6f046a7ad4e22"
+        }
+      ],
+      "reference_roads": 273,
+      "reference_rivers": 43
+    },
+    {
+      "city": "qv20_hualien",
+      "name": "洄澜津",
+      "metro": {
+        "nl": 0,
+        "km": 0,
+        "kmp": 0,
+        "total_km": 0,
+        "nst": 0,
+        "ring": 0,
+        "lrtkm": 7.406,
+        "xpkm": 0,
+        "ninter": 0
+      },
+      "lines": [
+        {
+          "name": "洄澜河谷轻轨",
+          "mode": "lrt",
+          "km": 7.406,
+          "stations": 8,
+          "vertices": 37,
+          "max_elevation_m": 33.2,
+          "max_station_offset_m": 0.025862299548177394,
+          "land_only": true,
+          "geometry_sha256": "be04eade27e2febb2a08143a01780c9fd81a776b9a3c6e4846693a4b392b5d21"
+        }
+      ],
+      "reference_roads": 120,
+      "reference_rivers": 28
+    },
+    {
+      "city": "qv20_beinan",
+      "name": "卑南津",
+      "metro": {
+        "nl": 0,
+        "km": 0,
+        "kmp": 0,
+        "total_km": 0,
+        "nst": 0,
+        "ring": 0,
+        "lrtkm": 7.23,
+        "xpkm": 0,
+        "ninter": 0
+      },
+      "lines": [
+        {
+          "name": "卑南平原轻轨",
+          "mode": "lrt",
+          "km": 7.23,
+          "stations": 9,
+          "vertices": 37,
+          "max_elevation_m": 49.1,
+          "max_station_offset_m": 0.021291024385893222,
+          "land_only": true,
+          "geometry_sha256": "edc79de268f3ee54c64fb575ef148b7481eadea56ff8d9d0902fedff9d98af30"
+        }
+      ],
+      "reference_roads": 112,
+      "reference_rivers": 29
+    },
+    {
+      "city": "q0065",
+      "name": "晋安（侯官）",
+      "metro": {
+        "kind": "地铁",
+        "km": 42.0,
+        "kmp": 93.817,
+        "nst": 97,
+        "ninter": 10,
+        "nx": 2,
+        "ring": 0,
+        "nl": 12,
+        "lrtkm": 48.6,
+        "xpkm": 0,
+        "total_km": 135.817
+      },
+      "lines": [
+        {
+          "name": "晋安东山—鼓山山麓线",
+          "mode": "metro",
+          "km": 9.965,
+          "stations": 10,
+          "vertices": 49,
+          "max_elevation_m": 53.8,
+          "max_station_offset_m": 0.014009345869546448,
+          "land_only": true,
+          "geometry_sha256": "6a761c44618d618ad8bc2eee0b40a7467be45a2c13759ac057ea94a5dcf13e0a"
+        },
+        {
+          "name": "晋安北站接驳支线",
+          "mode": "metro",
+          "km": 5.743,
+          "stations": 6,
+          "vertices": 25,
+          "max_elevation_m": 71.1,
+          "max_station_offset_m": 0.004657873127652885,
+          "land_only": true,
+          "geometry_sha256": "432dcc197cd80dbd36b5f6960ae67d4a5cca9621441589b59f31fc24e065f14c"
+        }
+      ],
+      "reference_roads": 111,
+      "reference_rivers": 5
+    }
+  ],
+  "sources": [
+    "https://registry.opendata.aws/terrain-tiles/",
+    "https://www.openstreetmap.org/copyright",
+    "https://data.gov.tw/dataset/73232"
+  ],
+  "caveat": "现代地貌参照下的架空规划，不作为施工方案"
+}
