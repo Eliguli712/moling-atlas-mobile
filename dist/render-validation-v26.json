@@ -1,0 +1,41 @@
+{
+  "revision": "v26-r1",
+  "browser": "Cloud Chrome",
+  "mobile_viewport_css": [
+    430,
+    820
+  ],
+  "application_dpr_cap": 2,
+  "checked": [
+    "terrain frontier visible in plane and orthographic globe",
+    "selected Goguryeo outline follows exclusive geometry",
+    "Helong remains on Wei side",
+    "worldview starts collapsed",
+    "Greek remains default",
+    "legend explains exclusive frontier and Goguryeo-side buffer"
+  ],
+  "plane": {
+    "label_count": 39,
+    "label_overlap": 0,
+    "decoded_raster_pixels": 23258925,
+    "decode_active": 0,
+    "decode_queued": 0
+  },
+  "globe": {
+    "zoom": 16,
+    "mesh_triangles": 56,
+    "mesh_samples": 196,
+    "mesh_pixels": 975612,
+    "label_count": 23,
+    "label_overlap": 0,
+    "decoded_raster_pixels": 20355480,
+    "decode_active": 0,
+    "decode_queued": 0
+  },
+  "limits": {
+    "geometry_bytes": 25165824,
+    "raster_pixels": 24000000
+  },
+  "physical_iphone_safari_tested": false,
+  "notes": "Inherited v25 rendering and cache code retained. Browser snapshots validate this focused frontier update; no fixed frame-rate or crash-free guarantee."
+}

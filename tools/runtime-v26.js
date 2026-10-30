@@ -1,0 +1,5 @@
+/* v26: exclusive terrain-controlled Goguryeo layers and safe Wei clipping. */
+function outsideWei26(){const w=WNOM();if(!w)return;const p=new Path2D();p.rect(-1e8,-1e8,2e8,2e8);p.addPath(P_(w.g,true));ctx.clip(p,'evenodd')}
+const fieldBase26=drawGogField25;drawGogField25=function(s,zl){if(!D.v26)return fieldBase26(s,zl);const f=frontier25();if(!f||!inView(f.extent))return;ctx.save();outsideWei26();ctx.fillStyle=s.col;const alpha=[.045,.06,.10,.07,.055,.045];for(let i=0;i<s.bg.length;i++){const b=s.bg[i];if(!inView(b.g))continue;ctx.globalAlpha=alpha[i]*(isDark()?1.15:1);ctx.fill(P_(b.g,true),'evenodd')}ctx.globalAlpha=.65;ctx.strokeStyle=s.col;lw(.8);ctx.setLineDash(VIEW==='plane'?[4/view.s,5/view.s]:[4,5]);ctx.stroke(outline21(f.extent));ctx.setLineDash([]);ctx.globalAlpha=.45;lw(.7);ctx.stroke(outline21(f.control));ctx.restore()};
+function selectedGog26(g,col,width,stroke){ctx.save();outsideWei26();stroke(g,col,width);ctx.restore()}
+document.body.dataset.atlasRelease='v26-r1';$('map').dataset.frontierPolicy='terrain-exclusive-v26';legend();

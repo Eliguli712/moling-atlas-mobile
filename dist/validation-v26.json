@@ -1,0 +1,155 @@
+{
+  "revision": "v26-r1",
+  "status": "passed",
+  "frozen_wei": {
+    "wei": "f6feca41580d26be8210b0041bb8b6c0bf46c35df22fa3868ac3b07469237475",
+    "wei17": "87e6b03e90e0479afac22d66a8f649c620cbdc5e8cb602f61111012594f9f04f",
+    "weiline": "3a9542d294c4b32ac58085823cb5ed4eac005bb94ca4e17e4d81284511265ed8",
+    "wei_nominal": "ba29232a9cc106c8a7ac1a58ef4e55bd90d7437664a40350a6ea611d56a48bb4"
+  },
+  "unchanged_other_polities": true,
+  "unchanged_transport_and_amenities": true,
+  "only_changed_city_archives": [
+    "c/wdf268c.json",
+    "l_city.json"
+  ],
+  "exclusive_regions": {
+    "r": {
+      "valid": true,
+      "wei_overlap_degrees2": 0.0
+    },
+    "fb": {
+      "valid": true,
+      "wei_overlap_degrees2": 0.0
+    },
+    "fb_v14": {
+      "valid": true,
+      "wei_overlap_degrees2": 0.0
+    },
+    "ts": {
+      "valid": true,
+      "wei_overlap_degrees2": 0.0
+    },
+    "band_0_r": {
+      "valid": true,
+      "wei_overlap_degrees2": 0.0
+    },
+    "band_0_f": {
+      "valid": true,
+      "wei_overlap_degrees2": 0.0
+    },
+    "band_1_r": {
+      "valid": true,
+      "wei_overlap_degrees2": 0.0
+    },
+    "band_1_f": {
+      "valid": true,
+      "wei_overlap_degrees2": 0.0
+    },
+    "band_2_r": {
+      "valid": true,
+      "wei_overlap_degrees2": 0.0
+    },
+    "band_2_f": {
+      "valid": true,
+      "wei_overlap_degrees2": 0.0
+    },
+    "band_3_r": {
+      "valid": true,
+      "wei_overlap_degrees2": 0.0
+    },
+    "band_3_f": {
+      "valid": true,
+      "wei_overlap_degrees2": 0.0
+    },
+    "band_4_r": {
+      "valid": true,
+      "wei_overlap_degrees2": 0.0
+    },
+    "band_4_f": {
+      "valid": true,
+      "wei_overlap_degrees2": 0.0
+    },
+    "band_5_r": {
+      "valid": true,
+      "wei_overlap_degrees2": 0.0
+    },
+    "band_5_f": {
+      "valid": true,
+      "wei_overlap_degrees2": 0.0
+    },
+    "extent_r": {
+      "valid": true,
+      "wei_overlap_degrees2": 0.0
+    },
+    "control_r": {
+      "valid": true,
+      "wei_overlap_degrees2": 0.0
+    },
+    "urban_r": {
+      "valid": true,
+      "wei_overlap_degrees2": 0.0
+    },
+    "influence_r": {
+      "valid": true,
+      "wei_overlap_degrees2": 0.0
+    },
+    "buffer_r": {
+      "valid": true,
+      "wei_overlap_degrees2": 0.0
+    }
+  },
+  "mainland_polygon_count": 1,
+  "opposite_bohai_slivers": false,
+  "anchors": {
+    "扶余城": "高句丽",
+    "辽东城": "高句丽",
+    "安市城": "高句丽",
+    "建安城": "高句丽",
+    "卑沙城": "高句丽",
+    "和龙": "北魏"
+  },
+  "dispute_inside_wei": true,
+  "northern_free_frontier": {
+    "segments": 480,
+    "max_segment_km": 2.7262693584224884,
+    "sample_windows": 60,
+    "median_25km_chord_deviation_km": 1.7408429365574278,
+    "median_arc_chord_ratio": 1.0267290940017881
+  },
+  "syntax": "passed",
+  "static_figures": 5,
+  "static_city_rows": 262,
+  "terrain_source": {
+    "dataset": "NOAA ETOPO2022 v1 60s ice surface",
+    "doi": "10.25921/fd45-gt74",
+    "source": "https://www.ngdc.noaa.gov/thredds/dodsC/global/ETOPO2022/60s/60s_surface_elev_netcdf/ETOPO_2022_v1_60s_N90W180_surface.nc",
+    "retrieved": "2026-10-23",
+    "source_resolution_arcsec": 60,
+    "sample_resolution_arcmin": 5,
+    "sample_shape": [
+      2160,
+      4320
+    ],
+    "sample_indices": "source z[2:5:10797][2:5:21597]; pixel centres",
+    "hemisphere_rule": "Identical global grid, levels, simplification and minimum path length; no mirroring",
+    "vertical_datum": "EGM2008 metres; positive up",
+    "simplification_deg": 0.010833333333,
+    "minimum_path_length_deg": 0.208333333333,
+    "interpretation": "Modern physical reference, not reconstructed geography of 497 CE",
+    "chunk_sha256": [
+      "7668c3f8a672118a3da24623c42367791aeafde1bf853c61c26fbf6ea01b6fad",
+      "178dc9a09aafc3f67d5ccdc5b77c2883d2a6a8ec37e802a257f66b24f319ae3a",
+      "53f1d54017c1587f18e4321de1699f9b65fee6829d5081e6f1ef5f943d22adc8",
+      "9ee7a1e21f0e8dbd4d15807193500a83270a4b1098e1249d0f1ed7ff7551f034",
+      "0a5b96f884cb985ba0bff71c0ca43fb3381673b4e35d8d8c3396d77906a51b90",
+      "beec7ed80f7dc5e5813c64c9c0ab489dc91a508c3d473da7b926506c0b4cf7c1",
+      "25bbefc6cf2718e0a89e47ffe7d59926c23503aac9e2fce3974666b280cd5d8b",
+      "f76984a9af80da28aaf6e0746d76c5565a670fbc04b4a9258b6be884bae57948",
+      "e4e61bb463c89a175034774486deeee9655c47bc4be154774d37548417879aa5",
+      "979bf481a1074384e04a4a7baa596fb392a937a417e437fe4e17bf537b958c9f",
+      "d5872036f963be7673f30d8dd5dd35036a393b8ccb97dc7508470079ef51263f",
+      "432fb3833fe49d022f0a4614225476f0859560090bc6166b2c060ba11260df1c"
+    ]
+  }
+}
