@@ -1,0 +1,230 @@
+{
+  "revision": "v25",
+  "researched_on": "2026-10-30",
+  "coordinate_note": "WGS84，城市尺度近似定位；不推定古建筑轮廓",
+  "landmarks": [
+    {
+      "city_key": "q0000",
+      "n": "建康台城宫城遗址",
+      "el": "Ανακτορικός χώρος της Τζιανκάνγκ",
+      "c": [
+        118.799,
+        32.042
+      ],
+      "status": "史载宫城／考古遗址参照",
+      "period": "330年起；东晋、南朝宫城遗址",
+      "basis": "宫城历史和遗存依据地方志；近似索引不等同于玄武湖南岸明城墙。",
+      "accuracy_m": 1300,
+      "sources": [
+        {
+          "title": "南京市地方志：千年沧桑话台城",
+          "url": "https://dfz.nanjing.gov.cn/gzdt/202502/t20250207_5069953.html"
+        }
+      ],
+      "earliest_year": 330,
+      "accuracy_note": "WGS84城市尺度近似索引，误差约0.4—1.2公里；不表示建筑轮廓。"
+    },
+    {
+      "city_key": "q0065",
+      "n": "晋安郡子城历史城址区",
+      "el": "Ιστορικός πυρήνας της Τζινάν",
+      "c": [
+        119.298,
+        26.09
+      ],
+      "status": "史载城址范围／现代城市叠压",
+      "period": "西晋282年严高营建子城",
+      "basis": "福州地方志材料记载严高在冶城之南修筑子城，并开凿东西湖。",
+      "accuracy_m": 1200,
+      "sources": [
+        {
+          "title": "福州市政府：晋安郡首任太守——严高",
+          "url": "https://www.fuzhou.gov.cn/zgfzzt/zjrc/mdfc/mdrj/201811/t20181112_2674287.htm"
+        }
+      ],
+      "accuracy_note": "WGS84城市尺度近似索引，误差约0.4—1.2公里；不表示建筑轮廓。"
+    },
+    {
+      "city_key": "b0001",
+      "n": "狄奥多西陆墙历史地标",
+      "el": "Θεοδοσιανά τείχη",
+      "c": [
+        28.923,
+        41.002
+      ],
+      "status": "早期建筑遗存／历代修复",
+      "period": "5世纪；447年形成第二道防御线",
+      "basis": "UNESCO记录狄奥多西二世陆墙及447年的第二道防线；现存遗构含后世维护与修复。",
+      "accuracy_m": 500,
+      "sources": [
+        {
+          "title": "UNESCO：Historic Areas of Istanbul",
+          "url": "https://whc.unesco.org/en/list/356/"
+        }
+      ],
+      "accuracy_note": "WGS84城市尺度近似索引，误差约0.4—1.2公里；不表示建筑轮廓。"
+    },
+    {
+      "city_key": "wfaccf7",
+      "n": "云冈石窟 · 昙曜五窟历史地标",
+      "el": "Σπήλαια Γιουνγκάνγκ",
+      "c": [
+        113.133,
+        40.11
+      ],
+      "status": "北魏石窟遗存",
+      "period": "460—525年营造；早期五窟460—465年",
+      "basis": "UNESCO将云冈石窟营造期定为460—525年，标点表示近似遗产地点。",
+      "accuracy_m": 500,
+      "sources": [
+        {
+          "title": "UNESCO：Yungang Grottoes",
+          "url": "https://whc.unesco.org/en/list/1039/"
+        }
+      ],
+      "accuracy_note": "WGS84城市尺度近似索引，误差约0.4—1.2公里；不表示建筑轮廓。"
+    },
+    {
+      "city_key": "w0549be",
+      "n": "龙门古阳洞·早期造像阶段",
+      "el": "Σπήλαιο Γκουγιάνγκ · πρώιμες λαξεύσεις",
+      "c": [
+        112.478,
+        34.559
+      ],
+      "status": "北魏起建的石窟遗址／后续历代扩建",
+      "period": "493年起凿，后续持续至6世纪",
+      "basis": "497年表示起凿后的早期阶段；不将后期龛像或唐代奉先寺并入同期现状。",
+      "accuracy_m": 1000,
+      "sources": [
+        {
+          "title": "UNESCO：Longmen Grottoes nomination",
+          "url": "https://whc.unesco.org/uploads/nominations/1003.pdf"
+        },
+        {
+          "title": "中央研究院：龙门石窟古阳洞",
+          "url": "https://buddhism.ascdc.sinica.edu.tw/buddhism/layer1.php?id1=G04030000"
+        }
+      ],
+      "earliest_year": 493,
+      "accuracy_note": "WGS84城市尺度近似索引，误差约0.4—1.2公里；不表示建筑轮廓。"
+    },
+    {
+      "city_key": "wf466e6",
+      "n": "汉长安未央宫遗址",
+      "el": "Ανάκτορο Ουεϊγιάνγκ · αρχαιολογικός χώρος",
+      "c": [
+        108.861,
+        34.304
+      ],
+      "status": "汉代宫城考古遗址",
+      "period": "西汉宫城遗址；497年作为历史遗迹参照",
+      "basis": "UNESCO丝路遗产点包含西汉长安未央宫遗址；不推定497年完整宫殿仍然存续。",
+      "accuracy_m": 1200,
+      "sources": [
+        {
+          "title": "UNESCO：Silk Roads property component maps",
+          "url": "https://whc.unesco.org/en/list/1442/maps/"
+        }
+      ],
+      "accuracy_note": "WGS84城市尺度近似索引，误差约0.4—1.2公里；不表示建筑轮廓。"
+    },
+    {
+      "city_key": "k0008",
+      "n": "月城宫城遗址",
+      "el": "Ανακτορικός χώρος Ουόλσονγκ",
+      "c": [
+        129.221,
+        35.83
+      ],
+      "status": "新罗宫城考古遗址",
+      "period": "新罗历史城址；遗存与考古材料跨多个时期",
+      "basis": "UNESCO庆州历史区月城片区包含宫城遗址。图点作城市尺度历史参照，不补绘后世天文台或宫殿轮廓。",
+      "accuracy_m": 700,
+      "sources": [
+        {
+          "title": "UNESCO：Gyeongju Historic Areas",
+          "url": "https://whc.unesco.org/en/list/976/"
+        }
+      ],
+      "accuracy_note": "WGS84城市尺度近似索引，误差约0.4—1.2公里；不表示建筑轮廓。"
+    },
+    {
+      "city_key": "q0065",
+      "n": "严高西湖历史水利区",
+      "el": "Δυτική Λίμνη · ιστορικό υδραυλικό τοπίο",
+      "c": [
+        119.283,
+        26.096
+      ],
+      "earliest_year": 282,
+      "period": "西晋282年起源，后世持续整治",
+      "basis": "方志记严高筑子城并开东西湖；现今湖岸、公园与桥亭另属后世景观。",
+      "sources": [
+        {
+          "title": "福州市政府·方志委：晋安郡首任太守——严高",
+          "url": "https://www.fuzhou.gov.cn/zgfzzt/zjrc/mdfc/mdrj/201811/t20181112_2674287.htm"
+        }
+      ],
+      "accuracy_note": "WGS84城市尺度近似索引，误差约0.4—1.2公里；不表示建筑轮廓。"
+    },
+    {
+      "city_key": "q0065",
+      "n": "华林寺大殿·后世参照",
+      "el": "Ναός Χουαλίν · μεταγενέστερο μνημείο",
+      "c": [
+        119.292,
+        26.104
+      ],
+      "earliest_year": 964,
+      "later_reference": true,
+      "period": "964年创建，明清修缮",
+      "basis": "后世历史木构参照，497年历史场景中不显示；现代设施独立标为架空规划。",
+      "sources": [
+        {
+          "title": "福州市政府·方志委：名人与华林寺",
+          "url": "https://www.fuzhou.gov.cn/zgfzzt/zjrc/mdfc/mdrj/202409/t20240925_4899139.htm"
+        }
+      ],
+      "accuracy_note": "WGS84城市尺度近似索引，误差约0.4—1.2公里；不表示建筑轮廓。"
+    },
+    {
+      "city_key": "q0000",
+      "n": "石头城遗址·清凉山考古区",
+      "el": "Αρχαιολογικός χώρος Σιτόουτσενγκ",
+      "c": [
+        118.753,
+        32.054
+      ],
+      "earliest_year": 212,
+      "period": "史载212年筑城，考古确认六朝遗存",
+      "basis": "清凉山考古范围近似索引，不将现存明代城墙或现代博物馆当作六朝原构。",
+      "sources": [
+        {
+          "title": "南京大学：解开石头城千年之谜",
+          "url": "https://www.nju.edu.cn/info/1056/336061.htm"
+        }
+      ],
+      "accuracy_note": "WGS84城市尺度近似索引，误差约0.4—1.2公里；不表示建筑轮廓。"
+    },
+    {
+      "city_key": "w0549be",
+      "n": "汉魏洛阳宫城阊阖门遗址",
+      "el": "Πύλη Τσανγκχέ της αρχαίας Λουογιάνγκ",
+      "c": [
+        112.625,
+        34.731
+      ],
+      "earliest_year": 226,
+      "period": "曹魏始建，西晋及北魏沿用增修",
+      "basis": "考古证实曹魏夯土基址与后期增修；不复原未经分期的完整北魏门楼。",
+      "sources": [
+        {
+          "title": "钱国祥：汉魏洛阳故城居中宫城制度考",
+          "url": "https://www.nopss.gov.cn/n1/2018/0704/c373410-30125781.html"
+        }
+      ],
+      "accuracy_note": "WGS84城市尺度近似索引，误差约0.4—1.2公里；不表示建筑轮廓。"
+    }
+  ]
+}

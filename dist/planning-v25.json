@@ -1,0 +1,57 @@
+{
+  "revision": "v25-r1",
+  "wei_frozen": {
+    "wei": "f6feca41580d26be8210b0041bb8b6c0bf46c35df22fa3868ac3b07469237475",
+    "wei17": "87e6b03e90e0479afac22d66a8f649c620cbdc5e8cb602f61111012594f9f04f",
+    "weiline": "3a9542d294c4b32ac58085823cb5ed4eac005bb94ca4e17e4d81284511265ed8",
+    "wei_nominal": "ba29232a9cc106c8a7ac1a58ef4e55bd90d7437664a40350a6ea611d56a48bb4"
+  },
+  "wei_unchanged": true,
+  "frontier": {
+    "dispute_c": [
+      121.2238496297762,
+      41.8019
+    ],
+    "dispute_zh": "北魏·广兴争议区",
+    "dispute_el": "Βόρειον Οὐέι · αμφισβητούμενη ζώνη",
+    "dispute_owner": "北魏",
+    "dispute_basis": "保留既有营州广兴县模型作为参考小框；架空主张重叠，非史实国界复原",
+    "buffer_c": [
+      121.30686381885518,
+      41.96543106095872
+    ],
+    "buffer_zh": "北魏—高句丽接壤缓冲区",
+    "buffer_el": "Ζώνη ασφαλείας Ουέι–Κογκουρυώ",
+    "buffer_note": "接壤线两侧约10—20公里示意带；不改变北魏既有疆界。",
+    "reference": "用户红线参考图；保留现代地形/海岸和既有县界参照。",
+    "actual_area_km2": 490198,
+    "influence_area_km2": 27361,
+    "extent_area_km2": 518817,
+    "dispute_area_km2": 1246,
+    "note": "用户指定的架空范围；主张可重叠，北魏原疆界未裁切。"
+  },
+  "historical_landmarks": 11,
+  "city_count": 262,
+  "facility_relocations": [
+    {
+      "city": "qv20_lanyang",
+      "facility": "兰阳津 · 影院与演艺中心",
+      "moved_m": 83
+    },
+    {
+      "city": "qv20_lanyang",
+      "facility": "兰阳津 · 三维打印与数字制造园",
+      "moved_m": 46
+    },
+    {
+      "city": "qv20_beinan",
+      "facility": "卑南津 · 影院与演艺中心",
+      "moved_m": 59
+    }
+  ],
+  "retained_v24_local_transit": [
+    "海南四城",
+    "台湾六城",
+    "晋安两条新线"
+  ]
+}

@@ -9,6 +9,7 @@ on:
       - 'asset-manifest.json'
       - 'asset-manifest-v23.json'
       - 'asset-manifest-v24.json'
+      - 'asset-manifest-v25.json'
       - 'index.html'
       - 'atlas-mobile.html'
       - 'source-html/**'

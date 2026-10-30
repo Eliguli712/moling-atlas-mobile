@@ -1,0 +1,110 @@
+{
+  "revision": "v25-r1",
+  "environment": "Cloud Chrome; 430 CSS px iframe; actual application DPR 2; physical iPhone Safari unverified",
+  "browser": {
+    "first_load": true,
+    "intro_default_collapsed": true,
+    "legend_default_expanded": true,
+    "globe_no_webgl_100x": {
+      "triangles": 176,
+      "labels": 55,
+      "overlaps": 0
+    },
+    "globe_no_webgl_3000x": {
+      "triangles": 176,
+      "labels": 38,
+      "overlaps": 0,
+      "geometry_vector_cache_bytes": 0
+    },
+    "perspective_tilt_65deg_18x": {
+      "triangles": 64,
+      "labels": 3,
+      "overlaps": 0
+    },
+    "native_fallback_pan_ms_before": [
+      231,
+      343,
+      422,
+      269,
+      417,
+      206
+    ],
+    "native_fallback_pan_ms_after": [
+      132,
+      78,
+      75,
+      84,
+      84,
+      61
+    ],
+    "city_loaded": [
+      "晋安",
+      "淡水津"
+    ],
+    "quick_city_switch_final": {
+      "key": "q0065",
+      "name": "晋安郡城 · 侯官",
+      "city_loaded": true,
+      "queued_decodes": 0
+    }
+  },
+  "mesh_cases": [
+    {
+      "projection": "ortho",
+      "zoom": 1,
+      "triangles": 1794,
+      "inverse_samples": 4768
+    },
+    {
+      "projection": "ortho",
+      "zoom": 18,
+      "triangles": 176,
+      "inverse_samples": 196
+    },
+    {
+      "projection": "ortho",
+      "zoom": 100,
+      "triangles": 176,
+      "inverse_samples": 196
+    },
+    {
+      "projection": "ortho",
+      "zoom": 3000,
+      "triangles": 176,
+      "inverse_samples": 196
+    },
+    {
+      "projection": "persp",
+      "zoom": 1,
+      "triangles": 1166,
+      "inverse_samples": 2678
+    },
+    {
+      "projection": "persp",
+      "zoom": 18,
+      "triangles": 176,
+      "inverse_samples": 196
+    },
+    {
+      "projection": "persp",
+      "zoom": 100,
+      "triangles": 176,
+      "inverse_samples": 196
+    },
+    {
+      "projection": "persp",
+      "zoom": 3000,
+      "triangles": 176,
+      "inverse_samples": 196
+    }
+  ],
+  "source_clipping": {
+    "cases": 8,
+    "max_area_error_degrees2": 0
+  },
+  "decode_queue": "PASS hidden boot resume; stale request skips decompression; peak concurrency 1",
+  "limitations": [
+    "Cloud timings are not physical Safari FPS",
+    "No guarantee of zero device crashes"
+  ]
+}

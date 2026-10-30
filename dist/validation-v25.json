@@ -1,0 +1,24 @@
+{
+  "revision": "v25-r1",
+  "status": "passed",
+  "wei_unchanged": true,
+  "wei_sha256": "f6feca41580d26be8210b0041bb8b6c0bf46c35df22fa3868ac3b07469237475",
+  "goguryeo": {
+    "actual_area_km2": 490198,
+    "weaker_influence_km2": 27361,
+    "wei_dispute_km2": 1246,
+    "overlapping_claims_retained": true
+  },
+  "checks": {
+    "cities": 262,
+    "roads": 61788,
+    "metro_lines": 2961,
+    "amenities": 2369,
+    "lake_crossing_km": 0.0,
+    "offshore_road_km": 0.0,
+    "local_alignments": 13
+  },
+  "historical_landmarks": 11,
+  "errors": [],
+  "device_testing": "See render-validation-v25.json; physical iPhone Safari unverified"
+}
