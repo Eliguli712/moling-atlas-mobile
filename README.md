@@ -1,13 +1,9 @@
-# Moling Atlas · 秣陵图册 v27
+# Moling Atlas v28
 
-[打开地图](https://eliguli712.github.io/moling-atlas-mobile/) · [原站](https://moling-atlas-mobile.eliguli712.chatgpt.site)
+Interactive atlas: https://eliguli712.github.io/moling-atlas-mobile/
 
-默认球形视图；诸国经济排名、三等级控制面积、真实多边形交集与独立凉州迁徙开关。新增印度道路/铁路、亚欧南北走廊、东南亚聚落、拜占庭埃及—红海和阿克苏姆贸易联系，以及多尺度平滑边界。
+This release unifies coastal and offshore ocean rendering, repairs legacy city coordinate formats, rebuilds ten Hainan/Taiwan city footprints along roads and terrain, and refines political boundaries with shared multiscale geometry. The fixed Jiankang traffic inset and interactive rail topology include rivers and lakes under the same coordinate transform.
 
-262个城市具有公交数据；26482个共享轨道站点、3664条轨道服务、6250个换乘站和339条地下通道。1491个有效规划分区均有交通连接；53条空几何或范围外旧参考记录另列。线路可查看站序；站点可查看换乘、方向、首末站及规划出入口。首页提供实际线路邻接生成的建康 SVG 拓扑图、全部城市的交互拓扑图和完整离线 HTML。
+Historical sources constrain period, cities and regional extent. Dense boundary detail is a scenario reconstruction, not a measured 497 CE GIS. Modern transport and station facilities are fictional planning.
 
-伶仃洋与江苏古岸线按文献时期约束重建，删除无依据的内陆大海湾及后世成陆岛屿。河流按陆地裁切；海南、台湾10座城市的11条轨道线和新增道路未检出未标注的海水/湖泊穿越。现代 Natural Earth 1:1000万比例尺只作参考，尚无精确497年 GIS 岸线。历史背景与架空交通、AOZ、经济规划在界面分开说明；既有经济模型数值保留，新增未标定政权为空值。
-
-asset-manifest.json 与 asset-manifest-v27.json 固定101个公共文件的 SHA-256。运行 python3 scripts/mirror_public.py 下载并校验分块文件，从校验后的 ZIP 恢复原始 HTML，再由 GitHub Actions 发布 Pages。地图、静态图及离线 HTML 使用同一组边界。来源和许可证随网站公开文件发布。
-
-已检查430 CSS px浏览器视口及缓存预算；实际 iPhone Safari 尚未验证。
+GitHub Pages mirrors the exact SHA-256-pinned native Site distribution. Original web HTML is recovered from the dedicated verified HTML archive; the downloadable ZIP contains the self-contained offline HTML. Existing economic model values and transit node identities are retained.

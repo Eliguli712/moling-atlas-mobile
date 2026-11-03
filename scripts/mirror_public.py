@@ -1,4 +1,4 @@
-"""Build GitHub Pages from the exact SHA-256-pinned v27 distribution."""
+"""Build GitHub Pages from the exact SHA-256-pinned v28 distribution."""
 from concurrent.futures import ThreadPoolExecutor
 from hashlib import sha256
 from io import BytesIO
@@ -26,7 +26,7 @@ def main():
                 if len(data)==entry['bytes'] and sha256(data).hexdigest()==entry['sha256']:save(entry,data);return
         for attempt in range(3):
             try:
-                req=Request(source+'/'+quote(name,safe='/'),headers={'User-Agent':'MolingAtlasPublisher/v27'})
+                req=Request(source+'/'+quote(name,safe='/'),headers={'User-Agent':'MolingAtlasPublisher/v28'})
                 with urlopen(req,timeout=120) as response:data=response.read()
                 save(entry,data);return
             except Exception:
@@ -34,15 +34,15 @@ def main():
                 time.sleep(2+attempt)
     OUT.mkdir(exist_ok=True)
     # Sites adds its hosting shell to HTML responses. Recover original HTML
-    # from the already checksum-verified offline ZIP; other assets stay raw.
+    # from the dedicated checksum-verified web HTML archive; other assets stay raw.
     binary=[e for e in manifest['files'] if not e['path'].endswith('.html')]
     with ThreadPoolExecutor(max_workers=6) as executor:list(executor.map(download,binary))
-    meta=json.loads((OUT/'final-zip.json').read_text());data=b''.join((OUT/n).read_bytes() for n in meta['parts'])
-    if len(data)!=meta['bytes'] or sha256(data).hexdigest()!=meta['sha256']:raise ValueError('Offline archive checksum mismatch')
+    meta=json.loads((OUT/manifest['html_archive']).read_text());data=b''.join((OUT/n).read_bytes() for n in meta['parts'])
+    if len(data)!=meta['bytes'] or sha256(data).hexdigest()!=meta['sha256']:raise ValueError('Web HTML archive checksum mismatch')
     with ZipFile(BytesIO(data)) as archive:
-        if archive.testzip():raise ValueError('Offline archive CRC mismatch')
+        if archive.testzip():raise ValueError('Web HTML archive CRC mismatch')
         for entry in manifest['files']:
             if entry['path'].endswith('.html'):save(entry,archive.read(entry['path']))
     (OUT/'.nojekyll').write_text('')
-    print('Built',len(manifest['files']),'verified v27 assets')
+    print('Built',len(manifest['files']),'verified v28 assets')
 if __name__=='__main__':main()

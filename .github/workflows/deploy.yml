@@ -12,6 +12,7 @@ on:
       - 'asset-manifest-v25.json'
       - 'asset-manifest-v26.json'
       - 'asset-manifest-v27.json'
+      - 'asset-manifest-v28.json'
       - 'index.html'
       - 'atlas-mobile.html'
       - 'source-html/**'
