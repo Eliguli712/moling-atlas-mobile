@@ -1,15 +1,13 @@
-# 南齐世界互动地图 v26-r1
+# Moling Atlas · 秣陵图册 v27
 
-[打开地图](https://eliguli712.github.io/moling-atlas-mobile/) · [镜像](https://moling-atlas-mobile.eliguli712.chatgpt.site/)
+[打开地图](https://eliguli712.github.io/moling-atlas-mobile/) · [原站](https://moling-atlas-mobile.eliguli712.chatgpt.site)
 
-- 北魏政权对象、原疆界、州郡县与边界线逐项保持原样。
-- 高句丽控制区、弱影响区、各强度层与选中轮廓均排除北魏；和龙归北魏。扶余、辽东、安市、建安和卑沙保留高句丽归属。
-- 北侧边界以既有 NOAA ETOPO2022 等高线重建坡度通行代价，使用多尺度分形控制场，沿地形生成曲线，不按经纬线切边。海水和北魏范围不可通行，清除渤海对岸碎片。
-- 广兴争议小区保留北魏归属，缓冲带只位于高句丽一侧。
-- 保留德文与希腊语可折叠世界观、默认希腊语、铁路统一、玄武湖避让、独立海岛与晋安近期规划、双色琼州桥、标签避让和有预算的球面缓存。
+默认球形视图；诸国经济排名、三等级控制面积、真实多边形交集与独立凉州迁徙开关。新增印度道路/铁路、亚欧南北走廊、东南亚聚落、拜占庭埃及—红海和阿克苏姆贸易联系，以及多尺度平滑边界。
 
-`asset-manifest.json` 指定当前版本；`asset-manifest-v26.json` 保存本次 SHA-256 清单。GitHub Actions 校验全部 85 个公共文件，从校验后的离线 ZIP 恢复原始 HTML；互动、静态与离线版共用同一组边界。
+262个城市具有公交数据；26482个共享轨道站点、3664条轨道服务、6250个换乘站和339条地下通道。1491个有效规划分区均有交通连接；53条空几何或范围外旧参考记录另列。线路可查看站序；站点可查看换乘、方向、首末站及规划出入口。首页提供实际线路邻接生成的建康 SVG 拓扑图、全部城市的交互拓扑图和完整离线 HTML。
 
-更新与检查见 `dist/README_v26.md`、`dist/planning-v26.json`、`dist/validation-v26.json`、`dist/render-validation-v26.json`。修订脚本在 `tools/`；历史重建辅助脚本引用完整源仓库保留的提交，此公开镜像仓库使用 `scripts/mirror_public.py` 构建。
+伶仃洋与江苏古岸线按文献时期约束重建，删除无依据的内陆大海湾及后世成陆岛屿。河流按陆地裁切；海南、台湾10座城市的11条轨道线和新增道路未检出未标注的海水/湖泊穿越。现代 Natural Earth 1:1000万比例尺只作参考，尚无精确497年 GIS 岸线。历史背景与架空交通、AOZ、经济规划在界面分开说明；既有经济模型数值保留，新增未标定政权为空值。
 
-云端 Chrome 与 430 CSS px 手机视口已检查。iPhone Safari 实机未验证。现代地形为架空规划参照，不表示精确历史疆界；2 公里为插值求解网格，原始数据分辨率见规划元数据。
+asset-manifest.json 与 asset-manifest-v27.json 固定101个公共文件的 SHA-256。运行 python3 scripts/mirror_public.py 下载并校验分块文件，从校验后的 ZIP 恢复原始 HTML，再由 GitHub Actions 发布 Pages。地图、静态图及离线 HTML 使用同一组边界。来源和许可证随网站公开文件发布。
+
+已检查430 CSS px浏览器视口及缓存预算；实际 iPhone Safari 尚未验证。
