@@ -1,5 +1,5 @@
 {
-  "revision": "v30-r2",
+  "revision": "v30-r3",
   "source": "https://moling-atlas-mobile.eliguli712.chatgpt.site",
   "html_archive": "source-html-v30.json",
   "files": [
@@ -370,8 +370,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 5168834,
-      "sha256": "2f5826fa6a9efd4ca4dce655b5559f31f8a32cdb72921a7489705e2b57e9d0cb"
+      "bytes": 5169103,
+      "sha256": "182b2a566dbedad520c803d7616099c205d3fbe9c768bb3f7c4568ae6b836d00"
     },
     {
       "path": "topology.html",
@@ -435,8 +435,8 @@
     },
     {
       "path": "validation-v30.json",
-      "bytes": 51262,
-      "sha256": "c212cc6071913a7a3cdbf3f7b08ba85320b017972f02d6af025cba7a3f2929b3"
+      "bytes": 51458,
+      "sha256": "bfb1929c53ed7f6f8ed1f504495d27ff470a5d8eb301730be34aee4404390a81"
     },
     {
       "path": "README_v30.md",
@@ -451,12 +451,12 @@
     {
       "path": "sw.js",
       "bytes": 2475,
-      "sha256": "902dc0f3c3affeddcbc89d7c54482cb21f9829cfbffc819f23bb0f1e06d4d074"
+      "sha256": "dbb29f4e4313af5c3ede67ec2de5fb7fc1a98d08a8248d69624ee6da38285cba"
     },
     {
       "path": "v30-offline-01.bin",
       "bytes": 4194304,
-      "sha256": "17009aeaef5204f4c0b98540f17058d4227f62d79d73c32c0e4fe78fab537f63"
+      "sha256": "28ed4fa5d3f6d6814c8e2790f95d8e01bcefba819acc06d629827290b67606c8"
     },
     {
       "path": "v30-offline-02.bin",
@@ -531,42 +531,42 @@
     {
       "path": "v30-offline-16.bin",
       "bytes": 4194304,
-      "sha256": "9d542d137162c1761d805b03bb1d98d3ad42c0d71d8af920b5cea38cda94eccd"
+      "sha256": "8bc91ed34c0df839fe737cf7b5de0c12400696efe681d98e456fa5eb65a27a76"
     },
     {
       "path": "v30-offline-17.bin",
-      "bytes": 3482333,
-      "sha256": "18ab09c9a1aa30463cc35c07a4344872a719c653a2877e1723120dbabc949a9a"
+      "bytes": 3482456,
+      "sha256": "dc527b15e2d775bfd0aea080ed37741c35afed2ada80caab77144578209811f4"
     },
     {
       "path": "final-zip.json",
       "bytes": 537,
-      "sha256": "c47805002a24976d9a89e0e71b049a69c77693fa3ee10fd6dc089257a0236c05"
+      "sha256": "a56dc7ab81d8b20724af6ba422da4e0ec119a1c50f7c5cba96242ab506972cd8"
     },
     {
       "path": "final-html.json",
       "bytes": 670,
-      "sha256": "dcd08dc9ffe3eb604c41be10bd1f731239da551470624271f1762450c04cd26b"
+      "sha256": "09e8d4288f205b8306d82282facbdae5ae9bb91e5abe87a8aa1d31ba57d02833"
     },
     {
       "path": "v30-web-html-01.bin",
       "bytes": 4194304,
-      "sha256": "96f7531f002ae61a9c3a486a48aadc0bf0dc0532edcd9b9bcf3d5a4fd996d28b"
+      "sha256": "cd760da37aa9c366b73e61df2ea04a3444d6592c6ba78509c3616bdd9342cdf3"
     },
     {
       "path": "v30-web-html-02.bin",
       "bytes": 4194304,
-      "sha256": "59d15abf32f429cef4ee1bbadee1720a8809077e252502ea488211a8935d2a78"
+      "sha256": "58b7d01a496ae752eac7739dd74e83499e894d7a08336542d12cdd19d97a6a8d"
     },
     {
       "path": "v30-web-html-03.bin",
-      "bytes": 958036,
-      "sha256": "c099e7a93044480fc55d245734eb4fd6cf5d20919dabd139ca560142439179fb"
+      "bytes": 958159,
+      "sha256": "c01180c6c08af9ae1b5f907396d0e07af63ad6a2a574b914c541ba3cebca6687"
     },
     {
       "path": "source-html-v30.json",
       "bytes": 198,
-      "sha256": "c12609f77ebfc0c4d2fb4ce5b948051a1082d6cf12e90ffc2f4992879c6fd1b9"
+      "sha256": "dfb94fbc990864cff3fcaee2e40fb3d01aaae0df2a70ef1906260bbf98f277d2"
     }
   ]
 }
