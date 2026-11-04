@@ -1,11 +1,11 @@
-# Moling Atlas v29
+# Moling Atlas v30
 
 Atlas: https://eliguli712.github.io/moling-atlas-mobile/
 
-Administrative names in introductions now open their stored map geometry and child distributions. City district names open their actual city boundary view. Records with only a historical point are identified explicitly.
+The map, interactive topology and SVG/PDF exports share circular two-arrow interchange symbols and the same 671 transfer nodes. All 191 capital services, 2052 nodes and existing stop order are retained. River footprints are clipped outside lakes and sea in all 262 topology networks.
 
-The seven-band v26 nomadic pasture influence renderer is restored for twenty groups, including overlapping influence and soft peripheral diffusion. Economic, city and territory ranking data remain unchanged.
+The inset folds and switches between Jiankang regional transport and metro/light-rail topology. Long press opens vector previews and downloads. Details opens the selected city's panel, with a grouped 262-city catalog and no required search.
 
-The capital topology retains 191 current services (155 metro,32 light,4 rapid),2052 nodes and671 actual transfer nodes under the existing service-family definition. Modes and statuses have distinct styling; river/lake geometry and current route coordinates are preserved. Long press the inset or use the export control for SVG/PDF; the PDF includes the full network, centre and service index. Complete offline HTML embeds the viewer and vector exports.
+Historical river and lake records, bridges, hydraulic facilities and ecology entries have source links and uncertainty notes. Ancient lake outlines and widths remain explicitly reconstructed or illustrative. Modern facilities are optional references, separate from the 497 CE scenario. Zhaozhou Bridge is a later Sui reference; Qingshui's ruined stone bridge is not assigned an invented location or passable route.
 
-Transport and station facilities are fictional planning. Historical administrative geometry is a source-constrained reconstruction. This repository publishes the SHA-256-pinned native Site distribution and verifies its dedicated raw HTML archive.
+The restored nomadic diffusion model, administrative navigation, economic and city data remain unchanged. Complete downloadable HTML embeds data, the viewer, SVG and PDF. This repository publishes the SHA-256-pinned native Site distribution and verifies its dedicated raw HTML archive.

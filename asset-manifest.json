@@ -1,7 +1,7 @@
 {
-  "revision": "v29-r1",
+  "revision": "v30-r1",
   "source": "https://moling-atlas-mobile.eliguli712.chatgpt.site",
-  "html_archive": "source-html-v29.json",
+  "html_archive": "source-html-v30.json",
   "files": [
     {
       "path": "manifest.webmanifest",
@@ -339,26 +339,6 @@
       "sha256": "3e2972148203d60c2e9412b5dd1ec7764debd1240f5c43bc51c4600562142ec5"
     },
     {
-      "path": "index.html",
-      "bytes": 5150051,
-      "sha256": "9c547db16f7bf8c85ad5d1d70729333643fd724514c47431f763cb649c5b3566"
-    },
-    {
-      "path": "topology.html",
-      "bytes": 299,
-      "sha256": "eb1600dbcc022ca87a247b77f6b3651e5e2b6eff41dd5946812311d9a4297d40"
-    },
-    {
-      "path": "topology-v29.html",
-      "bytes": 14689867,
-      "sha256": "7319fd17c5debbd986fde543653bb887dfad297d18ae2732e0e3eaf7b52524e5"
-    },
-    {
-      "path": "static.html",
-      "bytes": 23126,
-      "sha256": "695ed27a0aa0c657dbe62ee9df234fb0938d555d62c9f750560627fbaa6b8fb7"
-    },
-    {
       "path": "nomad-render-v29.js",
       "bytes": 413331,
       "sha256": "d515f351fffe5447ceb52399353eb3a3ebe78aa59c5cbfd384c71a549c2a888f"
@@ -367,26 +347,6 @@
       "path": "transit-summary-v29.js",
       "bytes": 36646,
       "sha256": "6498c151c2006f41d9ea95e4c07ae2032260e38da4c948c5a75aa191a096e2be"
-    },
-    {
-      "path": "capital-metro-topology-v29.svg",
-      "bytes": 1876673,
-      "sha256": "3430897e94c5892a61e35fc8c9ced39f080e3c7b682f0be21e69b04625f3f268"
-    },
-    {
-      "path": "capital-metro-topology-v29.pdf",
-      "bytes": 555735,
-      "sha256": "0b49aa58be1d9646005d5d8709aa9ff07d8fa6724bcee14d52a3eba0eaba074d"
-    },
-    {
-      "path": "capital-traffic-equivalent-v29.svg",
-      "bytes": 2183714,
-      "sha256": "15312e6e23a6d19297e41b098749c01f2606b48675ba9b826ecbd88c399ea1e0"
-    },
-    {
-      "path": "capital-traffic-equivalent-preview-v29.svg",
-      "bytes": 546127,
-      "sha256": "42ba48f5fb49bac2acd3a8040db2b724e3a8bcd68f71def794a658548b3cf81f"
     },
     {
       "path": "topology-validation-v29.json",
@@ -409,124 +369,204 @@
       "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
     },
     {
+      "path": "index.html",
+      "bytes": 5164858,
+      "sha256": "8fa74685994cadf7641e72a42c62f580920c3efac39b5f4d38650b5726fb395a"
+    },
+    {
+      "path": "topology.html",
+      "bytes": 299,
+      "sha256": "55841212586f1751450e4694d94218c92acc75c693df2b8f47155708ea786c8e"
+    },
+    {
+      "path": "topology-v30.html",
+      "bytes": 15973793,
+      "sha256": "b3c81e15f67d288839f8e5625d7f5444dbda51284934ce72e411ca95f73ddc68"
+    },
+    {
+      "path": "static.html",
+      "bytes": 23126,
+      "sha256": "814d69483c43d13db38225e96a536fab821fc65ce89c37c782ebc797de01873e"
+    },
+    {
+      "path": "hydro-v30.js",
+      "bytes": 1022135,
+      "sha256": "f38b1e1fcee65f0d85be5f302ab138369690d6d2f3123fa7ad4b942bad7ac180"
+    },
+    {
+      "path": "hydro-sources-v30.json",
+      "bytes": 27765,
+      "sha256": "95f6aab4bf708572bc1d76468486da50590592e0fb82ab75ea82d979ec005dce"
+    },
+    {
+      "path": "hydro-research-v30.md",
+      "bytes": 1767,
+      "sha256": "a9e9b3a70003317ffc4c72eddc62621cb093b8ebfde6185e85d71415b5f5d024"
+    },
+    {
+      "path": "hydro-validation-v30.json",
+      "bytes": 3458,
+      "sha256": "b60aad1e14be758484815bc7f286dc802ee0eed1d3be1da02804fbf48e2a4458"
+    },
+    {
+      "path": "capital-metro-topology-v30.svg",
+      "bytes": 2562009,
+      "sha256": "76a6b41fa19c1b7874ca53d721764ccfb26fd935ee3bd7d6bf5a8b3c36660bd9"
+    },
+    {
+      "path": "capital-metro-topology-v30.pdf",
+      "bytes": 919179,
+      "sha256": "5468681d2c383acf9f095f4956606d62eb14f3cf16e81759ee2a777e11326c9e"
+    },
+    {
+      "path": "capital-traffic-equivalent-v30.svg",
+      "bytes": 2869050,
+      "sha256": "2285893892426997b6308f2d22f3ebb56ce3ee45a7af1975ae70e75649c937af"
+    },
+    {
+      "path": "capital-traffic-equivalent-preview-v30.svg",
+      "bytes": 1395474,
+      "sha256": "842a7f27ad2feb02b41cc721a817c293e793e17be5ab45374f0b6068e8dd2460"
+    },
+    {
+      "path": "topology-validation-v30.json",
+      "bytes": 42300,
+      "sha256": "aea698c3345f4b0f3656e2e024d3f4db7e65a54333dad0f0aa23adf854dcaee7"
+    },
+    {
+      "path": "validation-v30.json",
+      "bytes": 50338,
+      "sha256": "4fd3f3dee927a207a4548ae7558d64358c285799b53ad36c9695dbf3edc7712f"
+    },
+    {
+      "path": "README_v30.md",
+      "bytes": 1497,
+      "sha256": "a6d430b2365f16abd1bfad2901bb6cc901a31f93a40422e057b9573fce10c7f6"
+    },
+    {
+      "path": "font-license-v30.txt",
+      "bytes": 4388,
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
+    },
+    {
       "path": "sw.js",
-      "bytes": 2379,
-      "sha256": "98dcc740fac76fe1bd41e67564a9b70b7a848dfbf358c008b97a31268e64798e"
+      "bytes": 2475,
+      "sha256": "467807381b778e4ca075d6f8ccf01eaadfe46fb3d64ebdf3e090ecccbce7707b"
     },
     {
-      "path": "v29-offline-01.bin",
+      "path": "v30-offline-01.bin",
       "bytes": 4194304,
-      "sha256": "d8032f58716233b988f1e8ea69dedccd8be977096ae5c928ce191fd5029c350c"
+      "sha256": "e0ef3fd7d0b6a7c06b22d6a89654fc7ecc287dfda4ad8d6a4398103d2c4e5db0"
     },
     {
-      "path": "v29-offline-02.bin",
+      "path": "v30-offline-02.bin",
       "bytes": 4194304,
-      "sha256": "336732901e51151619e319666d99fa93939bb178f5b27978edbfb69fc3538488"
+      "sha256": "c6579971d8cbec7c5fc8a1194b01c60c8e413f90aca32bd33901e884426bc3bc"
     },
     {
-      "path": "v29-offline-03.bin",
+      "path": "v30-offline-03.bin",
       "bytes": 4194304,
-      "sha256": "ede3377ef80414cde8622a2849cb9de420df1ad6510f2f41438e58dfb911556c"
+      "sha256": "4d015d3d383be095893df2a1ef62b86eb1bd0b3a059421dfbed4d3d822df6410"
     },
     {
-      "path": "v29-offline-04.bin",
+      "path": "v30-offline-04.bin",
       "bytes": 4194304,
-      "sha256": "f689a52e395b7aa90957fe5c06be620772eff5387e8cd3b1c868685592cb6bbf"
+      "sha256": "f88b513c6faa1b8b7c7aa6c7dd48e3e6183604cf6f47c370a6ca1381d0929fce"
     },
     {
-      "path": "v29-offline-05.bin",
+      "path": "v30-offline-05.bin",
       "bytes": 4194304,
-      "sha256": "190e314834c6ecae37dd6a4a8bf45f3f65e131b54b03be4ad50b3bd95013216e"
+      "sha256": "14da32ac4f07e7257d6bfae252961573cbb43cc7625fb4087e208f876dcf804d"
     },
     {
-      "path": "v29-offline-06.bin",
+      "path": "v30-offline-06.bin",
       "bytes": 4194304,
-      "sha256": "b9a6982bb43eb27fb02526a645cdc1f8f4ee102b9a2cd853cff234dd110fc33b"
+      "sha256": "428b999a6e81fb0395849fd567720ed37454e0df6745bd3bb40d55ee1ed02319"
     },
     {
-      "path": "v29-offline-07.bin",
+      "path": "v30-offline-07.bin",
       "bytes": 4194304,
-      "sha256": "a3240288dff25f15cc1484bee264e26646e4511164679c1396e180d4cfaf9f20"
+      "sha256": "dd9fad20f9ac3dfb2b7cf3cff944936d4e979a37463cca1f95408ce7245c70ac"
     },
     {
-      "path": "v29-offline-08.bin",
+      "path": "v30-offline-08.bin",
       "bytes": 4194304,
-      "sha256": "9380793cfe703786ed17c6c113fc14966ee20e33269ca95dd254b248fb8b51cf"
+      "sha256": "bee90fd355a500c64378e5655962d3f040f1e274b762aa8e0c31d3ada0926019"
     },
     {
-      "path": "v29-offline-09.bin",
+      "path": "v30-offline-09.bin",
       "bytes": 4194304,
-      "sha256": "add8843896e169a9b91c1125065c88486f912b81c841bb33752d70471196f02b"
+      "sha256": "907872d0fc65a7fa0619ff310eb7b0238cfabdb57423a7142fe979c1d27521f9"
     },
     {
-      "path": "v29-offline-10.bin",
+      "path": "v30-offline-10.bin",
       "bytes": 4194304,
-      "sha256": "4cd528329efb7a3cf3581057da413d437c327394b54974100435eef8735a0fe1"
+      "sha256": "a90b7f69de79c488fe5bfdbbb4512b84d509bc187f00ddf3274290187dfea77e"
     },
     {
-      "path": "v29-offline-11.bin",
+      "path": "v30-offline-11.bin",
       "bytes": 4194304,
-      "sha256": "8c02749e951143d789521fa9bce2293dac409213571de66f387576cefc12efdb"
+      "sha256": "76d69b53a0abeffa7b5e1f06e5a4d0b58fe50e5ddd58d239f8cc092adf7ab969"
     },
     {
-      "path": "v29-offline-12.bin",
+      "path": "v30-offline-12.bin",
       "bytes": 4194304,
-      "sha256": "53e524ddb4950f443c8199d524579aafe5b2b0d40d5a389216607596815aa8d9"
+      "sha256": "0e49c4e483fd960ddbdc0ca9150dbca5de101da9e06392636fc6adc41c84c122"
     },
     {
-      "path": "v29-offline-13.bin",
+      "path": "v30-offline-13.bin",
       "bytes": 4194304,
-      "sha256": "bd959c54df1426ee99ede0a1c9a9330d6ac34ea3f2a48e8ab681f81aec65dc3e"
+      "sha256": "ce4f94a95f6ef7450bf6318a793ecda3b82188d07fdf224e708f6a394c986977"
     },
     {
-      "path": "v29-offline-14.bin",
+      "path": "v30-offline-14.bin",
       "bytes": 4194304,
-      "sha256": "2dbac980f2326165155ddb62f0de4d1f1ce23c941101e95d9df8bb3a977b2090"
+      "sha256": "a1cea61f822ede30a9fe1bb5d1103fb96babd5eba71de40b8ca397ad7c02ec9f"
     },
     {
-      "path": "v29-offline-15.bin",
+      "path": "v30-offline-15.bin",
       "bytes": 4194304,
-      "sha256": "28dcf40f9ce626aff05b21ccf4848504803e6ac435a0fefe09d6d2db47ccfd51"
+      "sha256": "2879a457f785994dedd0b80ef6f0fd7a071d9ec623b0d44cbaec7d80c2452d2b"
     },
     {
-      "path": "v29-offline-16.bin",
+      "path": "v30-offline-16.bin",
       "bytes": 4194304,
-      "sha256": "3f785b02dd20df73642efbd4e6a925b26fd36543eb4eef16c0f637e465884188"
+      "sha256": "7defd29c2184eccf2c0bda303768db4d1cd9c48b962316c35d9b30f8b294bb9e"
     },
     {
-      "path": "v29-offline-17.bin",
-      "bytes": 517641,
-      "sha256": "126fddea27eda2358b5d173e15762710dce8d6f120220558e3859069f822b94f"
+      "path": "v30-offline-17.bin",
+      "bytes": 3480110,
+      "sha256": "95e7699a0aceddda428144c6f197a33ba55fbbdc83fc0742beefc5a06e0cab84"
     },
     {
       "path": "final-zip.json",
       "bytes": 537,
-      "sha256": "060e8cf5d9d8a3edb27923138feb8aa29365a48035f1e3accebfadba61e67230"
+      "sha256": "e62619e4498f0aba1d72d8c7ee318fc74e9bbe70069da00ac502ef51da01ccf2"
     },
     {
       "path": "final-html.json",
       "bytes": 670,
-      "sha256": "53d35e1b2226a82b1aa76cdc3aaf27ac4cbe3d995918fc13be340e7efba39507"
+      "sha256": "3b5e28fbbc3fd6a93a156347a32dbe08bf62520ef61839bc1c4d1217b4423dd0"
     },
     {
-      "path": "v29-web-html-01.bin",
+      "path": "v30-web-html-01.bin",
       "bytes": 4194304,
-      "sha256": "57d962fe5ac2c450b3a7fff0a85ddebeac3b4c1c651df103ed9aec528f74cc6c"
+      "sha256": "741951265efd9869aecc4a03087ceb9e696b944e53d4a5f5e10cae34989cb592"
     },
     {
-      "path": "v29-web-html-02.bin",
+      "path": "v30-web-html-02.bin",
       "bytes": 4194304,
-      "sha256": "e868aa6b21d2a43da542b590df8121f93b6ecf36acfbde8bb8661b4569c4c41d"
+      "sha256": "d6b149d6885ae8b74b28796897b65ebf85b5ae4807383107279cb9c69bc0503e"
     },
     {
-      "path": "v29-web-html-03.bin",
-      "bytes": 394487,
-      "sha256": "d3644a215ac3e91d1d7e924a96ccba490be77de125e31cf280617451e9cf313f"
+      "path": "v30-web-html-03.bin",
+      "bytes": 956698,
+      "sha256": "116b4eaefa7aea5894b7a52a8fc79a9ab82aecae28abe20ae0456669df7c8513"
     },
     {
-      "path": "source-html-v29.json",
+      "path": "source-html-v30.json",
       "bytes": 198,
-      "sha256": "c6de98377450aa202c234000ead9e68031c265794a27838a6c6a0be52d1d4b4b"
+      "sha256": "515bee0f060109e61d8e5addd18cf914c62a9bc5b46eb3773365c6bf6e647c01"
     }
   ]
 }

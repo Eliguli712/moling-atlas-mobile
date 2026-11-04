@@ -14,6 +14,7 @@ on:
       - 'asset-manifest-v27.json'
       - 'asset-manifest-v28.json'
       - 'asset-manifest-v29.json'
+      - 'asset-manifest-v30.json'
       - 'index.html'
       - 'atlas-mobile.html'
       - 'source-html/**'
