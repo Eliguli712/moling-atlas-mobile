@@ -1,9 +1,11 @@
-# Moling Atlas v28
+# Moling Atlas v29
 
-Interactive atlas: https://eliguli712.github.io/moling-atlas-mobile/
+Atlas: https://eliguli712.github.io/moling-atlas-mobile/
 
-This release unifies coastal and offshore ocean rendering, repairs legacy city coordinate formats, rebuilds ten Hainan/Taiwan city footprints along roads and terrain, and refines political boundaries with shared multiscale geometry. The fixed Jiankang traffic inset and interactive rail topology include rivers and lakes under the same coordinate transform.
+Administrative names in introductions now open their stored map geometry and child distributions. City district names open their actual city boundary view. Records with only a historical point are identified explicitly.
 
-Historical sources constrain period, cities and regional extent. Dense boundary detail is a scenario reconstruction, not a measured 497 CE GIS. Modern transport and station facilities are fictional planning.
+The seven-band v26 nomadic pasture influence renderer is restored for twenty groups, including overlapping influence and soft peripheral diffusion. Economic, city and territory ranking data remain unchanged.
 
-GitHub Pages mirrors the exact SHA-256-pinned native Site distribution. Original web HTML is recovered from the dedicated verified HTML archive; the downloadable ZIP contains the self-contained offline HTML. Existing economic model values and transit node identities are retained.
+The capital topology retains 191 current services (155 metro,32 light,4 rapid),2052 nodes and671 actual transfer nodes under the existing service-family definition. Modes and statuses have distinct styling; river/lake geometry and current route coordinates are preserved. Long press the inset or use the export control for SVG/PDF; the PDF includes the full network, centre and service index. Complete offline HTML embeds the viewer and vector exports.
+
+Transport and station facilities are fictional planning. Historical administrative geometry is a source-constrained reconstruction. This repository publishes the SHA-256-pinned native Site distribution and verifies its dedicated raw HTML archive.
